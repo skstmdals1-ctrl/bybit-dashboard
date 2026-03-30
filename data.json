@@ -1,18 +1,18 @@
 {
-  "ts": "2026-03-30T19:06:44.312982+09:00",
+  "ts": "2026-03-30T19:07:46.030175+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 109670.15,
-  "available": 95034.07,
-  "unrealized": 128.43,
+  "equity": 109650.66,
+  "available": 95012.04,
+  "unrealized": 110.91,
   "daily_pnl": 201.53,
-  "total_pnl": 7670.15,
-  "cum_pct": 7.52,
-  "daily_avg_pct": 0.2507,
-  "annual_pct": 149.41,
+  "total_pnl": 7650.66,
+  "cum_pct": 7.5,
+  "daily_avg_pct": 0.25,
+  "annual_pct": 148.77,
   "mdd": -8.02,
   "current_dd": 0.0,
-  "seed_used": 14636.08,
+  "seed_used": 14638.62,
   "seed_used_pct": 13.35,
   "long_count": 3,
   "short_count": 6,
@@ -20,13 +20,13 @@
     {
       "symbol": "TRUMPUSDT",
       "side": "SHORT",
-      "pnl": 19.67,
-      "pnl_pct": 0.13,
+      "pnl": 9.1,
+      "pnl_pct": 0.06,
       "margin": 3129.02,
       "leverage": "5",
       "tier": "7/10",
       "entry": 2.9597,
-      "mark": 2.956
+      "mark": 2.958
     },
     {
       "symbol": "XRPUSDT",
@@ -53,24 +53,24 @@
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": -10.52,
-      "pnl_pct": -0.14,
+      "pnl": -14.29,
+      "pnl_pct": -0.19,
       "margin": 1229.3,
       "leverage": "6",
       "tier": "5/10",
       "entry": 97.7706,
-      "mark": 97.91
+      "mark": 97.96
     },
     {
       "symbol": "SUIUSDT",
       "side": "SHORT",
-      "pnl": -8.39,
-      "pnl_pct": -0.08,
+      "pnl": -12.05,
+      "pnl_pct": -0.11,
       "margin": 972.0,
       "leverage": "11",
       "tier": "4/9",
       "entry": 0.8771,
-      "mark": 0.8778
+      "mark": 0.8781
     },
     {
       "symbol": "BNBUSDT",
@@ -97,24 +97,24 @@
     {
       "symbol": "TRXUSDT",
       "side": "LONG",
-      "pnl": 19.83,
-      "pnl_pct": 1.4,
+      "pnl": 18.77,
+      "pnl_pct": 1.32,
       "margin": 236.08,
       "leverage": "6",
       "tier": "2/9",
       "entry": 0.3185,
-      "mark": 0.323
+      "mark": 0.3227
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 15.14,
-      "pnl_pct": 0.43,
+      "pnl": 15.5,
+      "pnl_pct": 0.44,
       "margin": 234.49,
       "leverage": "15",
       "tier": "2/9",
       "entry": 2044.99,
-      "mark": 2053.79
+      "mark": 2054.0
     }
   ],
   "signals": {
@@ -180,7 +180,7 @@
     },
     "SOLUSDT": {
       "dir": "long",
-      "conf": 0.568
+      "conf": 0.567
     },
     "ZROUSDT": {
       "dir": "short",
