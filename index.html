@@ -10,449 +10,329 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     :root {
-      --bg:       #080b12;
-      --surface:  #0f1623;
-      --surface2: #161e2e;
-      --border:   rgba(99,130,255,0.18);
-      --accent:   #6382ff;
-      --green:    #00e5a0;
-      --red:      #ff4f6d;
-      --yellow:   #f5c842;
-      --text:     #e4eaf8;
-      --muted:    #6b7a9a;
-      --radius:   14px;
+      --bg:      #080b12;
+      --surface: #0f1623;
+      --surface2:#161e2e;
+      --border:  rgba(99,130,255,0.18);
+      --accent:  #6382ff;
+      --green:   #00e5a0;
+      --red:     #ff4f6d;
+      --yellow:  #f5c842;
+      --text:    #e4eaf8;
+      --muted:   #6b7a9a;
+      --radius:  14px;
     }
-
     html { font-size: 15px; }
-    body {
-      font-family: 'Inter', sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      padding-bottom: 40px;
-    }
+    body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--text); min-height:100vh; padding-bottom:40px; }
 
     /* ── Header ── */
     .header {
-      background: linear-gradient(135deg, #0d1525 0%, #111827 100%);
-      border-bottom: 1px solid var(--border);
-      padding: 14px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      backdrop-filter: blur(12px);
+      background:linear-gradient(135deg,#0d1525 0%,#111827 100%);
+      border-bottom:1px solid var(--border);
+      padding:10px 16px;
+      position:sticky; top:0; z-index:100;
+      backdrop-filter:blur(12px);
     }
-    .logo {
-      font-size: 1rem;
-      font-weight: 900;
-      letter-spacing: -0.5px;
-      background: linear-gradient(90deg, #6382ff, #a78bfa);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    .status-badge {
-      display: flex;
-      align-items: center;
-      gap: 7px;
-      font-size: 0.72rem;
-      font-weight: 700;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      padding: 5px 12px;
-      border-radius: 20px;
-    }
-    .badge-running { background: rgba(0,229,160,0.12); color: var(--green); border: 1px solid rgba(0,229,160,0.3); }
-    .badge-stopped { background: rgba(255,79,109,0.12); color: var(--red);   border: 1px solid rgba(255,79,109,0.3); }
-    .dot {
-      width: 7px; height: 7px;
-      border-radius: 50%;
-      animation: pulse 2s infinite;
-    }
-    .dot-green { background: var(--green); box-shadow: 0 0 6px var(--green); }
-    .dot-red   { background: var(--red); }
-    @keyframes pulse {
-      0%,100% { transform: scale(1); opacity: 1; }
-      50%      { transform: scale(1.4); opacity: 0.6; }
-    }
+    .header-row1 { display:flex; align-items:center; justify-content:space-between; margin-bottom:5px; }
+    .header-row2 { display:flex; align-items:center; justify-content:space-between; margin-bottom:5px; }
+    .logo { font-size:.95rem; font-weight:900; letter-spacing:-.5px; background:linear-gradient(90deg,#6382ff,#a78bfa); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; }
+    .status-badge { display:flex; align-items:center; gap:6px; font-size:.68rem; font-weight:700; letter-spacing:1px; text-transform:uppercase; padding:4px 10px; border-radius:20px; }
+    .badge-running { background:rgba(0,229,160,.12); color:var(--green); border:1px solid rgba(0,229,160,.3); }
+    .badge-stopped { background:rgba(255,79,109,.12); color:var(--red);   border:1px solid rgba(255,79,109,.3); }
+    .dot { width:6px; height:6px; border-radius:50%; }
+    .dot-green { background:var(--green); box-shadow:0 0 6px var(--green); animation:blink 2s infinite; }
+    .dot-red   { background:var(--red); }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.4} }
+
+    .start-date { font-size:.65rem; color:var(--muted); }
+    .update-time { font-size:.64rem; color:var(--muted); }
+    .refresh-bar { height:2px; background:var(--border); border-radius:2px; overflow:hidden; margin-top:4px; }
+    .refresh-progress { height:100%; background:linear-gradient(90deg,var(--accent),#a78bfa); border-radius:2px; transition:width .5s linear; }
 
     /* ── Main ── */
-    .main { max-width: 480px; margin: 0 auto; padding: 16px 14px 0; }
+    .main { max-width:480px; margin:0 auto; padding:14px 14px 0; }
 
-    /* ── KPI cards ── */
-    .kpi-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 10px;
-      margin-bottom: 14px;
-    }
-    .kpi {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 14px 16px;
-      transition: transform .2s;
-    }
-    .kpi:active { transform: scale(.97); }
-    .kpi.full { grid-column: span 2; }
-    .kpi-label {
-      font-size: 0.68rem;
-      font-weight: 700;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: .8px;
-      margin-bottom: 6px;
-    }
-    .kpi-value {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 1.45rem;
-      font-weight: 700;
-      line-height: 1;
-    }
-    .kpi-sub {
-      font-size: 0.7rem;
-      color: var(--muted);
-      margin-top: 4px;
-    }
-    .pos { color: var(--green); }
-    .neg { color: var(--red); }
-    .neutral { color: var(--text); }
+    /* ── KPI grid ── */
+    .kpi-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:14px; }
+    .kpi { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:13px 15px; }
+    .kpi.full { grid-column:span 2; }
+    .kpi-label { font-size:.64rem; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.8px; margin-bottom:5px; }
+    .kpi-value { font-family:'JetBrains Mono',monospace; font-size:1.35rem; font-weight:700; line-height:1; }
+    .kpi-sub   { font-size:.65rem; color:var(--muted); margin-top:4px; line-height:1.5; }
+    .kpi-rate  { font-size:.68rem; font-weight:600; margin-top:3px; display:flex; flex-wrap:wrap; gap:4px; }
+    .rate-tag  { background:var(--surface2); border-radius:6px; padding:2px 7px; font-size:.62rem; }
+    .pos { color:var(--green); } .neg { color:var(--red); } .neutral { color:var(--text); }
+
+    /* ── DD card ── */
+    .dd-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:14px; }
+    .dd-card { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:13px 15px; }
+    .dd-label { font-size:.64rem; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.8px; margin-bottom:5px; }
+    .dd-value { font-family:'JetBrains Mono',monospace; font-size:1.25rem; font-weight:700; }
 
     /* ── Section title ── */
-    .section-title {
-      font-size: 0.75rem;
-      font-weight: 700;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      margin: 18px 0 10px;
-    }
+    .section-title { font-size:.7rem; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:1px; margin:18px 0 9px; }
 
     /* ── Chart ── */
-    .chart-wrap {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 16px;
-      margin-bottom: 14px;
-    }
-    .chart-wrap canvas { display: block; }
+    .chart-wrap { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:14px; margin-bottom:14px; }
 
     /* ── Positions ── */
-    .pos-list { display: flex; flex-direction: column; gap: 10px; }
-    .pos-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 14px 16px;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 6px 10px;
-    }
-    .pos-card.long-card  { border-left: 3px solid var(--green); }
-    .pos-card.short-card { border-left: 3px solid var(--red); }
-    .pos-symbol {
-      font-weight: 900;
-      font-size: 0.95rem;
-      grid-column: span 2;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .side-tag {
-      font-size: 0.65rem;
-      font-weight: 800;
-      padding: 2px 8px;
-      border-radius: 10px;
-      letter-spacing: .5px;
-    }
-    .tag-long  { background: rgba(0,229,160,.15); color: var(--green); }
-    .tag-short { background: rgba(255,79,109,.15); color: var(--red); }
-    .pos-row { display: flex; flex-direction: column; }
-    .pos-row-label { font-size: 0.62rem; color: var(--muted); margin-bottom: 1px; }
-    .pos-row-val {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.82rem;
-      font-weight: 600;
-    }
+    .pos-list { display:flex; flex-direction:column; gap:10px; }
+    .pos-card { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:13px 15px; display:grid; grid-template-columns:1fr 1fr; gap:6px 10px; }
+    .pos-card.long-card  { border-left:3px solid var(--green); }
+    .pos-card.short-card { border-left:3px solid var(--red); }
+    .pos-symbol { font-weight:900; font-size:.9rem; grid-column:span 2; display:flex; align-items:center; justify-content:space-between; }
+    .side-tag { font-size:.6rem; font-weight:800; padding:2px 8px; border-radius:10px; }
+    .tag-long  { background:rgba(0,229,160,.15); color:var(--green); }
+    .tag-short { background:rgba(255,79,109,.15); color:var(--red); }
+    .pos-row { display:flex; flex-direction:column; }
+    .pos-row-label { font-size:.58rem; color:var(--muted); margin-bottom:1px; }
+    .pos-row-val   { font-family:'JetBrains Mono',monospace; font-size:.78rem; font-weight:600; }
 
     /* ── Signals ── */
-    .signal-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(88px, 1fr));
-      gap: 8px;
-      margin-bottom: 14px;
-    }
-    .signal-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 10px 8px;
-      text-align: center;
-    }
-    .signal-sym  { font-size: 0.62rem; font-weight: 700; color: var(--muted); margin-bottom: 4px; }
-    .signal-dir  { font-size: 0.85rem; font-weight: 900; }
-    .signal-conf { font-size: 0.65rem; color: var(--muted); margin-top: 2px; }
+    .signal-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(82px,1fr)); gap:8px; margin-bottom:14px; }
+    .signal-card { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:9px 7px; text-align:center; }
+    .signal-sym  { font-size:.58rem; font-weight:700; color:var(--muted); margin-bottom:3px; }
+    .signal-dir  { font-size:.8rem; font-weight:900; }
+    .signal-conf { font-size:.6rem; color:var(--muted); margin-top:2px; }
 
-    /* ── Footer ── */
-    .footer {
-      text-align: center;
-      color: var(--muted);
-      font-size: 0.68rem;
-      padding: 24px 20px 0;
-    }
-    .footer span { display: block; margin-top: 2px; }
+    /* ── Trade history ── */
+    .trade-list { display:flex; flex-direction:column; gap:7px; }
+    .trade-card { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:10px 13px; display:flex; justify-content:space-between; align-items:center; gap:10px; }
+    .trade-left  { display:flex; flex-direction:column; gap:2px; min-width:0; }
+    .trade-sym   { font-weight:700; font-size:.8rem; }
+    .trade-meta  { font-size:.6rem; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .trade-pnl   { font-family:'JetBrains Mono',monospace; font-weight:700; font-size:.92rem; white-space:nowrap; }
 
-    /* ── Skeleton ── */
-    .skeleton {
-      background: linear-gradient(90deg, var(--surface) 25%, var(--surface2) 50%, var(--surface) 75%);
-      background-size: 200% 100%;
-      animation: shimmer 1.4s infinite;
-      border-radius: 8px;
-    }
-    @keyframes shimmer { from { background-position: 200% 0; } to { background-position: -200% 0; } }
-
-    /* ── No-position ── */
-    .empty { color: var(--muted); font-size: 0.82rem; padding: 20px; text-align: center; }
-
-    /* ── Refresh bar ── */
-    .refresh-bar {
-      height: 2px;
-      background: var(--border);
-      border-radius: 2px;
-      margin: 10px 0 6px;
-      overflow: hidden;
-    }
-    .refresh-progress {
-      height: 100%;
-      background: linear-gradient(90deg, var(--accent), #a78bfa);
-      border-radius: 2px;
-      transition: width .5s linear;
-    }
+    .empty { color:var(--muted); font-size:.8rem; padding:18px; text-align:center; }
   </style>
 </head>
 <body>
 
-<!-- ── Header ── -->
 <header class="header">
-  <div class="logo">🤖 Bybit AI Trader</div>
-  <div class="status-badge badge-stopped" id="statusBadge">
-    <span class="dot dot-red" id="statusDot"></span>
-    <span id="statusText">Loading...</span>
+  <div class="header-row1">
+    <div class="logo">🤖 Bybit AI Trader</div>
+    <div class="status-badge badge-stopped" id="statusBadge">
+      <span class="dot dot-red" id="statusDot"></span>
+      <span id="statusText">Loading...</span>
+    </div>
   </div>
+  <div class="header-row2">
+    <span class="start-date" id="startDateLabel">가동: —</span>
+    <span class="update-time">업데이트: <span id="lastUpdated">—</span></span>
+  </div>
+  <div class="refresh-bar"><div class="refresh-progress" id="refreshBar" style="width:0%"></div></div>
 </header>
 
 <div class="main">
 
-  <!-- KPI 카드 -->
+  <!-- KPI -->
   <div class="kpi-grid" id="kpiGrid">
-    <div class="kpi full"><div class="kpi-label">Total Equity</div><div class="kpi-value skeleton" style="height:1.5rem;width:60%;border-radius:6px;">&nbsp;</div></div>
+    <div class="kpi full"><div class="kpi-label">Total Equity</div><div class="kpi-value neutral" style="opacity:.3">Loading...</div></div>
   </div>
 
-  <!-- 자산 그래프 -->
-  <div class="section-title">📈 누적 수익 추이</div>
-  <div class="chart-wrap"><canvas id="equityChart" height="120"></canvas></div>
+  <!-- MDD / DD -->
+  <div class="dd-grid" id="ddGrid">
+    <div class="dd-card"><div class="dd-label">MDD</div><div class="dd-value neg" id="mddVal">—</div></div>
+    <div class="dd-card"><div class="dd-label">Current DD</div><div class="dd-value" id="ddVal">—</div></div>
+  </div>
 
-  <!-- 포지션 -->
-  <div class="section-title">📊 현재 포지션</div>
+  <div class="section-title">📈 누적 실현 PnL 추이 (3/1~)</div>
+  <div class="chart-wrap"><canvas id="equityChart" height="130"></canvas></div>
+
+  <div class="section-title">📊 현재 포지션 <span style="font-weight:400;color:var(--muted)">(마진 높은 순)</span></div>
   <div class="pos-list" id="posList"><div class="empty">로딩 중...</div></div>
 
-  <!-- AI 신호 -->
   <div class="section-title">🧠 AI 실시간 신호</div>
   <div class="signal-grid" id="signalGrid"><div class="empty">로딩 중...</div></div>
 
-  <!-- 리프레시 바 -->
-  <div class="refresh-bar"><div class="refresh-progress" id="refreshBar" style="width:0%"></div></div>
+  <div class="section-title">🏁 최근 체결 이력</div>
+  <div class="trade-list" id="tradeList"><div class="empty">로딩 중...</div></div>
 
 </div>
 
-<footer class="footer">
-  <div>Last updated: <span id="lastUpdated">—</span></div>
-  <span>Read-only view · Auto-refreshes every 60s</span>
-</footer>
-
 <script>
-// ═══════════════════════════════════════════════════════
-//  설정: data.json URL
-//  GitHub Pages를 사용하는 경우 아래 URL을 수정하세요.
-// ═══════════════════════════════════════════════════════
-const DATA_URL = './data.json';
+const DATA_URL    = './data.json';
 const REFRESH_SEC = 60;
 
-// ── Chart 초기화 ──────────────────────────────────────
-let equityChart = null;
-const chartCtx = document.getElementById('equityChart').getContext('2d');
+// ── Chart ──────────────────────────────────────────────
+let chart = null;
+const ctx = document.getElementById('equityChart').getContext('2d');
 
 function initChart(labels, values) {
-  if (equityChart) equityChart.destroy();
-  const grad = chartCtx.createLinearGradient(0, 0, 0, 120);
-  grad.addColorStop(0, 'rgba(99,130,255,0.35)');
-  grad.addColorStop(1, 'rgba(99,130,255,0)');
-  equityChart = new Chart(chartCtx, {
+  if (chart) chart.destroy();
+  const lastV    = values[values.length - 1] || 0;
+  const isAllPos = Math.min(...values) >= 0;
+  const lineColor= lastV >= 0 ? '#00e5a0' : '#ff4f6d';
+  const grad = ctx.createLinearGradient(0,0,0,130);
+  grad.addColorStop(0, lastV>=0?'rgba(0,229,160,0.28)':'rgba(255,79,109,0.2)');
+  grad.addColorStop(1, 'rgba(0,0,0,0)');
+  chart = new Chart(ctx, {
     type: 'line',
     data: {
       labels,
       datasets: [{
         data: values,
-        borderColor: '#6382ff',
+        borderColor: lineColor,
         backgroundColor: grad,
         borderWidth: 2,
-        pointRadius: values.length < 10 ? 4 : 0,
+        pointRadius: values.length <= 20 ? 3 : 0,
         pointHoverRadius: 5,
-        fill: true,
-        tension: 0.4,
+        fill: true, tension: 0.4,
       }]
     },
     options: {
-      animation: false,
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: { legend: { display: false }, tooltip: {
-        callbacks: { label: ctx => ` $${ctx.parsed.y.toLocaleString()}` }
-      }},
+      animation: false, responsive: true, maintainAspectRatio: false,
+      plugins: { legend:{display:false}, tooltip:{callbacks:{label:c=>` $${c.parsed.y.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2})}`}} },
       scales: {
-        x: { ticks: { color: '#6b7a9a', font: { size: 10 }, maxTicksLimit: 6 }, grid: { display: false } },
-        y: { ticks: { color: '#6b7a9a', font: { size: 10 }, callback: v => '$' + (v/1000).toFixed(0) + 'k' }, grid: { color: 'rgba(99,130,255,0.07)' }, border: { display: false } }
+        x: { ticks:{color:'#6b7a9a',font:{size:10},maxTicksLimit:7}, grid:{display:false} },
+        y: { ticks:{color:'#6b7a9a',font:{size:10},callback:v=>(v>=0?'+':'')+v.toFixed(0)}, grid:{color:'rgba(99,130,255,0.06)'}, border:{display:false} }
       }
     }
   });
 }
 
-// ── 데이터 렌더링 ─────────────────────────────────────
-function fmt(v, prefix='$') {
-  const n = parseFloat(v);
-  return prefix + Math.abs(n).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-}
-function signClass(v) { return parseFloat(v) >= 0 ? 'pos' : 'neg'; }
-function signPrefix(v) { return parseFloat(v) >= 0 ? '+' : '-'; }
+// ── 포맷 헬퍼 ──────────────────────────────────────────
+function sc(v)   { return parseFloat(v)>=0?'pos':'neg'; }
+function sp(v)   { return parseFloat(v)>=0?'+':'-'; }
+function fmtUSD(v){ return '$'+Math.abs(parseFloat(v)).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2}); }
+function fmtPct(v){ return (parseFloat(v)>=0?'+':'')+parseFloat(v).toFixed(2)+'%'; }
 
-function renderKPI(d) {
-  const grid = document.getElementById('kpiGrid');
-  grid.innerHTML = `
-    <div class="kpi full">
-      <div class="kpi-label">Total Equity</div>
-      <div class="kpi-value neutral">$${parseFloat(d.equity).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2})}</div>
-      <div class="kpi-sub">미실현 <span class="${signClass(d.unrealized)}">${signPrefix(d.unrealized)}${fmt(d.unrealized)}</span></div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-label">오늘 실현 PnL</div>
-      <div class="kpi-value ${signClass(d.daily_pnl)}">${signPrefix(d.daily_pnl)}${fmt(d.daily_pnl)}</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-label">누적 실현 PnL</div>
-      <div class="kpi-value ${signClass(d.total_pnl)}">${signPrefix(d.total_pnl)}${fmt(d.total_pnl)}</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-label">포지션 수</div>
-      <div class="kpi-value neutral">${d.positions.length}</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-label">가용 잔고</div>
-      <div class="kpi-value neutral">$${parseFloat(d.available).toLocaleString(undefined,{minimumFractionDigits:0,maximumFractionDigits:0})}</div>
-    </div>
-  `;
-}
-
-function renderPositions(positions) {
-  const el = document.getElementById('posList');
-  if (!positions.length) { el.innerHTML = '<div class="empty">현재 열린 포지션이 없습니다</div>'; return; }
-  el.innerHTML = positions.map(p => {
-    const isLong = p.side === 'LONG';
-    const pnlClass = signClass(p.pnl);
-    return `
-    <div class="pos-card ${isLong ? 'long-card' : 'short-card'}">
-      <div class="pos-symbol">
-        <span>${p.symbol}</span>
-        <span class="side-tag ${isLong ? 'tag-long' : 'tag-short'}">${p.side}</span>
-      </div>
-      <div class="pos-row"><div class="pos-row-label">미실현 PnL</div>
-        <div class="pos-row-val ${pnlClass}">${signPrefix(p.pnl)}$${Math.abs(p.pnl).toFixed(2)} (${signPrefix(p.pnl_pct)}${Math.abs(p.pnl_pct).toFixed(2)}%)</div></div>
-      <div class="pos-row"><div class="pos-row-label">투입 마진</div>
-        <div class="pos-row-val">$${p.margin.toFixed(0)}</div></div>
-      <div class="pos-row"><div class="pos-row-label">레버리지</div>
-        <div class="pos-row-val">${p.leverage}x</div></div>
-      <div class="pos-row"><div class="pos-row-label">분할 티어</div>
-        <div class="pos-row-val">${p.tier}</div></div>
-    </div>`;
-  }).join('');
-}
-
-function renderSignals(signals) {
-  const el = document.getElementById('signalGrid');
-  const entries = Object.entries(signals);
-  if (!entries.length) { el.innerHTML = '<div class="empty">신호 없음</div>'; return; }
-  el.innerHTML = entries.map(([sym, s]) => {
-    const dirColor = s.dir === 'long' ? 'var(--green)' : s.dir === 'short' ? 'var(--red)' : 'var(--muted)';
-    return `<div class="signal-card">
-      <div class="signal-sym">${sym.replace('USDT','')}</div>
-      <div class="signal-dir" style="color:${dirColor}">${s.dir.toUpperCase()}</div>
-      <div class="signal-conf">${(s.conf*100).toFixed(0)}%</div>
-    </div>`;
-  }).join('');
-}
-
-function renderStatus(status) {
-  const badge = document.getElementById('statusBadge');
-  const dot   = document.getElementById('statusDot');
-  const text  = document.getElementById('statusText');
-  const running = status === 'running';
-  badge.className = 'status-badge ' + (running ? 'badge-running' : 'badge-stopped');
-  dot.className   = 'dot ' + (running ? 'dot-green' : 'dot-red');
-  text.textContent = running ? 'LIVE' : 'OFFLINE';
-}
-
-function renderChart(hist) {
-  if (!hist || !hist.length) return;
-  const labels = hist.map(h => h.t.slice(5));
-  const values = hist.map(h => h.v);
-  initChart(labels, values);
+// ── 렌더 ───────────────────────────────────────────────
+function renderStatus(d) {
+  const run = d.status==='running';
+  document.getElementById('statusBadge').className='status-badge '+(run?'badge-running':'badge-stopped');
+  document.getElementById('statusDot').className='dot '+(run?'dot-green':'dot-red');
+  document.getElementById('statusText').textContent = run?'LIVE':'OFFLINE';
+  if (d.start_date) document.getElementById('startDateLabel').textContent = '가동: '+d.start_date+' ~';
 }
 
 function renderLastUpdated(ts) {
   try {
     const d = new Date(ts);
     document.getElementById('lastUpdated').textContent =
-      d.toLocaleString('ko-KR', { month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', second:'2-digit' });
-  } catch(e) {}
+      d.toLocaleString('ko-KR',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit'});
+  } catch(e){}
 }
 
-// ── 데이터 fetch ──────────────────────────────────────
+function renderKPI(d) {
+  const posCount = (d.positions||[]).length;
+  document.getElementById('kpiGrid').innerHTML = `
+    <div class="kpi full">
+      <div class="kpi-label">Total Equity</div>
+      <div class="kpi-value neutral">$${parseFloat(d.equity).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2})}</div>
+      <div class="kpi-sub">미실현 <span class="${sc(d.unrealized)}">${sp(d.unrealized)}${fmtUSD(d.unrealized)}</span></div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">오늘 실현 PnL</div>
+      <div class="kpi-value ${sc(d.daily_pnl)}">${sp(d.daily_pnl)}${fmtUSD(d.daily_pnl)}</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">누적 실현 PnL</div>
+      <div class="kpi-value ${sc(d.total_pnl)}">${sp(d.total_pnl)}${fmtUSD(d.total_pnl)}</div>
+      <div class="kpi-rate">
+        <span class="rate-tag ${sc(d.cum_pct)}">누적 ${fmtPct(d.cum_pct)}</span>
+        <span class="rate-tag ${sc(d.daily_avg_pct)}">일평균 ${fmtPct(d.daily_avg_pct)}</span>
+        <span class="rate-tag ${sc(d.annual_pct)}">연환산 ${fmtPct(d.annual_pct)}</span>
+      </div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">포지션 수</div>
+      <div class="kpi-value neutral">${posCount}</div>
+      <div class="kpi-sub">롱 ${d.long_count||0} / 숏 ${d.short_count||0}</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">시드 사용률</div>
+      <div class="kpi-value neutral" style="font-size:1.1rem;">$${parseInt(d.seed_used||0).toLocaleString()}</div>
+      <div class="kpi-sub">${parseFloat(d.seed_used_pct||0).toFixed(2)}%</div>
+    </div>`;
+}
+
+function renderDD(d) {
+  const mddEl = document.getElementById('mddVal');
+  const ddEl  = document.getElementById('ddVal');
+  mddEl.textContent = fmtPct(d.mdd||0);
+  mddEl.className   = 'dd-value '+(parseFloat(d.mdd||0)<0?'neg':'pos');
+  ddEl.textContent  = fmtPct(d.current_dd||0);
+  ddEl.className    = 'dd-value '+(parseFloat(d.current_dd||0)<0?'neg':'pos');
+}
+
+function renderPositions(positions) {
+  const el = document.getElementById('posList');
+  if (!positions.length) { el.innerHTML='<div class="empty">현재 열린 포지션 없음</div>'; return; }
+  el.innerHTML = positions.map(p => {
+    const isL = p.side==='LONG';
+    return `<div class="pos-card ${isL?'long-card':'short-card'}">
+      <div class="pos-symbol"><span>${p.symbol}</span><span class="side-tag ${isL?'tag-long':'tag-short'}">${p.side}</span></div>
+      <div class="pos-row"><div class="pos-row-label">미실현 PnL</div>
+        <div class="pos-row-val ${sc(p.pnl)}">${sp(p.pnl)}${fmtUSD(p.pnl)} (${sp(p.pnl_pct)}${Math.abs(p.pnl_pct).toFixed(2)}%)</div></div>
+      <div class="pos-row"><div class="pos-row-label">투입 마진</div><div class="pos-row-val">$${p.margin.toFixed(0)}</div></div>
+      <div class="pos-row"><div class="pos-row-label">레버리지</div><div class="pos-row-val">${p.leverage}x</div></div>
+      <div class="pos-row"><div class="pos-row-label">분할 티어</div><div class="pos-row-val">${p.tier}</div></div>
+    </div>`;
+  }).join('');
+}
+
+function renderSignals(signals) {
+  const el = document.getElementById('signalGrid');
+  const entries = Object.entries(signals||{});
+  if (!entries.length) { el.innerHTML='<div class="empty">신호 없음</div>'; return; }
+  el.innerHTML = entries.map(([sym,s])=>{
+    const c = s.dir==='long'?'var(--green)':s.dir==='short'?'var(--red)':'var(--muted)';
+    return `<div class="signal-card">
+      <div class="signal-sym">${sym.replace('USDT','')}</div>
+      <div class="signal-dir" style="color:${c}">${s.dir.toUpperCase()}</div>
+      <div class="signal-conf">${(s.conf*100).toFixed(0)}%</div>
+    </div>`;
+  }).join('');
+}
+
+function renderTrades(trades) {
+  const el = document.getElementById('tradeList');
+  if (!trades||!trades.length) { el.innerHTML='<div class="empty">체결 이력 없음</div>'; return; }
+  el.innerHTML = trades.map(t=>`
+    <div class="trade-card">
+      <div class="trade-left">
+        <div class="trade-sym">${t.symbol} <span style="font-size:.68rem;color:var(--muted);font-weight:400">${t.side}</span></div>
+        <div class="trade-meta">${t.ts} · ${t.reason||''}</div>
+      </div>
+      <div class="trade-pnl ${sc(t.pnl)}">${sp(t.pnl)}${fmtUSD(t.pnl)}</div>
+    </div>`).join('');
+}
+
+function renderChart(hist) {
+  if (!hist||!hist.length) return;
+  initChart(hist.map(h=>h.t.slice(5)), hist.map(h=>h.v));
+}
+
+// ── Fetch ──────────────────────────────────────────────
 async function fetchData() {
   try {
-    const r = await fetch(DATA_URL + '?t=' + Date.now());
+    const r = await fetch(DATA_URL+'?t='+Date.now());
     if (!r.ok) throw new Error(r.status);
     const d = await r.json();
-    renderStatus(d.status);
-    renderKPI(d);
-    renderPositions(d.positions || []);
-    renderSignals(d.signals || {});
-    renderChart(d.equity_hist || []);
+    renderStatus(d);
     renderLastUpdated(d.ts);
+    renderKPI(d);
+    renderDD(d);
+    renderPositions(d.positions||[]);
+    renderSignals(d.signals||{});
+    renderTrades(d.trade_history||[]);
+    renderChart(d.equity_hist||[]);
   } catch(e) {
-    console.warn('fetch error', e);
-    document.getElementById('statusText').textContent = 'ERR';
+    document.getElementById('statusText').textContent='ERR';
   }
 }
 
-// ── 리프레시 바 ───────────────────────────────────────
 let elapsed = 0;
-function tickProgress() {
+function tick() {
   elapsed++;
-  const pct = (elapsed / REFRESH_SEC) * 100;
-  document.getElementById('refreshBar').style.width = pct + '%';
-  if (elapsed >= REFRESH_SEC) {
-    elapsed = 0;
-    fetchData();
-  }
+  document.getElementById('refreshBar').style.width=(elapsed/REFRESH_SEC*100)+'%';
+  if (elapsed>=REFRESH_SEC) { elapsed=0; fetchData(); }
 }
 
-// ── 초기 실행 ─────────────────────────────────────────
 fetchData();
-setInterval(tickProgress, 1000);
+setInterval(tick, 1000);
 </script>
 </body>
 </html>
