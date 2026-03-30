@@ -478,17 +478,15 @@ async function fetchData() {
 
 // ── 매 분 0초 동기화 갱신 ─────────────────────────────
 function updateProgressBar() {
-  const now = Date.now();
-  const pct  = (now % 60000) / 60000 * 100;
+  const pct = (Date.now() % 60000) / 60000 * 100;
   document.getElementById('refreshBar').style.width = pct + '%';
 }
 
 function scheduleNextFetch() {
-  const now           = Date.now();
-  const msUntilNext   = 60000 - (now % 60000); // 다음 정각 0초까지 남은 ms
+  const msUntilNext = 60000 - (Date.now() % 60000);
   setTimeout(() => {
     fetchData();
-    setInterval(() => { fetchData(); }, 60000); // 이후 정확히 60초 간격
+    scheduleNextFetch(); // 매번 다음 정각까지 정확히 재계산
   }, msUntilNext);
 }
 
