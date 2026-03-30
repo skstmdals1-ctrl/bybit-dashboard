@@ -476,15 +476,30 @@ async function fetchData() {
   }
 }
 
-let elapsed=0;
-function tick() {
-  elapsed++;
-  document.getElementById('refreshBar').style.width=(elapsed/REFRESH_SEC*100)+'%';
-  if(elapsed>=REFRESH_SEC){elapsed=0;fetchData();}
+// ── 매 분 0초 동기화 갱신 ─────────────────────────────
+function updateProgressBar() {
+  const now = Date.now();
+  const pct  = (now % 60000) / 60000 * 100;
+  document.getElementById('refreshBar').style.width = pct + '%';
 }
+
+function scheduleNextFetch() {
+  const now           = Date.now();
+  const msUntilNext   = 60000 - (now % 60000); // 다음 정각 0초까지 남은 ms
+  setTimeout(() => {
+    fetchData();
+    setInterval(() => { fetchData(); }, 60000); // 이후 정확히 60초 간격
+  }, msUntilNext);
+}
+
+// 리프레시 바: 1초마다 벽시계 기준으로 갱신
+setInterval(updateProgressBar, 1000);
+updateProgressBar();
+
+// 첫 데이터 로드 + 동기화 예약
 fetchData();
 fetchVisitors();
-setInterval(tick,1000);
+scheduleNextFetch();
 </script>
 </body>
 </html>
