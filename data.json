@@ -1,65 +1,65 @@
 {
-  "ts": "2026-03-31T04:10:55.940770+09:00",
+  "ts": "2026-03-31T04:11:57.266684+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 110146.9,
-  "available": 95098.87,
-  "unrealized": -221.08,
+  "equity": 110159.19,
+  "available": 94291.56,
+  "unrealized": -202.18,
   "daily_pnl": 105.54,
-  "total_pnl": 8146.9,
-  "cum_pct": 7.99,
-  "daily_avg_pct": 0.2577,
-  "annual_pct": 155.84,
+  "total_pnl": 8159.19,
+  "cum_pct": 8.0,
+  "daily_avg_pct": 0.2581,
+  "annual_pct": 156.22,
   "mdd": -8.02,
-  "current_dd": -0.08,
-  "seed_used": 15048.04,
-  "seed_used_pct": 13.66,
+  "current_dd": -0.16,
+  "seed_used": 15867.63,
+  "seed_used_pct": 14.4,
   "long_count": 5,
   "short_count": 5,
   "positions": [
     {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "pnl": -160.67,
+      "pnl_pct": -0.74,
+      "margin": 1664.1,
+      "leverage": "13",
+      "tier": "5/9",
+      "entry": 2033.2001,
+      "mark": 2018.1
+    },
+    {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": -171.93,
-      "pnl_pct": -1.49,
+      "pnl": -165.32,
+      "pnl_pct": -1.43,
       "margin": 1649.34,
       "leverage": "7",
       "tier": "5/9",
       "entry": 8.728,
-      "mark": 8.598
+      "mark": 8.603
     },
     {
       "symbol": "AAVEUSDT",
       "side": "LONG",
-      "pnl": -255.3,
-      "pnl_pct": -1.2,
+      "pnl": -248.78,
+      "pnl_pct": -1.17,
       "margin": 1415.9,
       "leverage": "15",
       "tier": "5/5",
       "entry": 97.7652,
-      "mark": 96.59
+      "mark": 96.62
     },
     {
       "symbol": "BCHUSDT",
       "side": "LONG",
-      "pnl": -27.38,
-      "pnl_pct": -0.2,
+      "pnl": -21.71,
+      "pnl_pct": -0.16,
       "margin": 1060.45,
       "leverage": "13",
       "tier": "4/4",
       "entry": 461.5267,
-      "mark": 460.61
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "LONG",
-      "pnl": -165.01,
-      "pnl_pct": -1.2,
-      "margin": 1056.02,
-      "leverage": "13",
-      "tier": "4/9",
-      "entry": 2042.8952,
-      "mark": 2018.34
+      "mark": 460.8
     },
     {
       "symbol": "TRUMPUSDT",
@@ -75,57 +75,57 @@
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 93.86,
-      "pnl_pct": 2.43,
+      "pnl": 93.22,
+      "pnl_pct": 2.41,
       "margin": 551.47,
       "leverage": "7",
       "tier": "4/9",
       "entry": 84.4699,
-      "mark": 82.416
+      "mark": 82.43
     },
     {
       "symbol": "TRXUSDT",
       "side": "LONG",
-      "pnl": 25.67,
-      "pnl_pct": 0.78,
+      "pnl": 27.33,
+      "pnl_pct": 0.83,
       "margin": 550.83,
       "leverage": "6",
       "tier": "3/9",
       "entry": 0.3176,
-      "mark": 0.32
+      "mark": 0.3202
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": 56.66,
-      "pnl_pct": 2.1,
+      "pnl": 55.27,
+      "pnl_pct": 2.05,
       "margin": 385.15,
       "leverage": "7",
       "tier": "6/9",
       "entry": 1.3496,
-      "mark": 1.3212
+      "mark": 1.3219
     },
     {
       "symbol": "SUIUSDT",
       "side": "SHORT",
-      "pnl": 105.85,
-      "pnl_pct": 2.51,
+      "pnl": 103.4,
+      "pnl_pct": 2.45,
       "margin": 383.41,
       "leverage": "11",
       "tier": "6/9",
       "entry": 0.8805,
-      "mark": 0.8584
+      "mark": 0.8589
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 38.55,
-      "pnl_pct": 5.18,
+      "pnl": 37.77,
+      "pnl_pct": 5.07,
       "margin": 106.37,
       "leverage": "7",
       "tier": "4/10",
       "entry": 0.2852,
-      "mark": 0.2704
+      "mark": 0.2707
     }
   ],
   "signals": {
@@ -163,11 +163,11 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.937
+      "conf": 0.922
     },
     "1000PEPEUSDT": {
       "dir": "short",
-      "conf": 0.534
+      "conf": 0.533
     },
     "ZECUSDT": {
       "dir": "short",
@@ -223,7 +223,7 @@
     },
     "BCHUSDT": {
       "dir": "long",
-      "conf": 0.917
+      "conf": 0.906
     },
     "ARBUSDT": {
       "dir": "short",
