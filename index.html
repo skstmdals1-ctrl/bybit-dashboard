@@ -352,11 +352,14 @@ function fmtPct(v){ return (parseFloat(v)>=0?'+':'')+parseFloat(v).toFixed(2)+'%
 
 // ── 렌더 ───────────────────────────────────────────────
 function renderStatus(d) {
-  const run = d.status==='running';
-  document.getElementById('statusBadge').className='status-badge '+(run?'badge-running':'badge-stopped');
-  document.getElementById('statusDot').className='dot '+(run?'dot-green':'dot-red');
-  document.getElementById('statusText').textContent=run?'LIVE':'OFFLINE';
-  if(d.start_date) document.getElementById('startDateLabel').textContent='가동: '+d.start_date+' ~';
+  const now  = Date.now();
+  const last = d.ts ? new Date(d.ts).getTime() : 0;
+  const stale = (now - last) > 5 * 60 * 1000; // 5분 초과 = 오프라인
+  const run = d.status === 'running' && !stale;
+  document.getElementById('statusBadge').className = 'status-badge ' + (run ? 'badge-running' : 'badge-stopped');
+  document.getElementById('statusDot').className   = 'dot ' + (run ? 'dot-green' : 'dot-red');
+  document.getElementById('statusText').textContent = run ? 'LIVE' : (stale ? 'OFFLINE (데이터 만료)' : 'OFFLINE');
+  if (d.start_date) document.getElementById('startDateLabel').textContent = '가동: ' + d.start_date + ' ~';
 }
 function renderLastUpdated(ts) {
   try{ const d=new Date(ts); document.getElementById('lastUpdated').textContent=d.toLocaleString('ko-KR',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit'}); }catch(e){}
