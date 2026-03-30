@@ -181,9 +181,10 @@
   </div>
   <!-- 방문자 카운터 -->
   <div class="visitor-row">
-    <span class="visitor-badge"><span class="vb-icon">👁️</span> 오늘: <span class="vb-val" id="todayVisit">—</span></span>
-    <span style="color:var(--border)">|</span>
-    <span class="visitor-badge"><span class="vb-icon">📊</span> 누적: <span class="vb-val" id="totalVisit">—</span></span>
+    <span class="visitor-badge">
+      <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fskstmdals1-ctrl.github.io%2Fbybit-dashboard%2F&count_bg=%2300e5a0&title_bg=%230f1623&icon=&icon_color=%23e4eaf8&title=%EC%98%A4%EB%8A%98%2F%EB%88%84%EC%A0%81&edge_flat=true"
+           alt="visitors" style="height:16px;vertical-align:middle;border-radius:4px;" />
+    </span>
   </div>
   <div class="refresh-bar"><div class="refresh-progress" id="refreshBar" style="width:0%"></div></div>
   <div class="link-row">
@@ -268,30 +269,7 @@
 const DATA_URL    = './data.json';
 const REFRESH_SEC = 60;
 
-// ── 방문자 카운터 (hits.seeyoufarm.com) ───────────────
-async function fetchVisitors() {
-  try {
-    // SVG 배지를 불러오면서 카운트가 증가됨 (1회 호출 = 1 방문)
-    const encoded = encodeURIComponent('https://skstmdals1-ctrl.github.io/bybit-dashboard/');
-    const url = `https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=${encoded}&count_bg=%2300e5a0&title_bg=%230f1623&title=hits&edge_flat=true`;
-
-    // SVG를 텍스트로 파싱해 today/total 숫자 추출
-    const r = await fetch(url + '&_t=' + Date.now(), { cache: 'no-store' });
-    const svg = await r.text();
-
-    // SVG 안에 숫자 2개: 오늘 / 누적
-    const nums = [...svg.matchAll(/>(\d+)</g)].map(m => m[1]);
-    if (nums.length >= 2) {
-      document.getElementById('todayVisit').textContent = parseInt(nums[nums.length-2]).toLocaleString();
-      document.getElementById('totalVisit').textContent = parseInt(nums[nums.length-1]).toLocaleString();
-    }
-  } catch(e) {
-    document.getElementById('todayVisit').textContent = '-';
-    document.getElementById('totalVisit').textContent = '-';
-  }
-}
-
-// ── 대시보드 링크 복사 ─────────────────────────────────
+// ── 대시보드 링크 복사 ─────────────────────────────────────
 function copyDashboardLink() {
   const url = 'https://skstmdals1-ctrl.github.io/bybit-dashboard/';
   navigator.clipboard.writeText(url).then(() => {
@@ -496,7 +474,6 @@ updateProgressBar();
 
 // 첫 데이터 로드 + 동기화 예약
 fetchData();
-fetchVisitors();
 scheduleNextFetch();
 </script>
 </body>
