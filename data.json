@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-01T04:13:02.522962+09:00",
+  "ts": "2026-04-01T04:14:05.163248+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 112049.26,
-  "available": 98708.41,
-  "unrealized": 146.81,
+  "equity": 112062.44,
+  "available": 98719.13,
+  "unrealized": 151.59,
   "daily_pnl": 273.11,
-  "total_pnl": 10049.26,
-  "cum_pct": 9.85,
-  "daily_avg_pct": 0.3078,
-  "annual_pct": 207.02,
+  "total_pnl": 10062.44,
+  "cum_pct": 9.87,
+  "daily_avg_pct": 0.3084,
+  "annual_pct": 207.69,
   "mdd": -8.02,
   "current_dd": -0.14,
-  "seed_used": 13340.85,
+  "seed_used": 13343.31,
   "seed_used_pct": 11.91,
   "long_count": 8,
   "short_count": 4,
@@ -20,13 +20,13 @@
     {
       "symbol": "TRXUSDT",
       "side": "LONG",
-      "pnl": -14.29,
-      "pnl_pct": -0.13,
+      "pnl": -12.16,
+      "pnl_pct": -0.11,
       "margin": 1855.22,
       "leverage": "6",
       "tier": "6/9",
       "entry": 0.3133,
-      "mark": 0.3129
+      "mark": 0.313
     },
     {
       "symbol": "TRUMPUSDT",
@@ -42,35 +42,35 @@
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": 50.33,
-      "pnl_pct": 1.54,
+      "pnl": 51.84,
+      "pnl_pct": 1.59,
       "margin": 543.46,
       "leverage": "6",
       "tier": "3/10",
       "entry": 8.6584,
-      "mark": 8.792
+      "mark": 8.796
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 1.7,
-      "pnl_pct": 0.04,
+      "pnl": 4.02,
+      "pnl_pct": 0.08,
       "margin": 435.24,
       "leverage": "11",
       "tier": "3/11",
       "entry": 2099.8349,
-      "mark": 2100.58
+      "mark": 2101.6
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": 16.71,
-      "pnl_pct": 0.62,
+      "pnl": 15.11,
+      "pnl_pct": 0.56,
       "margin": 385.15,
       "leverage": "7",
       "tier": "6/9",
       "entry": 1.3496,
-      "mark": 1.3412
+      "mark": 1.342
     },
     {
       "symbol": "ADAUSDT",
@@ -86,24 +86,24 @@
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": -19.25,
-      "pnl_pct": -1.05,
+      "pnl": -20.41,
+      "pnl_pct": -1.12,
       "margin": 261.15,
       "leverage": "7",
       "tier": "1/9",
       "entry": 1.2538,
-      "mark": 1.267
+      "mark": 1.2678
     },
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 0.69,
-      "pnl_pct": 0.05,
+      "pnl": 1.15,
+      "pnl_pct": 0.08,
       "margin": 235.07,
       "leverage": "6",
       "tier": "2/9",
       "entry": 615.9,
-      "mark": 616.2
+      "mark": 616.4
     },
     {
       "symbol": "DOGEUSDT",
@@ -119,13 +119,13 @@
     {
       "symbol": "SUIUSDT",
       "side": "LONG",
-      "pnl": 7.61,
-      "pnl_pct": 0.51,
+      "pnl": 8.89,
+      "pnl_pct": 0.6,
       "margin": 213.07,
       "leverage": "7",
       "tier": "2/10",
       "entry": 0.8722,
-      "mark": 0.8767
+      "mark": 0.8774
     },
     {
       "symbol": "SOLUSDT",
@@ -141,13 +141,13 @@
     {
       "symbol": "AAVEUSDT",
       "side": "LONG",
-      "pnl": 8.83,
-      "pnl_pct": 0.55,
+      "pnl": 8.67,
+      "pnl_pct": 0.54,
       "margin": 106.32,
       "leverage": "15",
       "tier": "2/10",
       "entry": 97.54,
-      "mark": 98.08
+      "mark": 98.07
     }
   ],
   "signals": {
@@ -157,7 +157,7 @@
     },
     "DOTUSDT": {
       "dir": "short",
-      "conf": 0.963
+      "conf": 0.965
     },
     "ADAUSDT": {
       "dir": "long",
@@ -165,7 +165,7 @@
     },
     "LINKUSDT": {
       "dir": "long",
-      "conf": 0.701
+      "conf": 0.699
     },
     "HYPEUSDT": {
       "dir": "short",
@@ -185,7 +185,7 @@
     },
     "SUIUSDT": {
       "dir": "long",
-      "conf": 0.757
+      "conf": 0.82
     },
     "1000PEPEUSDT": {
       "dir": "short",
@@ -205,7 +205,7 @@
     },
     "TRUMPUSDT": {
       "dir": "short",
-      "conf": 0.663
+      "conf": 0.658
     },
     "1000BONKUSDT": {
       "dir": "long",
@@ -225,7 +225,7 @@
     },
     "AAVEUSDT": {
       "dir": "long",
-      "conf": 0.991
+      "conf": 0.99
     },
     "APTUSDT": {
       "dir": "short",
