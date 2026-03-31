@@ -1,18 +1,18 @@
 {
-  "ts": "2026-03-31T10:11:12.432184+09:00",
+  "ts": "2026-03-31T10:12:13.856219+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 110738.63,
-  "available": 95924.7,
-  "unrealized": 117.74,
+  "equity": 110738.28,
+  "available": 95924.91,
+  "unrealized": 119.16,
   "daily_pnl": 229.25,
-  "total_pnl": 8738.63,
+  "total_pnl": 8738.28,
   "cum_pct": 8.57,
   "daily_avg_pct": 0.2765,
   "annual_pct": 173.97,
   "mdd": -8.02,
   "current_dd": -0.08,
-  "seed_used": 14813.93,
+  "seed_used": 14813.37,
   "seed_used_pct": 13.38,
   "long_count": 5,
   "short_count": 7,
@@ -20,35 +20,35 @@
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": -24.38,
-      "pnl_pct": -0.14,
+      "pnl": -22.4,
+      "pnl_pct": -0.13,
       "margin": 2451.15,
       "leverage": "7",
       "tier": "6/9",
       "entry": 8.6753,
-      "mark": 8.663
+      "mark": 8.664
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": 36.39,
-      "pnl_pct": 0.17,
+      "pnl": 35.0,
+      "pnl_pct": 0.16,
       "margin": 1664.1,
       "leverage": "13",
       "tier": "5/9",
       "entry": 2033.2001,
-      "mark": 2036.62
+      "mark": 2036.49
     },
     {
       "symbol": "AAVEUSDT",
       "side": "LONG",
-      "pnl": -42.93,
-      "pnl_pct": -0.4,
+      "pnl": -44.01,
+      "pnl_pct": -0.41,
       "margin": 707.95,
       "leverage": "15",
       "tier": "5/10",
       "entry": 97.7652,
-      "mark": 97.37
+      "mark": 97.36
     },
     {
       "symbol": "TRXUSDT",
@@ -64,90 +64,90 @@
     {
       "symbol": "BCHUSDT",
       "side": "LONG",
-      "pnl": 28.44,
+      "pnl": 27.99,
       "pnl_pct": 0.41,
       "margin": 530.4,
       "leverage": "13",
       "tier": "4/9",
       "entry": 461.5267,
-      "mark": 463.43
+      "mark": 463.4
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": 46.48,
-      "pnl_pct": 1.72,
+      "pnl": 47.47,
+      "pnl_pct": 1.76,
       "margin": 385.15,
       "leverage": "7",
       "tier": "6/9",
       "entry": 1.3496,
-      "mark": 1.3263
+      "mark": 1.3258
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 36.18,
-      "pnl_pct": 1.87,
+      "pnl": 36.87,
+      "pnl_pct": 1.91,
       "margin": 276.34,
       "leverage": "7",
       "tier": "4/9",
       "entry": 84.4699,
-      "mark": 82.89
+      "mark": 82.86
     },
     {
       "symbol": "DOGEUSDT",
       "side": "SHORT",
-      "pnl": -2.42,
-      "pnl_pct": -0.19,
+      "pnl": -1.71,
+      "pnl_pct": -0.13,
       "margin": 259.62,
       "leverage": "5",
       "tier": "2/9",
       "entry": 0.0911,
-      "mark": 0.0913
+      "mark": 0.0912
     },
     {
       "symbol": "HYPEUSDT",
       "side": "SHORT",
-      "pnl": -2.89,
-      "pnl_pct": -0.22,
+      "pnl": -2.44,
+      "pnl_pct": -0.19,
       "margin": 259.32,
       "leverage": "5",
       "tier": "1/9",
       "entry": 37.237,
-      "mark": 37.32
+      "mark": 37.307
     },
     {
       "symbol": "NEARUSDT",
       "side": "SHORT",
-      "pnl": -5.32,
-      "pnl_pct": -0.41,
+      "pnl": -5.98,
+      "pnl_pct": -0.46,
       "margin": 259.23,
       "leverage": "5",
       "tier": "2/9",
       "entry": 1.1698,
-      "mark": 1.1746
+      "mark": 1.1752
     },
     {
       "symbol": "TRUMPUSDT",
       "side": "SHORT",
-      "pnl": 2.05,
-      "pnl_pct": 0.16,
+      "pnl": 2.49,
+      "pnl_pct": 0.19,
       "margin": 257.44,
       "leverage": "5",
       "tier": "8/10",
       "entry": 2.9597,
-      "mark": 2.955
+      "mark": 2.954
     },
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 28.89,
-      "pnl_pct": 3.88,
+      "pnl": 28.63,
+      "pnl_pct": 3.84,
       "margin": 106.37,
       "leverage": "7",
       "tier": "4/10",
       "entry": 0.2852,
-      "mark": 0.2741
+      "mark": 0.2742
     }
   ],
   "signals": {
@@ -221,7 +221,7 @@
     },
     "WLDUSDT": {
       "dir": "long",
-      "conf": 0.599
+      "conf": 0.6
     },
     "AAVEUSDT": {
       "dir": "short",
