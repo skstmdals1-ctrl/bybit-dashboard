@@ -1,71 +1,71 @@
 {
-  "ts": "2026-04-02T18:05:48.864329+09:00",
+  "ts": "2026-04-02T18:06:50.183889+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 98600.76,
-  "available": 55414.46,
-  "unrealized": -3963.58,
+  "equity": 98642.34,
+  "available": 55450.22,
+  "unrealized": -3927.34,
   "daily_pnl": -386.62,
-  "total_pnl": 6600.76,
-  "cum_pct": 7.17,
-  "daily_avg_pct": 0.2173,
-  "annual_pct": 120.84,
+  "total_pnl": 6642.34,
+  "cum_pct": 7.22,
+  "daily_avg_pct": 0.2188,
+  "annual_pct": 122.05,
   "mdd": -8.02,
-  "current_dd": -4.42,
-  "seed_used": 43186.3,
-  "seed_used_pct": 43.8,
+  "current_dd": -4.47,
+  "seed_used": 43192.12,
+  "seed_used_pct": 43.79,
   "long_count": 9,
   "short_count": 4,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": -1099.24,
-      "pnl_pct": -2.14,
+      "pnl": -1083.99,
+      "pnl_pct": -2.11,
       "margin": 5702.42,
       "leverage": "9",
       "tier": "10/11",
       "entry": 80.7455,
-      "mark": 79.016
+      "mark": 79.04
     },
     {
       "symbol": "SUIUSDT",
       "side": "LONG",
-      "pnl": -957.83,
-      "pnl_pct": -1.61,
+      "pnl": -898.22,
+      "pnl_pct": -1.51,
       "margin": 5409.24,
       "leverage": "11",
       "tier": "8/10",
       "entry": 0.8685,
-      "mark": 0.8545
+      "mark": 0.8554
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": -682.69,
-      "pnl_pct": -2.25,
+      "pnl": -703.17,
+      "pnl_pct": -2.32,
       "margin": 5046.43,
       "leverage": "6",
       "tier": "6/9",
       "entry": 8.87,
-      "mark": 8.67
+      "mark": 8.664
     },
     {
       "symbol": "AAVEUSDT",
       "side": "LONG",
-      "pnl": -906.23,
-      "pnl_pct": -2.01,
+      "pnl": -920.38,
+      "pnl_pct": -2.04,
       "margin": 5003.14,
       "leverage": "9",
       "tier": "6/9",
       "entry": 95.4919,
-      "mark": 93.57
+      "mark": 93.54
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": -268.14,
-      "pnl_pct": -1.11,
+      "pnl": -264.53,
+      "pnl_pct": -1.1,
       "margin": 4023.61,
       "leverage": "6",
       "tier": "7/10",
@@ -97,52 +97,52 @@
     {
       "symbol": "TRUMPUSDT",
       "side": "SHORT",
-      "pnl": 548.33,
-      "pnl_pct": 7.06,
+      "pnl": 543.24,
+      "pnl_pct": 7.0,
       "margin": 1552.34,
       "leverage": "5",
       "tier": "9/10",
       "entry": 3.0462,
-      "mark": 2.831
+      "mark": 2.833
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": -107.47,
-      "pnl_pct": -2.26,
+      "pnl": -109.11,
+      "pnl_pct": -2.29,
       "margin": 951.13,
       "leverage": "5",
       "tier": "1/10",
       "entry": 8.6924,
-      "mark": 8.496
+      "mark": 8.493
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": -139.57,
-      "pnl_pct": -3.68,
+      "pnl": -139.33,
+      "pnl_pct": -3.67,
       "margin": 421.6,
       "leverage": "9",
       "tier": "2/10",
       "entry": 2119.7807,
-      "mark": 2041.81
+      "mark": 2041.94
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": 80.84,
-      "pnl_pct": 3.0,
+      "pnl": 80.04,
+      "pnl_pct": 2.97,
       "margin": 385.15,
       "leverage": "7",
       "tier": "6/9",
       "entry": 1.3496,
-      "mark": 1.3091
+      "mark": 1.3095
     },
     {
       "symbol": "HBARUSDT",
       "side": "SHORT",
-      "pnl": 6.55,
-      "pnl_pct": 0.22,
+      "pnl": 5.86,
+      "pnl_pct": 0.2,
       "margin": 248.91,
       "leverage": "12",
       "tier": "2/9",
@@ -152,13 +152,13 @@
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": 106.73,
-      "pnl_pct": 5.5,
+      "pnl": 107.33,
+      "pnl_pct": 5.54,
       "margin": 138.5,
       "leverage": "14",
       "tier": "3/9",
       "entry": 1.2863,
-      "mark": 1.2155
+      "mark": 1.2151
     }
   ],
   "signals": {
@@ -292,7 +292,7 @@
     },
     "AVAXUSDT": {
       "dir": "short",
-      "conf": 0.619
+      "conf": 0.618
     },
     "XLMUSDT": {
       "dir": "short",
