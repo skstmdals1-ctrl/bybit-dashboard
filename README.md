@@ -10,7 +10,7 @@
 
 Hi there! 👋 Welcome to my trading bot dashboard.
 
-I'm an **official Bybit broker** who builds and operates AI-powered automated trading bots.
+I'm an **official Bybit broker (Referral code: TENSORAI)** who builds and operates AI-powered automated trading bots.
 This dashboard shows the **real-time performance** (updated every 1 minute) of my live-running bot.
 For instant trade execution alerts, join my Telegram channel 👉 [t.me/bybitTensorAI](https://t.me/bybitTensorAI)
 
