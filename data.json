@@ -1,60 +1,60 @@
 {
-  "ts": "2026-04-04T02:37:04.072032+09:00",
+  "ts": "2026-04-04T02:38:05.457228+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 114554.09,
-  "available": 87757.89,
-  "unrealized": -651.25,
+  "equity": 114569.45,
+  "available": 87784.21,
+  "unrealized": -634.51,
   "daily_pnl": 259.19,
-  "total_pnl": 12554.09,
-  "cum_pct": 12.31,
-  "daily_avg_pct": 0.3517,
-  "annual_pct": 260.19,
+  "total_pnl": 12569.45,
+  "cum_pct": 12.32,
+  "daily_avg_pct": 0.352,
+  "annual_pct": 260.58,
   "mdd": -8.02,
   "current_dd": -0.49,
-  "seed_used": 26796.2,
-  "seed_used_pct": 23.39,
+  "seed_used": 26785.25,
+  "seed_used_pct": 23.38,
   "long_count": 6,
   "short_count": 5,
   "positions": [
     {
       "symbol": "AAVEUSDT",
       "side": "LONG",
-      "pnl": -486.56,
-      "pnl_pct": -1.08,
+      "pnl": -505.43,
+      "pnl_pct": -1.12,
       "margin": 5003.14,
       "leverage": "9",
       "tier": "7/9",
       "entry": 95.4919,
-      "mark": 94.46
+      "mark": 94.42
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": -337.18,
-      "pnl_pct": -1.02,
+      "pnl": -310.52,
+      "pnl_pct": -0.94,
       "margin": 4701.8,
       "leverage": "7",
       "tier": "7/9",
       "entry": 0.2469,
-      "mark": 0.2494
+      "mark": 0.2492
     },
     {
       "symbol": "SUIUSDT",
       "side": "LONG",
-      "pnl": 242.88,
-      "pnl_pct": 0.82,
+      "pnl": 229.17,
+      "pnl_pct": 0.77,
       "margin": 2705.02,
       "leverage": "11",
       "tier": "8/10",
       "entry": 0.8685,
-      "mark": 0.8756
+      "mark": 0.8752
     },
     {
       "symbol": "HBARUSDT",
       "side": "SHORT",
-      "pnl": 28.94,
-      "pnl_pct": 0.1,
+      "pnl": 54.62,
+      "pnl_pct": 0.19,
       "margin": 2360.42,
       "leverage": "12",
       "tier": "6/9",
@@ -64,8 +64,8 @@
     {
       "symbol": "TRXUSDT",
       "side": "LONG",
-      "pnl": 38.64,
-      "pnl_pct": 0.35,
+      "pnl": 40.42,
+      "pnl_pct": 0.36,
       "margin": 1855.22,
       "leverage": "6",
       "tier": "6/9",
@@ -75,68 +75,68 @@
     {
       "symbol": "HYPEUSDT",
       "side": "SHORT",
-      "pnl": -56.72,
-      "pnl_pct": -0.72,
+      "pnl": -55.84,
+      "pnl_pct": -0.71,
       "margin": 1572.15,
       "leverage": "5",
       "tier": "5/9",
       "entry": 35.5673,
-      "mark": 35.824
+      "mark": 35.82
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": -0.78,
-      "pnl_pct": -0.02,
+      "pnl": -3.52,
+      "pnl_pct": -0.07,
       "margin": 951.13,
       "leverage": "5",
       "tier": "3/9",
       "entry": 8.6924,
-      "mark": 8.691
+      "mark": 8.686
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": 84.51,
-      "pnl_pct": 2.23,
+      "pnl": 81.1,
+      "pnl_pct": 2.14,
       "margin": 630.95,
       "leverage": "6",
       "tier": "7/9",
       "entry": 8.87,
-      "mark": 9.068
+      "mark": 9.06
     },
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": -43.05,
-      "pnl_pct": -1.72,
+      "pnl": -42.03,
+      "pnl_pct": -1.68,
       "margin": 500.48,
       "leverage": "5",
       "tier": "2/10",
       "entry": 1.2316,
-      "mark": 1.2528
+      "mark": 1.2523
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": -126.59,
-      "pnl_pct": -3.34,
+      "pnl": -127.41,
+      "pnl_pct": -3.36,
       "margin": 421.6,
       "leverage": "9",
       "tier": "3/9",
       "entry": 2119.7807,
-      "mark": 2049.06
+      "mark": 2048.6
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 4.68,
-      "pnl_pct": 0.41,
+      "pnl": 4.93,
+      "pnl_pct": 0.43,
       "margin": 228.28,
       "leverage": "5",
       "tier": "2/9",
       "entry": 67141.7,
-      "mark": 66866.5
+      "mark": 66851.7
     }
   ],
   "signals": {
@@ -154,7 +154,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.607
+      "conf": 0.675
     },
     "HYPEUSDT": {
       "dir": "short",
