@@ -41,7 +41,7 @@ For instant trade execution alerts, join my Telegram channel 👉 [t.me/bybitTen
 **Step 0.** Check the [live dashboard](https://skstmdals1-ctrl.github.io/bybit-dashboard/) and [Telegram](https://t.me/bybitTensorAI) to verify the bot's performance and logic yourself.
 
 **Step 1.** Interested? Create a Bybit account using my referral code below:
-> 👉 Referral Code: **[Coming Soon]**
+> 👉 Referral Code: **[156176]**
 *(Using the referral helps cover server and operating costs — thank you!)*
 
 **Step 2.** After signing up, send proof to me on Telegram:
