@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-04T01:58:13.545636+09:00",
+  "ts": "2026-04-04T01:59:14.810618+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 115111.01,
-  "available": 88212.11,
-  "unrealized": -86.35,
+  "equity": 115075.53,
+  "available": 88184.42,
+  "unrealized": -119.64,
   "daily_pnl": 257.99,
-  "total_pnl": 13111.01,
-  "cum_pct": 12.85,
-  "daily_avg_pct": 0.3671,
-  "annual_pct": 280.94,
+  "total_pnl": 13075.53,
+  "cum_pct": 12.82,
+  "daily_avg_pct": 0.3663,
+  "annual_pct": 279.83,
   "mdd": -8.02,
   "current_dd": -0.01,
-  "seed_used": 26898.9,
+  "seed_used": 26891.11,
   "seed_used_pct": 23.37,
   "long_count": 7,
   "short_count": 5,
@@ -20,13 +20,13 @@
     {
       "symbol": "AAVEUSDT",
       "side": "LONG",
-      "pnl": -99.9,
-      "pnl_pct": -0.22,
+      "pnl": -132.91,
+      "pnl_pct": -0.3,
       "margin": 5003.14,
       "leverage": "9",
       "tier": "7/9",
       "entry": 95.4919,
-      "mark": 95.28
+      "mark": 95.21
     },
     {
       "symbol": "ADAUSDT",
@@ -42,19 +42,19 @@
     {
       "symbol": "SUIUSDT",
       "side": "LONG",
-      "pnl": 291.52,
-      "pnl_pct": 0.98,
+      "pnl": 276.45,
+      "pnl_pct": 0.93,
       "margin": 2705.02,
       "leverage": "11",
       "tier": "8/10",
       "entry": 0.8685,
-      "mark": 0.877
+      "mark": 0.8766
     },
     {
       "symbol": "HBARUSDT",
       "side": "SHORT",
-      "pnl": 12.89,
-      "pnl_pct": 0.05,
+      "pnl": 19.31,
+      "pnl_pct": 0.07,
       "margin": 2360.42,
       "leverage": "12",
       "tier": "6/9",
@@ -64,8 +64,8 @@
     {
       "symbol": "TRXUSDT",
       "side": "LONG",
-      "pnl": 34.74,
-      "pnl_pct": 0.31,
+      "pnl": 36.16,
+      "pnl_pct": 0.32,
       "margin": 1855.22,
       "leverage": "6",
       "tier": "6/9",
@@ -75,79 +75,79 @@
     {
       "symbol": "HYPEUSDT",
       "side": "SHORT",
-      "pnl": -90.98,
-      "pnl_pct": -1.16,
+      "pnl": -83.24,
+      "pnl_pct": -1.06,
       "margin": 1572.15,
       "leverage": "5",
       "tier": "5/9",
       "entry": 35.5673,
-      "mark": 35.979
+      "mark": 35.944
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": 16.73,
-      "pnl_pct": 0.35,
+      "pnl": 15.63,
+      "pnl_pct": 0.33,
       "margin": 951.13,
       "leverage": "5",
       "tier": "3/9",
       "entry": 8.6924,
-      "mark": 8.723
+      "mark": 8.721
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": 104.14,
-      "pnl_pct": 2.75,
+      "pnl": 105.0,
+      "pnl_pct": 2.77,
       "margin": 630.95,
       "leverage": "6",
       "tier": "7/9",
       "entry": 8.87,
-      "mark": 9.114
+      "mark": 9.116
     },
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": -42.24,
-      "pnl_pct": -1.69,
+      "pnl": -41.63,
+      "pnl_pct": -1.66,
       "margin": 500.48,
       "leverage": "5",
       "tier": "2/10",
       "entry": 1.2316,
-      "mark": 1.2524
+      "mark": 1.2521
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
-      "pnl": -116.12,
-      "pnl_pct": -3.06,
+      "pnl": -117.39,
+      "pnl_pct": -3.09,
       "margin": 421.6,
       "leverage": "9",
       "tier": "3/9",
       "entry": 2119.7807,
-      "mark": 2054.91
+      "mark": 2054.2
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": 2.55,
-      "pnl_pct": 0.22,
+      "pnl": 2.76,
+      "pnl_pct": 0.24,
       "margin": 228.28,
       "leverage": "5",
       "tier": "2/9",
       "entry": 67141.7,
-      "mark": 66991.6
+      "mark": 66979.32
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 4.18,
-      "pnl_pct": 0.78,
+      "pnl": 4.09,
+      "pnl_pct": 0.76,
       "margin": 59.48,
       "leverage": "9",
       "tier": "10/11",
       "entry": 79.8995,
-      "mark": 80.524
+      "mark": 80.51
     }
   ],
   "signals": {
@@ -169,7 +169,7 @@
     },
     "HYPEUSDT": {
       "dir": "short",
-      "conf": 0.694
+      "conf": 0.695
     },
     "1000PEPEUSDT": {
       "dir": "short",
