@@ -1,82 +1,82 @@
 {
-  "ts": "2026-04-07T08:46:16.802380+09:00",
+  "ts": "2026-04-07T08:47:18.092393+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35811.04,
-  "available": 28722.41,
-  "unrealized": -400.7,
+  "equity": 35822.11,
+  "available": 28737.91,
+  "unrealized": -389.12,
   "daily_pnl": 129.24,
-  "total_pnl": 5811.04,
-  "cum_pct": 19.37,
-  "daily_avg_pct": 0.5097,
-  "annual_pct": 539.6,
+  "total_pnl": 5822.11,
+  "cum_pct": 19.41,
+  "daily_avg_pct": 0.5108,
+  "annual_pct": 542.16,
   "mdd": -8.02,
-  "current_dd": -0.4,
-  "seed_used": 7088.63,
-  "seed_used_pct": 19.79,
+  "current_dd": -0.41,
+  "seed_used": 7084.21,
+  "seed_used_pct": 19.78,
   "long_count": 4,
   "short_count": 7,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 128.63,
-      "pnl_pct": 0.99,
+      "pnl": 143.14,
+      "pnl_pct": 1.1,
       "margin": 1627.88,
       "leverage": "8",
       "tier": "4/9",
       "entry": 80.788,
-      "mark": 79.99
+      "mark": 79.9
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": -190.53,
-      "pnl_pct": -1.82,
+      "pnl": -195.15,
+      "pnl_pct": -1.87,
       "margin": 1044.98,
       "leverage": "10",
       "tier": "7/9",
       "entry": 9.0388,
-      "mark": 8.874
+      "mark": 8.87
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": -79.54,
-      "pnl_pct": -1.76,
+      "pnl": -77.9,
+      "pnl_pct": -1.72,
       "margin": 905.74,
       "leverage": "5",
       "tier": "4/9",
       "entry": 67592.394,
-      "mark": 68779.58
+      "mark": 68755.13
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": -21.17,
-      "pnl_pct": -0.69,
+      "pnl": -19.96,
+      "pnl_pct": -0.65,
       "margin": 615.63,
       "leverage": "5",
       "tier": "5/9",
       "entry": 432.3263,
-      "mark": 435.3
+      "mark": 435.13
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": 2.8,
-      "pnl_pct": 0.08,
+      "pnl": 3.86,
+      "pnl_pct": 0.11,
       "margin": 582.39,
       "leverage": "6",
       "tier": "2/9",
       "entry": 1.3217,
-      "mark": 1.3206
+      "mark": 1.3202
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": -136.97,
-      "pnl_pct": -4.75,
+      "pnl": -139.2,
+      "pnl_pct": -4.82,
       "margin": 577.02,
       "leverage": "5",
       "tier": "5/12",
@@ -86,57 +86,57 @@
     {
       "symbol": "ALGOUSDT",
       "side": "LONG",
-      "pnl": -25.99,
-      "pnl_pct": -1.59,
+      "pnl": -27.74,
+      "pnl_pct": -1.7,
       "margin": 326.55,
       "leverage": "5",
       "tier": "4/11",
       "entry": 0.1209,
-      "mark": 0.119
+      "mark": 0.1189
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": -18.42,
-      "pnl_pct": -1.37,
+      "pnl": -18.95,
+      "pnl_pct": -1.41,
       "margin": 269.04,
       "leverage": "5",
       "tier": "3/10",
       "entry": 1.2686,
-      "mark": 1.2512
+      "mark": 1.2507
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": -50.94,
-      "pnl_pct": -3.96,
+      "pnl": -48.97,
+      "pnl_pct": -3.81,
       "margin": 214.33,
       "leverage": "6",
       "tier": "2/9",
       "entry": 0.0784,
-      "mark": 0.0815
+      "mark": 0.0814
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
-      "pnl": -8.57,
-      "pnl_pct": -0.8,
+      "pnl": -8.23,
+      "pnl_pct": -0.77,
       "margin": 213.12,
       "leverage": "5",
       "tier": "2/9",
       "entry": 595.3095,
-      "mark": 600.1
+      "mark": 599.91
     },
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
       "pnl": 0.0,
-      "pnl_pct": 0.58,
+      "pnl_pct": 0.66,
       "margin": 0.03,
       "leverage": "5",
       "tier": "1/9",
       "entry": 1.2513,
-      "mark": 1.244
+      "mark": 1.2431
     }
   ],
   "signals": {
@@ -146,7 +146,7 @@
     },
     "ETHUSDT": {
       "dir": "long",
-      "conf": 0.534
+      "conf": 0.533
     },
     "LINKUSDT": {
       "dir": "short",
