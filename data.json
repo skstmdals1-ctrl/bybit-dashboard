@@ -1,82 +1,82 @@
 {
-  "ts": "2026-04-07T13:10:01.288744+09:00",
+  "ts": "2026-04-07T13:11:02.667467+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35628.64,
-  "available": 27094.41,
-  "unrealized": -578.51,
+  "equity": 35624.72,
+  "available": 27090.45,
+  "unrealized": -582.35,
   "daily_pnl": 129.24,
-  "total_pnl": 5628.64,
-  "cum_pct": 18.76,
-  "daily_avg_pct": 0.4937,
-  "annual_pct": 503.5,
+  "total_pnl": 5624.72,
+  "cum_pct": 18.75,
+  "daily_avg_pct": 0.4934,
+  "annual_pct": 502.84,
   "mdd": -8.02,
   "current_dd": -0.88,
-  "seed_used": 8534.23,
-  "seed_used_pct": 23.95,
+  "seed_used": 8534.27,
+  "seed_used_pct": 23.96,
   "long_count": 4,
   "short_count": 7,
   "positions": [
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": -414.63,
-      "pnl_pct": -2.05,
+      "pnl": -416.91,
+      "pnl_pct": -2.06,
       "margin": 2024.35,
       "leverage": "10",
       "tier": "9/9",
       "entry": 8.8605,
-      "mark": 8.679
+      "mark": 8.678
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 172.16,
-      "pnl_pct": 1.32,
+      "pnl": 170.55,
+      "pnl_pct": 1.31,
       "margin": 1627.88,
       "leverage": "8",
       "tier": "4/9",
       "entry": 80.788,
-      "mark": 79.72
+      "mark": 79.73
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": -69.11,
-      "pnl_pct": -1.53,
+      "pnl": -70.05,
+      "pnl_pct": -1.55,
       "margin": 905.74,
       "leverage": "5",
       "tier": "4/9",
       "entry": 67592.394,
-      "mark": 68623.96
+      "mark": 68637.88
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 2.82,
-      "pnl_pct": 0.09,
+      "pnl": 3.04,
+      "pnl_pct": 0.1,
       "margin": 615.63,
       "leverage": "5",
       "tier": "5/9",
       "entry": 432.3263,
-      "mark": 431.93
+      "mark": 431.9
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": 16.55,
-      "pnl_pct": 0.47,
+      "pnl": 16.81,
+      "pnl_pct": 0.48,
       "margin": 582.39,
       "leverage": "6",
       "tier": "2/9",
       "entry": 1.3217,
-      "mark": 1.3154
+      "mark": 1.3153
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": -115.3,
-      "pnl_pct": -4.0,
+      "pnl": -114.8,
+      "pnl_pct": -3.98,
       "margin": 577.02,
       "leverage": "5",
       "tier": "5/12",
@@ -86,8 +86,8 @@
     {
       "symbol": "ALGOUSDT",
       "side": "LONG",
-      "pnl": -88.63,
-      "pnl_pct": -5.43,
+      "pnl": -88.9,
+      "pnl_pct": -5.44,
       "margin": 326.55,
       "leverage": "5",
       "tier": "4/11",
@@ -97,46 +97,46 @@
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": -32.2,
-      "pnl_pct": -2.39,
+      "pnl": -32.31,
+      "pnl_pct": -2.4,
       "margin": 269.04,
       "leverage": "5",
       "tier": "3/10",
       "entry": 1.2686,
-      "mark": 1.2382
+      "mark": 1.2381
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": -44.87,
-      "pnl_pct": -3.49,
+      "pnl": -44.71,
+      "pnl_pct": -3.48,
       "margin": 214.33,
       "leverage": "6",
       "tier": "2/9",
       "entry": 0.0784,
-      "mark": 0.0812
+      "mark": 0.0811
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
-      "pnl": -6.09,
-      "pnl_pct": -0.57,
+      "pnl": -6.18,
+      "pnl_pct": -0.58,
       "margin": 213.12,
       "leverage": "5",
       "tier": "2/9",
       "entry": 595.3095,
-      "mark": 598.71
+      "mark": 598.76
     },
     {
       "symbol": "LTCUSDT",
       "side": "SHORT",
-      "pnl": 0.79,
-      "pnl_pct": 0.09,
+      "pnl": 1.1,
+      "pnl_pct": 0.13,
       "margin": 76.33,
       "leverage": "11",
       "tier": "2/9",
       "entry": 53.48,
-      "mark": 53.43
+      "mark": 53.41
     }
   ],
   "signals": {
@@ -154,7 +154,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.588
+      "conf": 0.589
     },
     "HYPEUSDT": {
       "dir": "short",
