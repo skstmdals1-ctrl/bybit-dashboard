@@ -1,82 +1,82 @@
 {
-  "ts": "2026-04-07T10:32:36.505105+09:00",
+  "ts": "2026-04-07T10:33:38.011383+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35678.76,
-  "available": 28603.38,
-  "unrealized": -530.23,
+  "equity": 35685.07,
+  "available": 28611.28,
+  "unrealized": -525.91,
   "daily_pnl": 129.24,
-  "total_pnl": 5678.76,
-  "cum_pct": 18.93,
-  "daily_avg_pct": 0.4982,
-  "annual_pct": 513.44,
+  "total_pnl": 5685.07,
+  "cum_pct": 18.95,
+  "daily_avg_pct": 0.4987,
+  "annual_pct": 514.56,
   "mdd": -8.02,
   "current_dd": -0.76,
-  "seed_used": 7075.38,
-  "seed_used_pct": 19.83,
+  "seed_used": 7073.79,
+  "seed_used_pct": 19.82,
   "long_count": 4,
   "short_count": 6,
   "positions": [
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 119.61,
-      "pnl_pct": 0.92,
+      "pnl": 125.57,
+      "pnl_pct": 0.96,
       "margin": 1627.88,
       "leverage": "8",
       "tier": "4/9",
       "entry": 80.788,
-      "mark": 80.046
+      "mark": 80.009
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": -302.67,
-      "pnl_pct": -2.9,
+      "pnl": -307.3,
+      "pnl_pct": -2.94,
       "margin": 1044.98,
       "leverage": "10",
       "tier": "7/9",
       "entry": 9.0388,
-      "mark": 8.777
+      "mark": 8.773
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": -76.65,
-      "pnl_pct": -1.69,
+      "pnl": -77.4,
+      "pnl_pct": -1.71,
       "margin": 905.74,
       "leverage": "5",
       "tier": "4/9",
       "entry": 67592.394,
-      "mark": 68736.43
+      "mark": 68747.6
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": -5.15,
-      "pnl_pct": -0.17,
+      "pnl": -4.08,
+      "pnl_pct": -0.13,
       "margin": 615.63,
       "leverage": "5",
       "tier": "5/9",
       "entry": 432.3263,
-      "mark": 433.05
+      "mark": 432.9
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": 4.12,
-      "pnl_pct": 0.12,
+      "pnl": 5.18,
+      "pnl_pct": 0.15,
       "margin": 582.39,
       "leverage": "6",
       "tier": "2/9",
       "entry": 1.3217,
-      "mark": 1.3201
+      "mark": 1.3197
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": -105.04,
-      "pnl_pct": -3.64,
+      "pnl": -107.02,
+      "pnl_pct": -3.71,
       "margin": 577.02,
       "leverage": "5",
       "tier": "5/12",
@@ -86,46 +86,46 @@
     {
       "symbol": "ALGOUSDT",
       "side": "LONG",
-      "pnl": -54.47,
-      "pnl_pct": -3.34,
+      "pnl": -52.85,
+      "pnl_pct": -3.24,
       "margin": 326.55,
       "leverage": "5",
       "tier": "4/11",
       "entry": 0.1209,
-      "mark": 0.1169
+      "mark": 0.117
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": -31.88,
-      "pnl_pct": -2.37,
+      "pnl": -32.2,
+      "pnl_pct": -2.39,
       "margin": 269.04,
       "leverage": "5",
       "tier": "3/10",
       "entry": 1.2686,
-      "mark": 1.2385
+      "mark": 1.2382
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": -70.78,
-      "pnl_pct": -5.5,
+      "pnl": -68.65,
+      "pnl_pct": -5.34,
       "margin": 214.33,
       "leverage": "6",
       "tier": "2/9",
       "entry": 0.0784,
-      "mark": 0.0827
+      "mark": 0.0826
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
-      "pnl": -7.32,
-      "pnl_pct": -0.69,
+      "pnl": -7.14,
+      "pnl_pct": -0.67,
       "margin": 213.12,
       "leverage": "5",
       "tier": "2/9",
       "entry": 595.3095,
-      "mark": 599.4
+      "mark": 599.3
     }
   ],
   "signals": {
@@ -187,11 +187,11 @@
     },
     "AVAXUSDT": {
       "dir": "long",
-      "conf": 0.875
+      "conf": 0.871
     },
     "BNBUSDT": {
       "dir": "long",
-      "conf": 0.52
+      "conf": 0.516
     },
     "TRXUSDT": {
       "dir": "long",
@@ -227,7 +227,7 @@
     },
     "ALGOUSDT": {
       "dir": "long",
-      "conf": 0.528
+      "conf": 0.527
     },
     "TRUMPUSDT": {
       "dir": "short",
