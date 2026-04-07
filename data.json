@@ -1,32 +1,32 @@
 {
-  "ts": "2026-04-08T01:46:05.581515+09:00",
+  "ts": "2026-04-08T01:47:06.962373+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35737.01,
-  "available": 31243.1,
-  "unrealized": -296.61,
+  "equity": 35736.79,
+  "available": 31242.13,
+  "unrealized": -296.87,
   "daily_pnl": 0,
-  "total_pnl": 5737.01,
+  "total_pnl": 5736.79,
   "cum_pct": 19.12,
   "daily_avg_pct": 0.4903,
   "annual_pct": 496.09,
   "mdd": -8.02,
   "current_dd": -0.6,
-  "seed_used": 4493.91,
-  "seed_used_pct": 12.57,
+  "seed_used": 4494.66,
+  "seed_used_pct": 12.58,
   "long_count": 3,
   "short_count": 8,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": -48.52,
-      "pnl_pct": -1.07,
+      "pnl": -50.14,
+      "pnl_pct": -1.11,
       "margin": 905.74,
       "leverage": "5",
       "tier": "4/9",
       "entry": 67592.394,
-      "mark": 68316.6
+      "mark": 68340.8
     },
     {
       "symbol": "BCHUSDT",
@@ -42,19 +42,19 @@
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": 53.3,
-      "pnl_pct": 1.53,
+      "pnl": 51.45,
+      "pnl_pct": 1.47,
       "margin": 582.39,
       "leverage": "6",
       "tier": "2/9",
       "entry": 1.3217,
-      "mark": 1.3015
+      "mark": 1.3022
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": -105.04,
-      "pnl_pct": -3.64,
+      "pnl": -104.54,
+      "pnl_pct": -3.62,
       "margin": 577.02,
       "leverage": "5",
       "tier": "5/12",
@@ -64,41 +64,41 @@
     {
       "symbol": "ALGOUSDT",
       "side": "LONG",
-      "pnl": -114.14,
-      "pnl_pct": -6.99,
+      "pnl": -113.06,
+      "pnl_pct": -6.92,
       "margin": 326.55,
       "leverage": "5",
       "tier": "4/11",
       "entry": 0.1209,
-      "mark": 0.1125
+      "mark": 0.1126
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": -31.56,
-      "pnl_pct": -2.35,
+      "pnl": -31.46,
+      "pnl_pct": -2.34,
       "margin": 269.04,
       "leverage": "5",
       "tier": "3/10",
       "entry": 1.2686,
-      "mark": 1.2388
+      "mark": 1.2389
     },
     {
       "symbol": "ENAUSDT",
       "side": "SHORT",
-      "pnl": -53.89,
-      "pnl_pct": -4.19,
+      "pnl": -52.25,
+      "pnl_pct": -4.06,
       "margin": 214.33,
       "leverage": "6",
       "tier": "2/9",
       "entry": 0.0784,
-      "mark": 0.0817
+      "mark": 0.0816
     },
     {
       "symbol": "DOGEUSDT",
       "side": "SHORT",
-      "pnl": 0.21,
-      "pnl_pct": 0.02,
+      "pnl": 0.11,
+      "pnl_pct": 0.01,
       "margin": 179.71,
       "leverage": "5",
       "tier": "3/9",
@@ -119,24 +119,24 @@
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 5.72,
-      "pnl_pct": 1.52,
+      "pnl": 5.5,
+      "pnl_pct": 1.46,
       "margin": 75.4,
       "leverage": "5",
       "tier": "1/9",
       "entry": 80.21,
-      "mark": 78.994
+      "mark": 79.04
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": 12.51,
-      "pnl_pct": 1.34,
+      "pnl": 12.72,
+      "pnl_pct": 1.36,
       "margin": 62.13,
       "leverage": "15",
       "tier": "2/9",
       "entry": 8.718,
-      "mark": 8.601
+      "mark": 8.599
     }
   ],
   "signals": {
@@ -146,7 +146,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.565
+      "conf": 0.566
     },
     "LINKUSDT": {
       "dir": "short",
@@ -154,7 +154,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.599
+      "conf": 0.587
     },
     "HYPEUSDT": {
       "dir": "short",
@@ -162,7 +162,7 @@
     },
     "1000PEPEUSDT": {
       "dir": "short",
-      "conf": 0.683
+      "conf": 0.676
     },
     "SOLUSDT": {
       "dir": "short",
@@ -181,8 +181,8 @@
       "conf": 0.51
     },
     "DOGEUSDT": {
-      "dir": "short",
-      "conf": 0.658
+      "dir": "long",
+      "conf": 0.611
     },
     "HBARUSDT": {
       "dir": "short",
@@ -214,7 +214,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.564
+      "conf": 0.562
     },
     "STABLEUSDT": {
       "dir": "long",
