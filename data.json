@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-09T14:16:27.581950+09:00",
+  "ts": "2026-04-09T14:17:29.059366+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35723.24,
-  "available": 32199.03,
-  "unrealized": -342.82,
+  "equity": 35723.61,
+  "available": 32198.85,
+  "unrealized": -344.8,
   "daily_pnl": 87.5,
-  "total_pnl": 5723.24,
+  "total_pnl": 5723.61,
   "cum_pct": 19.08,
   "daily_avg_pct": 0.477,
   "annual_pct": 467.98,
   "mdd": -8.02,
   "current_dd": -0.77,
-  "seed_used": 3524.21,
+  "seed_used": 3524.75,
   "seed_used_pct": 9.87,
   "long_count": 1,
   "short_count": 6,
@@ -20,35 +20,35 @@
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": -56.51,
+      "pnl": -56.4,
       "pnl_pct": -1.23,
       "margin": 918.36,
       "leverage": "5",
       "tier": "5/9",
       "entry": 435.2438,
-      "mark": 440.6
+      "mark": 440.59
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": -216.87,
-      "pnl_pct": -4.79,
+      "pnl": -218.45,
+      "pnl_pct": -4.82,
       "margin": 905.74,
       "leverage": "5",
       "tier": "4/9",
       "entry": 67592.394,
-      "mark": 70829.2
+      "mark": 70852.8
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": -27.07,
-      "pnl_pct": -0.77,
+      "pnl": -27.34,
+      "pnl_pct": -0.78,
       "margin": 582.39,
       "leverage": "6",
       "tier": "2/9",
       "entry": 1.3217,
-      "mark": 1.3319
+      "mark": 1.332
     },
     {
       "symbol": "LTCUSDT",
@@ -64,35 +64,35 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -46.25,
+      "pnl": -46.24,
       "pnl_pct": -3.0,
       "margin": 308.61,
       "leverage": "5",
       "tier": "3/9",
       "entry": 2113.7589,
-      "mark": 2177.11
+      "mark": 2177.1
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": -0.48,
-      "pnl_pct": -0.28,
+      "pnl": -0.64,
+      "pnl_pct": -0.37,
       "margin": 34.74,
       "leverage": "5",
       "tier": "1/10",
       "entry": 1.3391,
-      "mark": 1.3354
+      "mark": 1.3342
     },
     {
       "symbol": "ALGOUSDT",
       "side": "SHORT",
-      "pnl": 5.81,
-      "pnl_pct": 5.59,
+      "pnl": 5.75,
+      "pnl_pct": 5.53,
       "margin": 17.34,
       "leverage": "6",
       "tier": "2/10",
       "entry": 0.1164,
-      "mark": 0.1099
+      "mark": 0.11
     }
   ],
   "signals": {
@@ -130,7 +130,7 @@
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.518
+      "conf": 0.526
     },
     "TAOUSDT": {
       "dir": "short",
@@ -150,7 +150,7 @@
     },
     "DOTUSDT": {
       "dir": "short",
-      "conf": 0.588
+      "conf": 0.589
     },
     "AVAXUSDT": {
       "dir": "short",
@@ -166,7 +166,7 @@
     },
     "NEARUSDT": {
       "dir": "short",
-      "conf": 0.632
+      "conf": 0.63
     },
     "ENAUSDT": {
       "dir": "short",
@@ -182,7 +182,7 @@
     },
     "LTCUSDT": {
       "dir": "short",
-      "conf": 0.615
+      "conf": 0.617
     },
     "ZECUSDT": {
       "dir": "short",
