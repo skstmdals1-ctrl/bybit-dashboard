@@ -1,19 +1,19 @@
 {
-  "ts": "2026-04-09T18:49:54.181774+09:00",
+  "ts": "2026-04-09T18:50:55.649625+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35547.36,
-  "available": 30184.23,
-  "unrealized": -523.69,
+  "equity": 35550.42,
+  "available": 30187.79,
+  "unrealized": -520.34,
   "daily_pnl": 92.13,
-  "total_pnl": 5547.36,
-  "cum_pct": 18.49,
-  "daily_avg_pct": 0.4622,
-  "annual_pct": 438.24,
+  "total_pnl": 5550.42,
+  "cum_pct": 18.5,
+  "daily_avg_pct": 0.4625,
+  "annual_pct": 438.83,
   "mdd": -8.02,
   "current_dd": -1.26,
-  "seed_used": 5363.13,
-  "seed_used_pct": 15.09,
+  "seed_used": 5362.63,
+  "seed_used_pct": 15.08,
   "long_count": 1,
   "short_count": 9,
   "positions": [
@@ -31,35 +31,35 @@
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": -250.37,
-      "pnl_pct": -5.53,
+      "pnl": -249.59,
+      "pnl_pct": -5.51,
       "margin": 905.74,
       "leverage": "5",
       "tier": "4/9",
       "entry": 67592.394,
-      "mark": 71329.2
+      "mark": 71317.6
     },
     {
       "symbol": "XMRUSDT",
       "side": "SHORT",
-      "pnl": -98.75,
-      "pnl_pct": -1.76,
+      "pnl": -96.73,
+      "pnl_pct": -1.72,
       "margin": 623.54,
       "leverage": "9",
       "tier": "5/9",
       "entry": 333.0493,
-      "mark": 338.91
+      "mark": 338.79
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": -37.65,
-      "pnl_pct": -1.08,
+      "pnl": -37.12,
+      "pnl_pct": -1.06,
       "margin": 582.39,
       "leverage": "6",
       "tier": "3/9",
       "entry": 1.3217,
-      "mark": 1.3359
+      "mark": 1.3357
     },
     {
       "symbol": "LTCUSDT",
@@ -97,13 +97,13 @@
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
-      "pnl": -2.9,
+      "pnl": -2.94,
       "pnl_pct": -0.33,
       "margin": 97.95,
       "leverage": "9",
       "tier": "2/9",
       "entry": 599.7,
-      "mark": 601.67
+      "mark": 601.7
     },
     {
       "symbol": "DOTUSDT",
@@ -119,13 +119,13 @@
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": -0.8,
-      "pnl_pct": -0.46,
+      "pnl": -0.74,
+      "pnl_pct": -0.43,
       "margin": 34.74,
       "leverage": "5",
       "tier": "1/10",
       "entry": 1.3391,
-      "mark": 1.3329
+      "mark": 1.3334
     }
   ],
   "signals": {
@@ -199,7 +199,7 @@
     },
     "NEARUSDT": {
       "dir": "short",
-      "conf": 0.635
+      "conf": 0.631
     },
     "ENAUSDT": {
       "dir": "short",
@@ -215,7 +215,7 @@
     },
     "LTCUSDT": {
       "dir": "short",
-      "conf": 0.6
+      "conf": 0.596
     },
     "ZECUSDT": {
       "dir": "short",
