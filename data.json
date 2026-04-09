@@ -1,131 +1,131 @@
 {
-  "ts": "2026-04-10T00:12:23.246544+09:00",
+  "ts": "2026-04-10T00:13:25.692232+09:00",
   "start_date": "2026-03-01",
-  "status": "stopped",
-  "equity": 35806.8,
-  "available": 30583.08,
-  "unrealized": -279.14,
+  "status": "running",
+  "equity": 35775.85,
+  "available": 30547.67,
+  "unrealized": -310.41,
   "daily_pnl": 0,
-  "total_pnl": 5806.8,
-  "cum_pct": 19.36,
-  "daily_avg_pct": 0.4722,
-  "annual_pct": 458.16,
+  "total_pnl": 5775.85,
+  "cum_pct": 19.25,
+  "daily_avg_pct": 0.4695,
+  "annual_pct": 452.71,
   "mdd": -8.02,
-  "current_dd": -0.63,
-  "seed_used": 5223.72,
-  "seed_used_pct": 14.59,
+  "current_dd": -0.54,
+  "seed_used": 5228.18,
+  "seed_used_pct": 14.61,
   "long_count": 2,
   "short_count": 8,
   "positions": [
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": -1.65,
-      "pnl_pct": -0.04,
+      "pnl": -3.76,
+      "pnl_pct": -0.08,
       "margin": 918.36,
       "leverage": "5",
       "tier": "5/9",
       "entry": 435.2438,
-      "mark": 435.4
+      "mark": 435.6
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "pnl": -229.92,
-      "pnl_pct": -5.08,
+      "pnl": -237.56,
+      "pnl_pct": -5.25,
       "margin": 905.74,
       "leverage": "5",
       "tier": "4/9",
       "entry": 67592.394,
-      "mark": 71024.1
+      "mark": 71138.1
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": -24.43,
-      "pnl_pct": -0.7,
+      "pnl": -29.72,
+      "pnl_pct": -0.85,
       "margin": 582.39,
       "leverage": "6",
       "tier": "3/9",
       "entry": 1.3217,
-      "mark": 1.3309
+      "mark": 1.3329
     },
     {
       "symbol": "LTCUSDT",
       "side": "SHORT",
-      "pnl": -19.49,
-      "pnl_pct": -0.56,
+      "pnl": -22.07,
+      "pnl_pct": -0.64,
       "margin": 315.57,
       "leverage": "11",
       "tier": "4/9",
       "entry": 53.8179,
-      "mark": 54.12
+      "mark": 54.16
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -43.41,
-      "pnl_pct": -2.81,
+      "pnl": -45.68,
+      "pnl_pct": -2.96,
       "margin": 308.61,
       "leverage": "5",
       "tier": "3/9",
       "entry": 2113.7589,
-      "mark": 2173.22
+      "mark": 2176.33
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 16.58,
-      "pnl_pct": 0.74,
+      "pnl": 11.25,
+      "pnl_pct": 0.5,
       "margin": 248.39,
       "leverage": "9",
       "tier": "3/9",
       "entry": 0.2515,
-      "mark": 0.2496
+      "mark": 0.2502
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
-      "pnl": 5.91,
-      "pnl_pct": 0.29,
+      "pnl": 4.24,
+      "pnl_pct": 0.21,
       "margin": 223.95,
       "leverage": "9",
       "tier": "3/9",
       "entry": 601.6642,
-      "mark": 599.9
+      "mark": 600.4
     },
     {
       "symbol": "XMRUSDT",
       "side": "LONG",
-      "pnl": 13.11,
-      "pnl_pct": 0.82,
+      "pnl": 10.46,
+      "pnl_pct": 0.66,
       "margin": 198.65,
       "leverage": "8",
       "tier": "3/10",
       "entry": 330.3954,
-      "mark": 333.12
+      "mark": 332.57
     },
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": 3.52,
-      "pnl_pct": 0.46,
+      "pnl": 1.09,
+      "pnl_pct": 0.14,
       "margin": 95.41,
       "leverage": "8",
       "tier": "2/9",
       "entry": 1.2577,
-      "mark": 1.2519
+      "mark": 1.2559
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 0.67,
-      "pnl_pct": 0.39,
+      "pnl": 1.37,
+      "pnl_pct": 0.79,
       "margin": 34.74,
       "leverage": "5",
       "tier": "1/10",
       "entry": 1.3391,
-      "mark": 1.3443
+      "mark": 1.3497
     }
   ],
   "signals": {
@@ -143,7 +143,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.649
+      "conf": 0.651
     },
     "HYPEUSDT": {
       "dir": "short",
@@ -199,7 +199,7 @@
     },
     "NEARUSDT": {
       "dir": "short",
-      "conf": 0.514
+      "conf": 0.512
     },
     "ENAUSDT": {
       "dir": "short",
