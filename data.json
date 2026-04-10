@@ -1,82 +1,82 @@
 {
-  "ts": "2026-04-11T06:31:56.165617+09:00",
+  "ts": "2026-04-11T06:32:57.786122+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35558.78,
-  "available": 31268.75,
-  "unrealized": -301.75,
+  "equity": 35552.93,
+  "available": 31263.1,
+  "unrealized": -302.72,
   "daily_pnl": 85.35,
-  "total_pnl": 5558.78,
-  "cum_pct": 18.53,
-  "daily_avg_pct": 0.4412,
-  "annual_pct": 398.7,
+  "total_pnl": 5552.93,
+  "cum_pct": 18.51,
+  "daily_avg_pct": 0.4407,
+  "annual_pct": 397.8,
   "mdd": -8.02,
   "current_dd": -1.25,
-  "seed_used": 4290.03,
-  "seed_used_pct": 12.06,
-  "long_count": 5,
+  "seed_used": 4289.83,
+  "seed_used_pct": 12.07,
+  "long_count": 4,
   "short_count": 4,
   "positions": [
     {
       "symbol": "LTCUSDT",
       "side": "SHORT",
-      "pnl": -107.86,
-      "pnl_pct": -1.32,
+      "pnl": -104.86,
+      "pnl_pct": -1.28,
       "margin": 744.06,
       "leverage": "11",
       "tier": "6/9",
       "entry": 54.4919,
-      "mark": 55.21
+      "mark": 55.19
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
-      "pnl": -14.4,
-      "pnl_pct": -0.27,
+      "pnl": -15.27,
+      "pnl_pct": -0.29,
       "margin": 590.67,
       "leverage": "9",
       "tier": "5/9",
       "entry": 606.1584,
-      "mark": 607.8
+      "mark": 607.9
     },
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": -173.98,
-      "pnl_pct": -3.69,
+      "pnl": -177.62,
+      "pnl_pct": -3.77,
       "margin": 523.8,
       "leverage": "9",
       "tier": "4/9",
       "entry": 90.7797,
-      "mark": 94.13
+      "mark": 94.2
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -96.19,
-      "pnl_pct": -6.23,
+      "pnl": -96.5,
+      "pnl_pct": -6.25,
       "margin": 308.61,
       "leverage": "5",
       "tier": "3/9",
       "entry": 2113.7589,
-      "mark": 2245.53
+      "mark": 2245.95
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": 37.54,
-      "pnl_pct": 1.73,
+      "pnl": 38.4,
+      "pnl_pct": 1.77,
       "margin": 270.7,
       "leverage": "8",
       "tier": "4/9",
       "entry": 0.2513,
-      "mark": 0.2557
+      "mark": 0.2558
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 48.35,
-      "pnl_pct": 2.12,
+      "pnl": 48.6,
+      "pnl_pct": 2.13,
       "margin": 253.27,
       "leverage": "9",
       "tier": "3/9",
@@ -86,13 +86,13 @@
     {
       "symbol": "SUIUSDT",
       "side": "LONG",
-      "pnl": 1.48,
-      "pnl_pct": 0.16,
+      "pnl": 1.18,
+      "pnl_pct": 0.13,
       "margin": 103.17,
       "leverage": "9",
       "tier": "2/9",
       "entry": 0.9475,
-      "mark": 0.949
+      "mark": 0.9487
     },
     {
       "symbol": "BCHUSDT",
@@ -104,17 +104,6 @@
       "tier": "2/9",
       "entry": 442.6,
       "mark": 445.3
-    },
-    {
-      "symbol": "WLDUSDT",
-      "side": "LONG",
-      "pnl": 0.0,
-      "pnl_pct": 2.03,
-      "margin": 0.0,
-      "leverage": "9",
-      "tier": "2/10",
-      "entry": 0.2754,
-      "mark": 0.281
     }
   ],
   "signals": {
@@ -124,7 +113,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.51
+      "conf": 0.511
     },
     "LINKUSDT": {
       "dir": "short",
@@ -140,7 +129,7 @@
     },
     "1000PEPEUSDT": {
       "dir": "short",
-      "conf": 0.577
+      "conf": 0.579
     },
     "SOLUSDT": {
       "dir": "long",
@@ -414,10 +403,17 @@
     },
     {
       "t": "2026-04-11",
-      "v": 12395.09
+      "v": 12395.1
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-11 06:32",
+      "symbol": "WLDUSDT",
+      "side": "Buy",
+      "pnl": 0.0,
+      "reason": "마진 0.0USDT < 15"
+    },
     {
       "ts": "2026-04-11 06:26",
       "symbol": "WLDUSDT",
@@ -550,13 +546,6 @@
       "side": "Buy",
       "pnl": -8.3,
       "reason": "3/10"
-    },
-    {
-      "ts": "2026-04-10 14:25",
-      "symbol": "ADAUSDT",
-      "side": "Buy",
-      "pnl": 1.59,
-      "reason": "3/9"
     }
   ],
   "num_days": 42
