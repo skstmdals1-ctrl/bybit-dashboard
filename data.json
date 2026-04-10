@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-10T12:23:20.181941+09:00",
+  "ts": "2026-04-10T12:24:21.553682+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35709.62,
-  "available": 31152.07,
-  "unrealized": -49.67,
+  "equity": 35708.27,
+  "available": 31150.98,
+  "unrealized": -51.81,
   "daily_pnl": -323.45,
-  "total_pnl": 5709.62,
+  "total_pnl": 5708.27,
   "cum_pct": 19.03,
   "daily_avg_pct": 0.4641,
   "annual_pct": 441.97,
   "mdd": -8.02,
-  "current_dd": -0.84,
-  "seed_used": 4557.55,
+  "current_dd": -0.81,
+  "seed_used": 4557.29,
   "seed_used_pct": 12.76,
   "long_count": 6,
   "short_count": 4,
@@ -31,107 +31,107 @@
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
-      "pnl": 52.26,
-      "pnl_pct": 0.98,
+      "pnl": 53.13,
+      "pnl_pct": 1.0,
       "margin": 590.67,
       "leverage": "9",
       "tier": "4/9",
       "entry": 606.1584,
-      "mark": 600.2
+      "mark": 600.1
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": -41.03,
-      "pnl_pct": -1.78,
+      "pnl": -40.66,
+      "pnl_pct": -1.77,
       "margin": 460.49,
       "leverage": "5",
       "tier": "5/9",
       "entry": 435.2438,
-      "mark": 443.0
+      "mark": 442.93
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -51.53,
-      "pnl_pct": -3.34,
+      "pnl": -51.94,
+      "pnl_pct": -3.37,
       "margin": 308.61,
       "leverage": "5",
       "tier": "3/9",
       "entry": 2113.7589,
-      "mark": 2184.35
+      "mark": 2184.91
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": -20.87,
-      "pnl_pct": -0.58,
+      "pnl": -22.74,
+      "pnl_pct": -0.63,
       "margin": 301.07,
       "leverage": "12",
       "tier": "3/9",
       "entry": 1.3497,
-      "mark": 1.3419
+      "mark": 1.3412
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 1.39,
-      "pnl_pct": 0.06,
+      "pnl": 0.4,
+      "pnl_pct": 0.02,
       "margin": 253.27,
       "leverage": "9",
       "tier": "3/9",
       "entry": 0.0922,
-      "mark": 0.0923
+      "mark": 0.0922
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": -6.76,
-      "pnl_pct": -0.38,
+      "pnl": -6.05,
+      "pnl_pct": -0.34,
       "margin": 222.85,
       "leverage": "8",
       "tier": "3/9",
       "entry": 0.2526,
-      "mark": 0.2516
+      "mark": 0.2517
     },
     {
       "symbol": "DOTUSDT",
       "side": "LONG",
-      "pnl": -9.73,
-      "pnl_pct": -0.54,
+      "pnl": -9.86,
+      "pnl_pct": -0.55,
       "margin": 198.29,
       "leverage": "9",
       "tier": "3/10",
       "entry": 1.295,
-      "mark": 1.2879
+      "mark": 1.2878
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 0.84,
-      "pnl_pct": 0.05,
+      "pnl": 0.64,
+      "pnl_pct": 0.04,
       "margin": 149.62,
       "leverage": "12",
       "tier": "2/9",
       "entry": 71816.5,
-      "mark": 71850.17
+      "mark": 71842.1
     },
     {
       "symbol": "SUIUSDT",
       "side": "LONG",
-      "pnl": -0.06,
-      "pnl_pct": -0.01,
+      "pnl": -0.54,
+      "pnl_pct": -0.07,
       "margin": 93.05,
       "leverage": "8",
       "tier": "1/9",
       "entry": 0.9305,
-      "mark": 0.9304
+      "mark": 0.9298
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.595
+      "conf": 0.591
     },
     "ETHUSDT": {
       "dir": "short",
@@ -163,7 +163,7 @@
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.523
+      "conf": 0.525
     },
     "TAOUSDT": {
       "dir": "short",
@@ -179,7 +179,7 @@
     },
     "AAVEUSDT": {
       "dir": "short",
-      "conf": 0.653
+      "conf": 0.654
     },
     "DOTUSDT": {
       "dir": "long",
@@ -231,7 +231,7 @@
     },
     "TRUMPUSDT": {
       "dir": "short",
-      "conf": 0.581
+      "conf": 0.58
     },
     "WLDUSDT": {
       "dir": "long",
@@ -247,7 +247,7 @@
     },
     "TONUSDT": {
       "dir": "long",
-      "conf": 0.527
+      "conf": 0.528
     }
   },
   "equity_hist": [
