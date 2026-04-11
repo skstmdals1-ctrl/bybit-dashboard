@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-11T18:58:22.043910+09:00",
+  "ts": "2026-04-11T18:59:23.578662+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35701.31,
-  "available": 30119.19,
-  "unrealized": -157.11,
+  "equity": 35699.44,
+  "available": 30116.89,
+  "unrealized": -160.08,
   "daily_pnl": 82.29,
-  "total_pnl": 5701.31,
+  "total_pnl": 5699.44,
   "cum_pct": 19.0,
   "daily_avg_pct": 0.4524,
   "annual_pct": 419.42,
   "mdd": -8.02,
   "current_dd": -0.84,
-  "seed_used": 5582.13,
+  "seed_used": 5582.55,
   "seed_used_pct": 15.64,
   "long_count": 5,
   "short_count": 7,
@@ -31,41 +31,41 @@
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
-      "pnl": -1.07,
+      "pnl": -1.24,
       "pnl_pct": -0.02,
       "margin": 590.67,
       "leverage": "9",
       "tier": "5/9",
       "entry": 606.1584,
-      "mark": 606.28
+      "mark": 606.3
     },
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": -58.18,
-      "pnl_pct": -1.23,
+      "pnl": -59.74,
+      "pnl_pct": -1.27,
       "margin": 523.8,
       "leverage": "9",
       "tier": "5/9",
       "entry": 90.7797,
-      "mark": 91.9
+      "mark": 91.93
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": 0.81,
-      "pnl_pct": 0.02,
+      "pnl": -0.7,
+      "pnl_pct": -0.02,
       "margin": 473.81,
       "leverage": "8",
       "tier": "4/9",
       "entry": 0.2502,
-      "mark": 0.2503
+      "mark": 0.2502
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -16.26,
-      "pnl_pct": -0.37,
+      "pnl": -15.79,
+      "pnl_pct": -0.36,
       "margin": 435.29,
       "leverage": "10",
       "tier": "3/9",
@@ -75,13 +75,13 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -93.75,
-      "pnl_pct": -6.08,
+      "pnl": -93.73,
+      "pnl_pct": -6.07,
       "margin": 308.61,
       "leverage": "5",
       "tier": "3/9",
       "entry": 2113.7589,
-      "mark": 2242.18
+      "mark": 2242.15
     },
     {
       "symbol": "BCHUSDT",
@@ -97,67 +97,67 @@
     {
       "symbol": "SUIUSDT",
       "side": "SHORT",
-      "pnl": -3.24,
-      "pnl_pct": -0.17,
+      "pnl": -3.8,
+      "pnl_pct": -0.2,
       "margin": 214.8,
       "leverage": "9",
       "tier": "3/9",
       "entry": 0.9339,
-      "mark": 0.9355
+      "mark": 0.9358
     },
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": 21.3,
-      "pnl_pct": 1.36,
+      "pnl": 20.57,
+      "pnl_pct": 1.31,
       "margin": 196.16,
       "leverage": "8",
       "tier": "3/9",
       "entry": 1.2968,
-      "mark": 1.2792
+      "mark": 1.2798
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": 4.46,
-      "pnl_pct": 0.28,
+      "pnl": 4.8,
+      "pnl_pct": 0.3,
       "margin": 132.86,
       "leverage": "12",
       "tier": "2/9",
       "entry": 9.302,
-      "mark": 9.276
+      "mark": 9.274
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 3.21,
+      "pnl": 3.31,
       "pnl_pct": 0.28,
       "margin": 116.24,
       "leverage": "10",
       "tier": "2/9",
       "entry": 72650.0,
-      "mark": 72850.73
+      "mark": 72857.0
     },
     {
       "symbol": "WLDUSDT",
       "side": "LONG",
-      "pnl": 6.29,
-      "pnl_pct": 1.06,
+      "pnl": 6.92,
+      "pnl_pct": 1.17,
       "margin": 65.75,
       "leverage": "9",
       "tier": "1/10",
       "entry": 0.2822,
-      "mark": 0.2852
+      "mark": 0.2855
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "long",
-      "conf": 0.813
+      "conf": 0.818
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.643
+      "conf": 0.642
     },
     "LINKUSDT": {
       "dir": "short",
