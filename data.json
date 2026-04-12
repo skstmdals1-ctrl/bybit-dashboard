@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-12T17:23:51.759189+09:00",
+  "ts": "2026-04-12T17:24:53.228387+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35678.96,
-  "available": 30769.59,
-  "unrealized": -272.69,
+  "equity": 35674.98,
+  "available": 30766.11,
+  "unrealized": -278.68,
   "daily_pnl": 133.81,
-  "total_pnl": 5678.96,
-  "cum_pct": 18.93,
-  "daily_avg_pct": 0.4402,
-  "annual_pct": 396.89,
+  "total_pnl": 5674.98,
+  "cum_pct": 18.92,
+  "daily_avg_pct": 0.44,
+  "annual_pct": 396.53,
   "mdd": -8.02,
   "current_dd": -0.89,
-  "seed_used": 4909.37,
+  "seed_used": 4908.87,
   "seed_used_pct": 13.76,
   "long_count": 6,
   "short_count": 5,
@@ -20,74 +20,74 @@
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -105.23,
-      "pnl_pct": -1.6,
+      "pnl": -107.35,
+      "pnl_pct": -1.63,
       "margin": 658.61,
       "leverage": "10",
       "tier": "5/9",
       "entry": 0.0928,
-      "mark": 0.0914
+      "mark": 0.0913
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -73.79,
-      "pnl_pct": -1.44,
+      "pnl": -76.14,
+      "pnl_pct": -1.48,
       "margin": 641.25,
       "leverage": "8",
       "tier": "6/10",
       "entry": 41.4411,
-      "mark": 40.845
+      "mark": 40.826
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": -124.34,
-      "pnl_pct": -3.13,
+      "pnl": -125.94,
+      "pnl_pct": -3.17,
       "margin": 495.95,
       "leverage": "8",
       "tier": "5/9",
       "entry": 0.2485,
-      "mark": 0.2407
+      "mark": 0.2406
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -74.99,
+      "pnl": -75.01,
       "pnl_pct": -4.86,
       "margin": 308.61,
       "leverage": "5",
       "tier": "3/9",
       "entry": 2113.7589,
-      "mark": 2216.48
+      "mark": 2216.51
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": -17.77,
-      "pnl_pct": -0.59,
+      "pnl": -18.05,
+      "pnl_pct": -0.6,
       "margin": 302.82,
       "leverage": "10",
       "tier": "3/9",
       "entry": 72098.9889,
-      "mark": 71675.95
+      "mark": 71669.3
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 77.57,
-      "pnl_pct": 3.28,
+      "pnl": 77.36,
+      "pnl_pct": 3.27,
       "margin": 262.96,
       "leverage": "9",
       "tier": "3/9",
       "entry": 439.8987,
-      "mark": 425.48
+      "mark": 425.52
     },
     {
       "symbol": "SUIUSDT",
       "side": "LONG",
-      "pnl": -2.21,
-      "pnl_pct": -0.09,
+      "pnl": -2.26,
+      "pnl_pct": -0.1,
       "margin": 258.71,
       "leverage": "9",
       "tier": "3/9",
@@ -97,46 +97,46 @@
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": 16.66,
-      "pnl_pct": 1.81,
+      "pnl": 16.96,
+      "pnl_pct": 1.84,
       "margin": 91.97,
       "leverage": "10",
       "tier": "2/11",
       "entry": 1.2475,
-      "mark": 1.2249
+      "mark": 1.2245
     },
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": 1.62,
-      "pnl_pct": 0.22,
+      "pnl": 1.45,
+      "pnl_pct": 0.2,
       "margin": 90.97,
       "leverage": "8",
       "tier": "2/9",
       "entry": 90.07,
-      "mark": 89.87
+      "mark": 89.89
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 1.94,
-      "pnl_pct": 0.26,
+      "pnl": 1.91,
+      "pnl_pct": 0.25,
       "margin": 83.77,
       "leverage": "9",
       "tier": "2/10",
       "entry": 81.95,
-      "mark": 82.161
+      "mark": 82.158
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": 27.94,
-      "pnl_pct": 3.15,
+      "pnl": 28.51,
+      "pnl_pct": 3.21,
       "margin": 73.92,
       "leverage": "12",
       "tier": "3/9",
       "entry": 9.3278,
-      "mark": 9.034
+      "mark": 9.028
     }
   ],
   "signals": {
@@ -182,7 +182,7 @@
     },
     "DOGEUSDT": {
       "dir": "short",
-      "conf": 0.662
+      "conf": 0.658
     },
     "HBARUSDT": {
       "dir": "short",
