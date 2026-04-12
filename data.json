@@ -1,21 +1,21 @@
 {
-  "ts": "2026-04-13T02:04:28.890047+09:00",
+  "ts": "2026-04-13T02:05:30.355785+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35623.67,
-  "available": 30877.19,
-  "unrealized": -221.16,
-  "daily_pnl": -98.65,
-  "total_pnl": 5623.67,
-  "cum_pct": 18.75,
-  "daily_avg_pct": 0.4261,
-  "annual_pct": 372.07,
+  "equity": 35617.96,
+  "available": 31075.29,
+  "unrealized": -235.47,
+  "daily_pnl": -91.98,
+  "total_pnl": 5617.96,
+  "cum_pct": 18.73,
+  "daily_avg_pct": 0.4257,
+  "annual_pct": 371.39,
   "mdd": -8.02,
   "current_dd": -1.12,
-  "seed_used": 4746.47,
-  "seed_used_pct": 13.32,
+  "seed_used": 4542.66,
+  "seed_used_pct": 12.75,
   "long_count": 4,
-  "short_count": 7,
+  "short_count": 6,
   "positions": [
     {
       "symbol": "DOGEUSDT",
@@ -31,57 +31,57 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 1.88,
-      "pnl_pct": 0.03,
+      "pnl": -2.03,
+      "pnl_pct": -0.03,
       "margin": 874.81,
       "leverage": "8",
       "tier": "6/10",
       "entry": 41.1869,
-      "mark": 41.198
+      "mark": 41.175
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": -151.49,
-      "pnl_pct": -3.82,
+      "pnl": -153.08,
+      "pnl_pct": -3.86,
       "margin": 495.95,
       "leverage": "8",
       "tier": "5/9",
       "entry": 0.2485,
-      "mark": 0.239
+      "mark": 0.2389
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -55.11,
-      "pnl_pct": -3.57,
+      "pnl": -54.96,
+      "pnl_pct": -3.56,
       "margin": 308.61,
       "leverage": "5",
       "tier": "3/9",
       "entry": 2113.7589,
-      "mark": 2189.25
+      "mark": 2189.05
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": -15.25,
-      "pnl_pct": -0.52,
+      "pnl": -15.72,
+      "pnl_pct": -0.54,
       "margin": 292.41,
       "leverage": "10",
       "tier": "2/9",
       "entry": 71320.7012,
-      "mark": 70948.73
+      "mark": 70937.23
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 91.13,
-      "pnl_pct": 3.85,
+      "pnl": 90.92,
+      "pnl_pct": 3.84,
       "margin": 262.96,
       "leverage": "9",
       "tier": "3/9",
       "entry": 439.8987,
-      "mark": 422.96
+      "mark": 423.0
     },
     {
       "symbol": "BNBUSDT",
@@ -97,46 +97,35 @@
     {
       "symbol": "LTCUSDT",
       "side": "SHORT",
-      "pnl": 3.86,
-      "pnl_pct": 0.45,
+      "pnl": 3.54,
+      "pnl_pct": 0.41,
       "margin": 108.47,
       "leverage": "8",
       "tier": "1/9",
       "entry": 53.9,
-      "mark": 53.66
-    },
-    {
-      "symbol": "DOTUSDT",
-      "side": "SHORT",
-      "pnl": 8.85,
-      "pnl_pct": 0.96,
-      "margin": 91.97,
-      "leverage": "10",
-      "tier": "2/11",
-      "entry": 1.2475,
-      "mark": 1.2355
+      "mark": 53.68
     },
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": 4.2,
-      "pnl_pct": 0.58,
+      "pnl": 4.44,
+      "pnl_pct": 0.61,
       "margin": 90.97,
       "leverage": "8",
       "tier": "2/9",
       "entry": 90.07,
-      "mark": 89.55
+      "mark": 89.52
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": 26.99,
-      "pnl_pct": 3.04,
+      "pnl": 27.66,
+      "pnl_pct": 3.12,
       "margin": 73.92,
       "leverage": "12",
       "tier": "3/9",
       "entry": 9.3278,
-      "mark": 9.044
+      "mark": 9.037
     }
   ],
   "signals": {
@@ -448,10 +437,17 @@
     },
     {
       "t": "2026-04-13",
-      "v": 12198.68
+      "v": 12205.35
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-13 02:05",
+      "symbol": "DOTUSDT",
+      "side": "Sell",
+      "pnl": 6.67,
+      "reason": "2/11"
+    },
     {
       "ts": "2026-04-13 00:32",
       "symbol": "SUIUSDT",
@@ -584,13 +580,6 @@
       "side": "Sell",
       "pnl": 20.75,
       "reason": "T1 진입 | GF=6 | Lv=9x | Seed=$3001(8.4%)"
-    },
-    {
-      "ts": "2026-04-12 10:42",
-      "symbol": "SOLUSDT",
-      "side": "Buy",
-      "pnl": -57.34,
-      "reason": "L2"
     }
   ],
   "num_days": 44
