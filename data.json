@@ -1,54 +1,54 @@
 {
-  "ts": "2026-04-14T08:03:03.348463+09:00",
+  "ts": "2026-04-14T08:04:04.906988+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 36026.89,
-  "available": 34823.54,
-  "unrealized": 65.98,
+  "equity": 35949.3,
+  "available": 34753.59,
+  "unrealized": -11.1,
   "daily_pnl": -127.72,
-  "total_pnl": 6026.89,
-  "cum_pct": 20.09,
-  "daily_avg_pct": 0.4464,
-  "annual_pct": 408.21,
+  "total_pnl": 5949.3,
+  "cum_pct": 19.83,
+  "daily_avg_pct": 0.4407,
+  "annual_pct": 397.8,
   "mdd": -8.02,
   "current_dd": -0.18,
-  "seed_used": 1203.35,
-  "seed_used_pct": 3.34,
+  "seed_used": 1195.71,
+  "seed_used_pct": 3.33,
   "long_count": 3,
   "short_count": 0,
   "positions": [
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": -34.93,
-      "pnl_pct": -0.88,
+      "pnl": -31.73,
+      "pnl_pct": -0.8,
       "margin": 495.95,
       "leverage": "8",
       "tier": "5/9",
       "entry": 0.2485,
-      "mark": 0.2463
+      "mark": 0.2465
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 129.06,
-      "pnl_pct": 4.41,
+      "pnl": 130.92,
+      "pnl_pct": 4.48,
       "margin": 292.41,
       "leverage": "10",
       "tier": "2/9",
       "entry": 71320.7012,
-      "mark": 74468.6
+      "mark": 74513.8
     },
     {
       "symbol": "RAVEUSDT",
       "side": "LONG",
-      "pnl": -24.24,
-      "pnl_pct": -0.89,
-      "margin": 247.82,
+      "pnl": -110.28,
+      "pnl_pct": -3.86,
+      "margin": 259.58,
       "leverage": "11",
       "tier": "4/12",
-      "entry": 9.4,
-      "mark": 9.3164
+      "entry": 9.3928,
+      "mark": 9.03
     }
   ],
   "signals": {
@@ -126,7 +126,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.54
+      "conf": 0.541
     },
     "STABLEUSDT": {
       "dir": "long",
