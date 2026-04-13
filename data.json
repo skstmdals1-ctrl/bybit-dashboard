@@ -1,65 +1,65 @@
 {
-  "ts": "2026-04-14T07:16:52.306877+09:00",
+  "ts": "2026-04-14T07:17:53.783150+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 36040.06,
-  "available": 34658.9,
-  "unrealized": -89.49,
-  "daily_pnl": 45.71,
-  "total_pnl": 6040.06,
-  "cum_pct": 20.13,
-  "daily_avg_pct": 0.4473,
-  "annual_pct": 409.88,
+  "equity": 36046.85,
+  "available": 34768.64,
+  "unrealized": -93.1,
+  "daily_pnl": 50.25,
+  "total_pnl": 6046.85,
+  "cum_pct": 20.16,
+  "daily_avg_pct": 0.448,
+  "annual_pct": 411.18,
   "mdd": -8.02,
-  "current_dd": -0.08,
-  "seed_used": 1381.16,
-  "seed_used_pct": 3.83,
+  "current_dd": 0.0,
+  "seed_used": 1278.21,
+  "seed_used_pct": 3.55,
   "long_count": 3,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": -68.46,
-      "pnl_pct": -1.73,
+      "pnl": -62.07,
+      "pnl_pct": -1.56,
       "margin": 495.95,
       "leverage": "8",
       "tier": "5/9",
       "entry": 0.2485,
-      "mark": 0.2442
+      "mark": 0.2446
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -144.41,
-      "pnl_pct": -9.36,
+      "pnl": -147.5,
+      "pnl_pct": -9.56,
       "margin": 308.61,
       "leverage": "5",
       "tier": "3/9",
       "entry": 2113.7589,
-      "mark": 2311.58
+      "mark": 2315.82
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 119.12,
-      "pnl_pct": 4.07,
+      "pnl": 116.49,
+      "pnl_pct": 3.98,
       "margin": 292.41,
       "leverage": "10",
       "tier": "2/9",
       "entry": 71320.7012,
-      "mark": 74226.0
+      "mark": 74161.93
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": 4.29,
-      "pnl_pct": 3.07,
-      "margin": 17.45,
+      "pnl": 0.03,
+      "pnl_pct": 3.24,
+      "margin": 0.11,
       "leverage": "8",
-      "tier": "2/10",
+      "tier": "1/10",
       "entry": 9.186,
-      "mark": 9.468
+      "mark": 9.484
     }
   ],
   "signals": {
@@ -89,7 +89,7 @@
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.518
+      "conf": 0.521
     },
     "SUIUSDT": {
       "dir": "long",
@@ -105,7 +105,7 @@
     },
     "DOGEUSDT": {
       "dir": "short",
-      "conf": 0.75
+      "conf": 0.78
     },
     "HBARUSDT": {
       "dir": "short",
@@ -375,10 +375,17 @@
     },
     {
       "t": "2026-04-14",
-      "v": 12408.94
+      "v": 12413.49
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-14 07:17",
+      "symbol": "AVAXUSDT",
+      "side": "Buy",
+      "pnl": 4.55,
+      "reason": "1/10"
+    },
     {
       "ts": "2026-04-14 07:16",
       "symbol": "AVAXUSDT",
@@ -511,13 +518,6 @@
       "side": "Sell",
       "pnl": 73.46,
       "reason": "3/9"
-    },
-    {
-      "ts": "2026-04-13 12:38",
-      "symbol": "AAVEUSDT",
-      "side": "Sell",
-      "pnl": -22.69,
-      "reason": "T1 진입 | GF=7 | Lv=8x | Seed=$2209(6.2%)"
     }
   ],
   "num_days": 45
