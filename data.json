@@ -1,65 +1,54 @@
 {
-  "ts": "2026-04-14T07:54:51.006667+09:00",
+  "ts": "2026-04-14T07:55:52.492390+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 36071.04,
-  "available": 34668.05,
-  "unrealized": -66.23,
-  "daily_pnl": 50.29,
-  "total_pnl": 6071.04,
-  "cum_pct": 20.24,
-  "daily_avg_pct": 0.4498,
-  "annual_pct": 414.53,
+  "equity": 36057.29,
+  "available": 35000.23,
+  "unrealized": 104.83,
+  "daily_pnl": -127.72,
+  "total_pnl": 6057.29,
+  "cum_pct": 20.19,
+  "daily_avg_pct": 0.4487,
+  "annual_pct": 412.48,
   "mdd": -8.02,
   "current_dd": 0.0,
-  "seed_used": 1402.99,
-  "seed_used_pct": 3.89,
+  "seed_used": 1057.06,
+  "seed_used_pct": 2.93,
   "long_count": 3,
-  "short_count": 1,
+  "short_count": 0,
   "positions": [
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": -6.19,
-      "pnl_pct": -0.16,
+      "pnl": -7.78,
+      "pnl_pct": -0.2,
       "margin": 495.95,
       "leverage": "8",
       "tier": "5/9",
       "entry": 0.2485,
-      "mark": 0.2481
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "pnl": -176.91,
-      "pnl_pct": -11.46,
-      "margin": 308.61,
-      "leverage": "5",
-      "tier": "3/9",
-      "entry": 2113.7589,
-      "mark": 2356.1
+      "mark": 0.248
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 136.89,
-      "pnl_pct": 4.68,
+      "pnl": 137.18,
+      "pnl_pct": 4.69,
       "margin": 292.41,
       "leverage": "10",
       "tier": "2/9",
       "entry": 71320.7012,
-      "mark": 74659.37
+      "mark": 74666.5
     },
     {
       "symbol": "RAVEUSDT",
       "side": "LONG",
-      "pnl": -20.0,
-      "pnl_pct": -1.64,
+      "pnl": -24.6,
+      "pnl_pct": -2.02,
       "margin": 110.95,
       "leverage": "11",
       "tier": "2/12",
       "entry": 9.5345,
-      "mark": 9.3782
+      "mark": 9.3423
     }
   ],
   "signals": {
@@ -375,10 +364,17 @@
     },
     {
       "t": "2026-04-14",
-      "v": 12413.52
+      "v": 12235.52
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-14 07:55",
+      "symbol": "ETHUSDT",
+      "side": "Sell",
+      "pnl": -178.0,
+      "reason": "External Exit"
+    },
     {
       "ts": "2026-04-14 07:23",
       "symbol": "AVAXUSDT",
@@ -511,13 +507,6 @@
       "side": "Sell",
       "pnl": 0.15,
       "reason": "L2"
-    },
-    {
-      "ts": "2026-04-13 13:51",
-      "symbol": "DOTUSDT",
-      "side": "Sell",
-      "pnl": 13.76,
-      "reason": "-"
     }
   ],
   "num_days": 45
