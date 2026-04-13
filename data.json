@@ -1,65 +1,65 @@
 {
-  "ts": "2026-04-14T07:53:49.447237+09:00",
+  "ts": "2026-04-14T07:54:51.006667+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 36066.23,
-  "available": 34665.35,
-  "unrealized": -69.45,
+  "equity": 36071.04,
+  "available": 34668.05,
+  "unrealized": -66.23,
   "daily_pnl": 50.29,
-  "total_pnl": 6066.23,
-  "cum_pct": 20.22,
-  "daily_avg_pct": 0.4493,
-  "annual_pct": 413.6,
+  "total_pnl": 6071.04,
+  "cum_pct": 20.24,
+  "daily_avg_pct": 0.4498,
+  "annual_pct": 414.53,
   "mdd": -8.02,
   "current_dd": 0.0,
-  "seed_used": 1400.88,
-  "seed_used_pct": 3.88,
+  "seed_used": 1402.99,
+  "seed_used_pct": 3.89,
   "long_count": 3,
   "short_count": 1,
   "positions": [
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": -18.96,
-      "pnl_pct": -0.48,
+      "pnl": -6.19,
+      "pnl_pct": -0.16,
       "margin": 495.95,
       "leverage": "8",
       "tier": "5/9",
       "entry": 0.2485,
-      "mark": 0.2473
+      "mark": 0.2481
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -172.53,
-      "pnl_pct": -11.18,
+      "pnl": -176.91,
+      "pnl_pct": -11.46,
       "margin": 308.61,
       "leverage": "5",
       "tier": "3/9",
       "entry": 2113.7589,
-      "mark": 2350.1
+      "mark": 2356.1
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 131.81,
-      "pnl_pct": 4.51,
+      "pnl": 136.89,
+      "pnl_pct": 4.68,
       "margin": 292.41,
       "leverage": "10",
       "tier": "2/9",
       "entry": 71320.7012,
-      "mark": 74535.7
+      "mark": 74659.37
     },
     {
       "symbol": "RAVEUSDT",
       "side": "LONG",
-      "pnl": -9.75,
-      "pnl_pct": -0.8,
+      "pnl": -20.0,
+      "pnl_pct": -1.64,
       "margin": 110.95,
       "leverage": "11",
       "tier": "2/12",
       "entry": 9.5345,
-      "mark": 9.4583
+      "mark": 9.3782
     }
   ],
   "signals": {
@@ -69,7 +69,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.555
+      "conf": 0.553
     },
     "LINKUSDT": {
       "dir": "short",
