@@ -1,21 +1,21 @@
 {
-  "ts": "2026-04-14T04:47:52.412505+09:00",
+  "ts": "2026-04-14T04:48:54.031963+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35986.76,
-  "available": 34323.25,
-  "unrealized": -135.87,
-  "daily_pnl": 31.79,
-  "total_pnl": 5986.76,
+  "equity": 35988.54,
+  "available": 34573.18,
+  "unrealized": -141.13,
+  "daily_pnl": 37.72,
+  "total_pnl": 5988.54,
   "cum_pct": 19.96,
   "daily_avg_pct": 0.4436,
   "annual_pct": 403.07,
   "mdd": -8.02,
   "current_dd": -0.05,
-  "seed_used": 1663.51,
-  "seed_used_pct": 4.62,
+  "seed_used": 1415.36,
+  "seed_used_pct": 3.93,
   "long_count": 3,
-  "short_count": 2,
+  "short_count": 1,
   "positions": [
     {
       "symbol": "ADAUSDT",
@@ -31,35 +31,24 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -103.87,
-      "pnl_pct": -6.73,
+      "pnl": -106.37,
+      "pnl_pct": -6.89,
       "margin": 308.61,
       "leverage": "5",
       "tier": "3/9",
       "entry": 2113.7589,
-      "mark": 2256.04
+      "mark": 2259.47
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 73.76,
-      "pnl_pct": 2.52,
+      "pnl": 77.78,
+      "pnl_pct": 2.66,
       "margin": 292.41,
       "leverage": "10",
       "tier": "2/9",
       "entry": 71320.7012,
-      "mark": 73119.8
-    },
-    {
-      "symbol": "LTCUSDT",
-      "side": "SHORT",
-      "pnl": 6.76,
-      "pnl_pct": 0.78,
-      "margin": 108.47,
-      "leverage": "8",
-      "tier": "2/9",
-      "entry": 53.9,
-      "mark": 53.48
+      "mark": 73217.87
     },
     {
       "symbol": "AVAXUSDT",
@@ -386,10 +375,17 @@
     },
     {
       "t": "2026-04-14",
-      "v": 12399.11
+      "v": 12405.04
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-14 04:48",
+      "symbol": "LTCUSDT",
+      "side": "Sell",
+      "pnl": 5.93,
+      "reason": "2/9"
+    },
     {
       "ts": "2026-04-14 04:46",
       "symbol": "DOGEUSDT",
@@ -522,13 +518,6 @@
       "side": "Buy",
       "pnl": 0.0,
       "reason": "마진 0.1USDT < 15"
-    },
-    {
-      "ts": "2026-04-13 11:09",
-      "symbol": "HYPEUSDT",
-      "side": "Buy",
-      "pnl": 18.48,
-      "reason": "3/10"
     }
   ],
   "num_days": 45
