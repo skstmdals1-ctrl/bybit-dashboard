@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-14T05:17:41.724571+09:00",
+  "ts": "2026-04-14T05:18:43.358222+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35986.52,
-  "available": 34574.05,
-  "unrealized": -148.85,
+  "equity": 35990.3,
+  "available": 34578.42,
+  "unrealized": -150.02,
   "daily_pnl": 37.72,
-  "total_pnl": 5986.52,
-  "cum_pct": 19.96,
-  "daily_avg_pct": 0.4436,
-  "annual_pct": 403.07,
+  "total_pnl": 5990.3,
+  "cum_pct": 19.97,
+  "daily_avg_pct": 0.4438,
+  "annual_pct": 403.44,
   "mdd": -8.02,
   "current_dd": -0.06,
-  "seed_used": 1412.47,
+  "seed_used": 1411.88,
   "seed_used_pct": 3.92,
   "long_count": 3,
   "short_count": 1,
@@ -31,41 +31,41 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -99.43,
-      "pnl_pct": -6.44,
+      "pnl": -97.22,
+      "pnl_pct": -6.3,
       "margin": 308.61,
       "leverage": "5",
       "tier": "3/9",
       "entry": 2113.7589,
-      "mark": 2249.96
+      "mark": 2246.94
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 73.44,
-      "pnl_pct": 2.51,
+      "pnl": 70.39,
+      "pnl_pct": 2.41,
       "margin": 292.41,
       "leverage": "10",
       "tier": "2/9",
       "entry": 71320.7012,
-      "mark": 73112.0
+      "mark": 73037.6
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": 11.16,
-      "pnl_pct": 2.02,
+      "pnl": 10.86,
+      "pnl_pct": 1.97,
       "margin": 68.89,
       "leverage": "8",
       "tier": "2/10",
       "entry": 9.186,
-      "mark": 9.372
+      "mark": 9.367
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.558
+      "conf": 0.554
     },
     "ETHUSDT": {
       "dir": "short",
@@ -77,7 +77,7 @@
     },
     "ADAUSDT": {
       "dir": "short",
-      "conf": 0.585
+      "conf": 0.584
     },
     "HYPEUSDT": {
       "dir": "short",
@@ -97,7 +97,7 @@
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.58
+      "conf": 0.578
     },
     "TAOUSDT": {
       "dir": "long",
