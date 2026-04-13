@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-14T00:21:50.406744+09:00",
+  "ts": "2026-04-14T00:22:51.913064+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35894.51,
-  "available": 32963.87,
-  "unrealized": -194.6,
+  "equity": 35894.95,
+  "available": 32964.36,
+  "unrealized": -191.89,
   "daily_pnl": 0,
-  "total_pnl": 5894.51,
+  "total_pnl": 5894.95,
   "cum_pct": 19.65,
   "daily_avg_pct": 0.4367,
   "annual_pct": 390.61,
   "mdd": -8.02,
   "current_dd": -0.26,
-  "seed_used": 2930.64,
+  "seed_used": 2930.59,
   "seed_used_pct": 8.16,
   "long_count": 3,
   "short_count": 3,
@@ -20,13 +20,13 @@
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -8.91,
-      "pnl_pct": -0.1,
+      "pnl": -6.88,
+      "pnl_pct": -0.07,
       "margin": 935.13,
       "leverage": "10",
       "tier": "6/9",
       "entry": 0.0921,
-      "mark": 0.092
+      "mark": 0.0921
     },
     {
       "symbol": "ADAUSDT",
@@ -42,46 +42,46 @@
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "pnl": -74.4,
+      "pnl": -74.34,
       "pnl_pct": -4.82,
       "margin": 308.61,
       "leverage": "5",
       "tier": "3/9",
       "entry": 2113.7589,
-      "mark": 2215.67
+      "mark": 2215.6
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 23.22,
-      "pnl_pct": 0.79,
+      "pnl": 23.3,
+      "pnl_pct": 0.8,
       "margin": 292.41,
       "leverage": "10",
       "tier": "2/9",
       "entry": 71320.7012,
-      "mark": 71887.1
+      "mark": 71888.95
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": -17.04,
-      "pnl_pct": -1.47,
+      "pnl": -16.66,
+      "pnl_pct": -1.44,
       "margin": 144.55,
       "leverage": "8",
       "tier": "2/9",
       "entry": 9.1344,
-      "mark": 9.269
+      "mark": 9.266
     },
     {
       "symbol": "LTCUSDT",
       "side": "SHORT",
-      "pnl": 11.75,
-      "pnl_pct": 1.35,
+      "pnl": 11.91,
+      "pnl_pct": 1.37,
       "margin": 108.47,
       "leverage": "8",
       "tier": "2/9",
       "entry": 53.9,
-      "mark": 53.17
+      "mark": 53.16
     }
   ],
   "signals": {
@@ -159,7 +159,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.544
+      "conf": 0.543
     },
     "STABLEUSDT": {
       "dir": "long",
