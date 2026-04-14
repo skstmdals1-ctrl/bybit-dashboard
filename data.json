@@ -1,65 +1,54 @@
 {
-  "ts": "2026-04-14T23:18:28.967445+09:00",
+  "ts": "2026-04-14T23:19:30.545926+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35476.45,
-  "available": 34088.53,
-  "unrealized": 206.53,
-  "daily_pnl": -830.27,
-  "total_pnl": 5476.45,
-  "cum_pct": 18.25,
-  "daily_avg_pct": 0.4056,
-  "annual_pct": 338.17,
+  "equity": 35471.85,
+  "available": 34714.11,
+  "unrealized": 173.73,
+  "daily_pnl": -803.57,
+  "total_pnl": 5471.85,
+  "cum_pct": 18.24,
+  "daily_avg_pct": 0.4053,
+  "annual_pct": 337.7,
   "mdd": -8.02,
   "current_dd": -1.67,
-  "seed_used": 1387.92,
-  "seed_used_pct": 3.91,
-  "long_count": 4,
+  "seed_used": 757.74,
+  "seed_used_pct": 2.14,
+  "long_count": 3,
   "short_count": 0,
   "positions": [
     {
-      "symbol": "ADAUSDT",
-      "side": "LONG",
-      "pnl": 32.32,
-      "pnl_pct": 0.65,
-      "margin": 623.16,
-      "leverage": "8",
-      "tier": "7/9",
-      "entry": 0.245,
-      "mark": 0.2466
-    },
-    {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 172.15,
-      "pnl_pct": 5.89,
+      "pnl": 171.76,
+      "pnl_pct": 5.87,
       "margin": 292.41,
       "leverage": "10",
       "tier": "2/9",
       "entry": 71320.7012,
-      "mark": 75519.51
+      "mark": 75510.0
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": 3.65,
-      "pnl_pct": 0.59,
+      "pnl": 3.85,
+      "pnl_pct": 0.62,
       "margin": 88.1,
       "leverage": "7",
       "tier": "2/9",
       "entry": 9.136,
-      "mark": 9.19
+      "mark": 9.193
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -1.77,
-      "pnl_pct": -0.33,
+      "pnl": -2.03,
+      "pnl_pct": -0.38,
       "margin": 66.75,
       "leverage": "8",
       "tier": "1/11",
       "entry": 365.74,
-      "mark": 364.53
+      "mark": 364.35
     }
   ],
   "signals": {
@@ -69,7 +58,7 @@
     },
     "ETHUSDT": {
       "dir": "short",
-      "conf": 0.554
+      "conf": 0.556
     },
     "LINKUSDT": {
       "dir": "long",
@@ -85,7 +74,7 @@
     },
     "1000PEPEUSDT": {
       "dir": "short",
-      "conf": 0.534
+      "conf": 0.535
     },
     "SOLUSDT": {
       "dir": "short",
@@ -93,11 +82,11 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.505
+      "conf": 0.504
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.587
+      "conf": 0.592
     },
     "TAOUSDT": {
       "dir": "long",
@@ -169,7 +158,7 @@
     },
     "WLDUSDT": {
       "dir": "short",
-      "conf": 0.502
+      "conf": 0.503
     },
     "BCHUSDT": {
       "dir": "long",
@@ -199,10 +188,17 @@
   "equity_hist": [
     {
       "t": "2026-04-14",
-      "v": 5476.45
+      "v": 5471.85
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-14 23:19",
+      "symbol": "ADAUSDT",
+      "side": "Buy",
+      "pnl": 26.71,
+      "reason": "7/9"
+    },
     {
       "ts": "2026-04-14 23:00",
       "symbol": "ADAUSDT",
@@ -335,13 +331,6 @@
       "side": "Buy",
       "pnl": 5.8,
       "reason": "1/11"
-    },
-    {
-      "ts": "2026-04-13 22:51",
-      "symbol": "SUIUSDT",
-      "side": "Sell",
-      "pnl": -1.36,
-      "reason": "2/9"
     }
   ],
   "num_days": 45
