@@ -1,54 +1,54 @@
 {
-  "ts": "2026-04-14T23:59:33.503917+09:00",
+  "ts": "2026-04-15T00:00:34.964651+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35440.0,
-  "available": 34604.93,
-  "unrealized": 143.86,
-  "daily_pnl": -803.57,
-  "total_pnl": 5440.0,
-  "cum_pct": 18.13,
-  "daily_avg_pct": 0.4029,
-  "annual_pct": 333.89,
+  "equity": 35425.93,
+  "available": 34592.15,
+  "unrealized": 133.28,
+  "daily_pnl": 0,
+  "total_pnl": 5425.93,
+  "cum_pct": 18.09,
+  "daily_avg_pct": 0.3933,
+  "annual_pct": 319.01,
   "mdd": -8.02,
   "current_dd": -1.72,
-  "seed_used": 835.07,
-  "seed_used_pct": 2.36,
+  "seed_used": 833.78,
+  "seed_used_pct": 2.35,
   "long_count": 3,
   "short_count": 0,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 153.14,
-      "pnl_pct": 5.24,
+      "pnl": 146.68,
+      "pnl_pct": 5.02,
       "margin": 292.41,
       "leverage": "10",
       "tier": "2/9",
       "entry": 71320.7012,
-      "mark": 75055.9
+      "mark": 74898.2
     },
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -10.68,
-      "pnl_pct": -0.91,
+      "pnl": -12.07,
+      "pnl_pct": -1.03,
       "margin": 147.05,
       "leverage": "8",
       "tier": "2/11",
       "entry": 364.2166,
-      "mark": 360.91
+      "mark": 360.48
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": 1.28,
-      "pnl_pct": 0.21,
+      "pnl": -1.42,
+      "pnl_pct": -0.23,
       "margin": 88.1,
       "leverage": "7",
       "tier": "2/9",
       "entry": 9.136,
-      "mark": 9.155
+      "mark": 9.115
     }
   ],
   "signals": {
@@ -189,6 +189,10 @@
     {
       "t": "2026-04-14",
       "v": 5440.0
+    },
+    {
+      "t": "2026-04-15",
+      "v": 5425.93
     }
   ],
   "trade_history": [
@@ -333,5 +337,5 @@
       "reason": "1/11"
     }
   ],
-  "num_days": 45
+  "num_days": 46
 }
