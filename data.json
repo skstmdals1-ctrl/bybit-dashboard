@@ -1,19 +1,19 @@
 {
-  "ts": "2026-04-14T14:08:23.689274+09:00",
+  "ts": "2026-04-14T14:09:25.246388+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35200.83,
-  "available": 33051.82,
-  "unrealized": 2.34,
+  "equity": 35202.55,
+  "available": 33053.36,
+  "unrealized": 4.52,
   "daily_pnl": -886.55,
-  "total_pnl": 5200.83,
+  "total_pnl": 5202.55,
   "cum_pct": 17.34,
   "daily_avg_pct": 0.3853,
   "annual_pct": 307.0,
   "mdd": -8.02,
-  "current_dd": -2.46,
-  "seed_used": 2149.0,
-  "seed_used_pct": 6.1,
+  "current_dd": -2.48,
+  "seed_used": 2149.19,
+  "seed_used_pct": 6.11,
   "long_count": 3,
   "short_count": 0,
   "positions": [
@@ -31,30 +31,30 @@
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": -31.28,
-      "pnl_pct": -1.01,
+      "pnl": -28.66,
+      "pnl_pct": -0.92,
       "margin": 311.16,
       "leverage": "10",
       "tier": "4/10",
       "entry": 9.5157,
-      "mark": 9.42
+      "mark": 9.428
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 122.98,
-      "pnl_pct": 4.21,
+      "pnl": 122.54,
+      "pnl_pct": 4.19,
       "margin": 292.41,
       "leverage": "10",
       "tier": "2/9",
       "entry": 71320.7012,
-      "mark": 74320.1
+      "mark": 74309.44
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.556
+      "conf": 0.555
     },
     "ETHUSDT": {
       "dir": "short",
@@ -66,7 +66,7 @@
     },
     "ADAUSDT": {
       "dir": "long",
-      "conf": 0.504
+      "conf": 0.503
     },
     "HYPEUSDT": {
       "dir": "short",
@@ -82,7 +82,7 @@
     },
     "SUIUSDT": {
       "dir": "long",
-      "conf": 0.501
+      "conf": 0.5
     },
     "XRPUSDT": {
       "dir": "short",
@@ -94,7 +94,7 @@
     },
     "DOGEUSDT": {
       "dir": "short",
-      "conf": 0.682
+      "conf": 0.663
     },
     "HBARUSDT": {
       "dir": "short",
@@ -110,7 +110,7 @@
     },
     "AVAXUSDT": {
       "dir": "short",
-      "conf": 0.723
+      "conf": 0.663
     },
     "BNBUSDT": {
       "dir": "short",
