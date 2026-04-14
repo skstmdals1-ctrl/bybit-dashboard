@@ -1,54 +1,54 @@
 {
-  "ts": "2026-04-14T10:02:06.632677+09:00",
+  "ts": "2026-04-14T10:03:08.140793+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35197.62,
-  "available": 33619.71,
-  "unrealized": 4.72,
+  "equity": 35221.15,
+  "available": 33640.64,
+  "unrealized": 25.43,
   "daily_pnl": -886.55,
-  "total_pnl": 5197.62,
-  "cum_pct": 17.33,
-  "daily_avg_pct": 0.3851,
-  "annual_pct": 306.7,
+  "total_pnl": 5221.15,
+  "cum_pct": 17.4,
+  "daily_avg_pct": 0.3867,
+  "annual_pct": 309.08,
   "mdd": -8.02,
   "current_dd": -2.35,
-  "seed_used": 1577.91,
-  "seed_used_pct": 4.48,
+  "seed_used": 1580.51,
+  "seed_used_pct": 4.49,
   "long_count": 3,
   "short_count": 0,
   "positions": [
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": -86.68,
-      "pnl_pct": -1.31,
+      "pnl": -70.62,
+      "pnl_pct": -1.07,
       "margin": 826.04,
       "leverage": "8",
       "tier": "6/9",
       "entry": 0.2468,
-      "mark": 0.2436
+      "mark": 0.2442
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 108.65,
-      "pnl_pct": 3.72,
+      "pnl": 112.9,
+      "pnl_pct": 3.86,
       "margin": 292.41,
       "leverage": "10",
       "tier": "2/9",
       "entry": 71320.7012,
-      "mark": 73970.8
+      "mark": 74074.3
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": -17.26,
-      "pnl_pct": -0.91,
+      "pnl": -16.86,
+      "pnl_pct": -0.89,
       "margin": 188.7,
       "leverage": "10",
       "tier": "3/10",
       "entry": 9.5594,
-      "mark": 9.472
+      "mark": 9.474
     }
   ],
   "signals": {
@@ -82,11 +82,11 @@
     },
     "SUIUSDT": {
       "dir": "long",
-      "conf": 0.506
+      "conf": 0.505
     },
     "XRPUSDT": {
       "dir": "short",
-      "conf": 0.55
+      "conf": 0.539
     },
     "TAOUSDT": {
       "dir": "long",
@@ -114,7 +114,7 @@
     },
     "BNBUSDT": {
       "dir": "short",
-      "conf": 0.676
+      "conf": 0.675
     },
     "TRXUSDT": {
       "dir": "long",
