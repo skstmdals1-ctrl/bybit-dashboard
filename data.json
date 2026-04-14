@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-14T16:07:28.892043+09:00",
+  "ts": "2026-04-14T16:08:30.559221+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35260.96,
-  "available": 33107.28,
-  "unrealized": 64.05,
+  "equity": 35257.03,
+  "available": 33103.87,
+  "unrealized": 59.52,
   "daily_pnl": -886.55,
-  "total_pnl": 5260.96,
-  "cum_pct": 17.54,
-  "daily_avg_pct": 0.3898,
-  "annual_pct": 313.71,
+  "total_pnl": 5257.03,
+  "cum_pct": 17.52,
+  "daily_avg_pct": 0.3893,
+  "annual_pct": 312.96,
   "mdd": -8.02,
   "current_dd": -2.32,
-  "seed_used": 2153.68,
+  "seed_used": 2153.16,
   "seed_used_pct": 6.11,
   "long_count": 3,
   "short_count": 0,
@@ -20,35 +20,35 @@
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": -41.17,
-      "pnl_pct": -0.41,
+      "pnl": -45.24,
+      "pnl_pct": -0.45,
       "margin": 1246.31,
       "leverage": "8",
       "tier": "7/9",
       "entry": 0.245,
-      "mark": 0.244
+      "mark": 0.2439
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": -28.13,
-      "pnl_pct": -0.62,
+      "pnl": -28.62,
+      "pnl_pct": -0.63,
       "margin": 457.46,
       "leverage": "10",
       "tier": "4/10",
       "entry": 9.4692,
-      "mark": 9.411
+      "mark": 9.41
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 133.32,
+      "pnl": 133.34,
       "pnl_pct": 4.56,
       "margin": 292.41,
       "leverage": "10",
       "tier": "2/9",
       "entry": 71320.7012,
-      "mark": 74572.5
+      "mark": 74573.0
     }
   ],
   "signals": {
@@ -81,7 +81,7 @@
       "conf": 0.518
     },
     "SUIUSDT": {
-      "dir": "long",
+      "dir": "short",
       "conf": 0.5
     },
     "XRPUSDT": {
@@ -126,7 +126,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.541
+      "conf": 0.539
     },
     "STABLEUSDT": {
       "dir": "long",
@@ -138,7 +138,7 @@
     },
     "LTCUSDT": {
       "dir": "short",
-      "conf": 0.524
+      "conf": 0.525
     },
     "ZECUSDT": {
       "dir": "long",
