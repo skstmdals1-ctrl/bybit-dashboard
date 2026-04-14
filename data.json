@@ -1,54 +1,65 @@
 {
-  "ts": "2026-04-14T23:17:27.501764+09:00",
+  "ts": "2026-04-14T23:18:28.967445+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35498.26,
-  "available": 34107.43,
-  "unrealized": 229.08,
+  "equity": 35476.45,
+  "available": 34088.53,
+  "unrealized": 206.53,
   "daily_pnl": -830.27,
-  "total_pnl": 5498.26,
-  "cum_pct": 18.33,
-  "daily_avg_pct": 0.4073,
-  "annual_pct": 340.89,
+  "total_pnl": 5476.45,
+  "cum_pct": 18.25,
+  "daily_avg_pct": 0.4056,
+  "annual_pct": 338.17,
   "mdd": -8.02,
   "current_dd": -1.67,
-  "seed_used": 1390.83,
-  "seed_used_pct": 3.92,
-  "long_count": 3,
+  "seed_used": 1387.92,
+  "seed_used_pct": 3.91,
+  "long_count": 4,
   "short_count": 0,
   "positions": [
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": 46.56,
-      "pnl_pct": 0.93,
+      "pnl": 32.32,
+      "pnl_pct": 0.65,
       "margin": 623.16,
       "leverage": "8",
       "tier": "7/9",
       "entry": 0.245,
-      "mark": 0.2473
+      "mark": 0.2466
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 177.07,
-      "pnl_pct": 6.06,
+      "pnl": 172.15,
+      "pnl_pct": 5.89,
       "margin": 292.41,
       "leverage": "10",
       "tier": "2/9",
       "entry": 71320.7012,
-      "mark": 75639.4
+      "mark": 75519.51
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": 5.26,
-      "pnl_pct": 0.85,
+      "pnl": 3.65,
+      "pnl_pct": 0.59,
       "margin": 88.1,
       "leverage": "7",
       "tier": "2/9",
       "entry": 9.136,
-      "mark": 9.214
+      "mark": 9.19
+    },
+    {
+      "symbol": "ZECUSDT",
+      "side": "LONG",
+      "pnl": -1.77,
+      "pnl_pct": -0.33,
+      "margin": 66.75,
+      "leverage": "8",
+      "tier": "1/11",
+      "entry": 365.74,
+      "mark": 364.53
     }
   ],
   "signals": {
@@ -106,11 +117,11 @@
     },
     "DOTUSDT": {
       "dir": "short",
-      "conf": 0.544
+      "conf": 0.543
     },
     "AVAXUSDT": {
       "dir": "long",
-      "conf": 0.655
+      "conf": 0.652
     },
     "BNBUSDT": {
       "dir": "short",
@@ -126,7 +137,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.56
+      "conf": 0.559
     },
     "STABLEUSDT": {
       "dir": "long",
@@ -188,7 +199,7 @@
   "equity_hist": [
     {
       "t": "2026-04-14",
-      "v": 5498.26
+      "v": 5476.45
     }
   ],
   "trade_history": [
