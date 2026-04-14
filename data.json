@@ -1,49 +1,49 @@
 {
-  "ts": "2026-04-14T09:17:58.556020+09:00",
+  "ts": "2026-04-14T09:19:00.291973+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35298.73,
-  "available": 34354.55,
-  "unrealized": 100.33,
+  "equity": 35292.03,
+  "available": 33928.83,
+  "unrealized": 93.59,
   "daily_pnl": -886.55,
-  "total_pnl": 5298.73,
-  "cum_pct": 17.66,
-  "daily_avg_pct": 0.3924,
-  "annual_pct": 317.64,
+  "total_pnl": 5292.03,
+  "cum_pct": 17.64,
+  "daily_avg_pct": 0.392,
+  "annual_pct": 317.04,
   "mdd": -8.02,
-  "current_dd": -2.22,
-  "seed_used": 944.18,
-  "seed_used_pct": 2.67,
+  "current_dd": -2.21,
+  "seed_used": 1363.19,
+  "seed_used_pct": 3.86,
   "long_count": 2,
   "short_count": 0,
   "positions": [
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": -26.94,
-      "pnl_pct": -0.68,
+      "pnl": -31.73,
+      "pnl_pct": -0.8,
       "margin": 495.95,
       "leverage": "8",
-      "tier": "5/9",
+      "tier": "6/9",
       "entry": 0.2485,
-      "mark": 0.2468
+      "mark": 0.2465
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 127.24,
-      "pnl_pct": 4.35,
+      "pnl": 125.29,
+      "pnl_pct": 4.28,
       "margin": 292.41,
       "leverage": "10",
       "tier": "2/9",
       "entry": 71320.7012,
-      "mark": 74424.0
+      "mark": 74376.51
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.555
+      "conf": 0.557
     },
     "ETHUSDT": {
       "dir": "short",
@@ -63,11 +63,11 @@
     },
     "1000PEPEUSDT": {
       "dir": "short",
-      "conf": 0.514
+      "conf": 0.513
     },
     "SOLUSDT": {
       "dir": "short",
-      "conf": 0.521
+      "conf": 0.522
     },
     "SUIUSDT": {
       "dir": "long",
@@ -83,7 +83,7 @@
     },
     "DOGEUSDT": {
       "dir": "short",
-      "conf": 0.635
+      "conf": 0.615
     },
     "HBARUSDT": {
       "dir": "short",
@@ -98,8 +98,8 @@
       "conf": 0.534
     },
     "AVAXUSDT": {
-      "dir": "short",
-      "conf": 0.645
+      "dir": "long",
+      "conf": 0.747
     },
     "BNBUSDT": {
       "dir": "short",
