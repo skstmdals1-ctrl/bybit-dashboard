@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-14T17:51:22.663383+09:00",
+  "ts": "2026-04-14T17:52:33.424272+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35345.49,
-  "available": 33185.73,
-  "unrealized": 113.97,
-  "daily_pnl": 0,
-  "total_pnl": 5345.49,
-  "cum_pct": 17.82,
-  "daily_avg_pct": 0.396,
-  "annual_pct": 323.15,
+  "equity": 35357.38,
+  "available": 33196.3,
+  "unrealized": 126.59,
+  "daily_pnl": -854.74,
+  "total_pnl": 5357.38,
+  "cum_pct": 17.86,
+  "daily_avg_pct": 0.3969,
+  "annual_pct": 324.53,
   "mdd": -8.02,
   "current_dd": -2.12,
-  "seed_used": 2159.76,
+  "seed_used": 2161.08,
   "seed_used_pct": 6.11,
   "long_count": 3,
   "short_count": 0,
@@ -20,35 +20,35 @@
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": -8.61,
-      "pnl_pct": -0.09,
+      "pnl": -4.54,
+      "pnl_pct": -0.05,
       "margin": 1246.31,
       "leverage": "8",
       "tier": "7/9",
       "entry": 0.245,
-      "mark": 0.2448
+      "mark": 0.2449
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": -17.99,
-      "pnl_pct": -0.39,
+      "pnl": -12.19,
+      "pnl_pct": -0.27,
       "margin": 457.46,
       "leverage": "10",
       "tier": "4/10",
       "entry": 9.4692,
-      "mark": 9.432
+      "mark": 9.444
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 140.3,
-      "pnl_pct": 4.8,
+      "pnl": 143.26,
+      "pnl_pct": 4.9,
       "margin": 292.41,
       "leverage": "10",
       "tier": "2/9",
       "entry": 71320.7012,
-      "mark": 74742.7
+      "mark": 74814.8
     }
   ],
   "signals": {
@@ -385,14 +385,14 @@
     {
       "ts": "2026-04-14 08:38",
       "symbol": "RAVEUSDT",
-      "side": "Unknown",
+      "side": "Buy",
       "pnl": -758.83,
-      "reason": "External Exit"
+      "reason": "L8"
     },
     {
       "ts": "2026-04-14 07:55",
       "symbol": "ETHUSDT",
-      "side": "Unknown",
+      "side": "Sell",
       "pnl": -178.0,
       "reason": "External Exit"
     },
@@ -411,7 +411,14 @@
       "reason": "1/10"
     },
     {
-      "ts": "2026-04-14 06:58",
+      "ts": "2026-04-14 07:16",
+      "symbol": "AVAXUSDT",
+      "side": "Buy",
+      "pnl": 4.08,
+      "reason": "-"
+    },
+    {
+      "ts": "2026-04-14 06:57",
       "symbol": "AVAXUSDT",
       "side": "Buy",
       "pnl": 3.91,
@@ -481,6 +488,13 @@
       "reason": "2/9"
     },
     {
+      "ts": "2026-04-13 22:50",
+      "symbol": "SUIUSDT",
+      "side": "Sell",
+      "pnl": -1.25,
+      "reason": "2/9"
+    },
+    {
       "ts": "2026-04-13 22:49",
       "symbol": "DOTUSDT",
       "side": "Sell",
@@ -488,25 +502,11 @@
       "reason": "1/9"
     },
     {
-      "ts": "2026-04-13 22:43",
-      "symbol": "WLDUSDT",
-      "side": "Buy",
-      "pnl": 3.79,
-      "reason": "1/11"
-    },
-    {
       "ts": "2026-04-13 22:42",
       "symbol": "AVAXUSDT",
       "side": "Sell",
       "pnl": -2.27,
       "reason": "2/9"
-    },
-    {
-      "ts": "2026-04-13 14:15",
-      "symbol": "BCHUSDT",
-      "side": "Sell",
-      "pnl": 0.15,
-      "reason": "마진 0.5USDT < 18"
     }
   ],
   "num_days": 45
