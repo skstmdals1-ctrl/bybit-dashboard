@@ -1,54 +1,54 @@
 {
-  "ts": "2026-04-14T21:13:27.935562+09:00",
+  "ts": "2026-04-14T21:14:29.317614+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35230.57,
-  "available": 33083.51,
-  "unrealized": 7.17,
+  "equity": 35239.15,
+  "available": 33091.06,
+  "unrealized": 15.05,
   "daily_pnl": -854.74,
-  "total_pnl": 5230.57,
-  "cum_pct": 17.44,
-  "daily_avg_pct": 0.3876,
-  "annual_pct": 310.42,
+  "total_pnl": 5239.15,
+  "cum_pct": 17.46,
+  "daily_avg_pct": 0.388,
+  "annual_pct": 311.02,
   "mdd": -8.02,
   "current_dd": -2.25,
-  "seed_used": 2147.06,
-  "seed_used_pct": 6.09,
+  "seed_used": 2148.09,
+  "seed_used_pct": 6.1,
   "long_count": 3,
   "short_count": 0,
   "positions": [
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": -69.65,
-      "pnl_pct": -0.7,
+      "pnl": -61.51,
+      "pnl_pct": -0.62,
       "margin": 1246.31,
       "leverage": "8",
       "tier": "7/9",
       "entry": 0.245,
-      "mark": 0.2433
+      "mark": 0.2435
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": -44.08,
-      "pnl_pct": -0.96,
+      "pnl": -44.56,
+      "pnl_pct": -0.97,
       "margin": 457.46,
       "leverage": "10",
       "tier": "4/10",
       "entry": 9.4692,
-      "mark": 9.378
+      "mark": 9.377
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 120.9,
-      "pnl_pct": 4.13,
+      "pnl": 121.12,
+      "pnl_pct": 4.14,
       "margin": 292.41,
       "leverage": "10",
       "tier": "2/9",
       "entry": 71320.7012,
-      "mark": 74269.5
+      "mark": 74274.9
     }
   ],
   "signals": {
@@ -61,8 +61,8 @@
       "conf": 0.556
     },
     "LINKUSDT": {
-      "dir": "short",
-      "conf": 0.537
+      "dir": "long",
+      "conf": 0.588
     },
     "ADAUSDT": {
       "dir": "short",
@@ -82,7 +82,7 @@
     },
     "SUIUSDT": {
       "dir": "short",
-      "conf": 0.503
+      "conf": 0.505
     },
     "XRPUSDT": {
       "dir": "short",
@@ -188,7 +188,7 @@
   "equity_hist": [
     {
       "t": "2026-04-14",
-      "v": 5230.57
+      "v": 5239.15
     }
   ],
   "trade_history": [
