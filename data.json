@@ -1,49 +1,49 @@
 {
-  "ts": "2026-04-17T01:28:28.482644+09:00",
+  "ts": "2026-04-17T01:29:29.850810+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35958.94,
-  "available": 34171.76,
-  "unrealized": 147.67,
-  "daily_pnl": -225.32,
-  "total_pnl": 5958.94,
-  "cum_pct": 19.86,
-  "daily_avg_pct": 0.4138,
-  "annual_pct": 351.43,
+  "equity": 35951.21,
+  "available": 34195.4,
+  "unrealized": 133.11,
+  "daily_pnl": -219.0,
+  "total_pnl": 5951.21,
+  "cum_pct": 19.84,
+  "daily_avg_pct": 0.4133,
+  "annual_pct": 350.61,
   "mdd": -8.02,
   "current_dd": -0.4,
-  "seed_used": 1787.18,
-  "seed_used_pct": 4.97,
-  "long_count": 7,
+  "seed_used": 1755.81,
+  "seed_used_pct": 4.88,
+  "long_count": 6,
   "short_count": 1,
   "positions": [
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 60.11,
-      "pnl_pct": 2.29,
+      "pnl": 58.7,
+      "pnl_pct": 2.23,
       "margin": 375.63,
       "leverage": "7",
       "tier": "3/9",
       "entry": 612.9175,
-      "mark": 626.93
+      "mark": 626.6
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": 38.21,
-      "pnl_pct": 1.96,
+      "pnl": 32.8,
+      "pnl_pct": 1.68,
       "margin": 216.53,
       "leverage": "9",
       "tier": "3/10",
       "entry": 9.3644,
-      "mark": 9.548
+      "mark": 9.522
     },
     {
       "symbol": "WLFIUSDT",
       "side": "SHORT",
-      "pnl": -2.25,
-      "pnl_pct": -0.16,
+      "pnl": -1.57,
+      "pnl_pct": -0.11,
       "margin": 197.96,
       "leverage": "7",
       "tier": "3/9",
@@ -53,19 +53,19 @@
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 16.73,
-      "pnl_pct": 2.5,
+      "pnl": 15.88,
+      "pnl_pct": 2.38,
       "margin": 74.29,
       "leverage": "9",
       "tier": "2/11",
       "entry": 84.63,
-      "mark": 86.748
+      "mark": 86.64
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 19.92,
-      "pnl_pct": 3.54,
+      "pnl": 19.44,
+      "pnl_pct": 3.45,
       "margin": 70.38,
       "leverage": "8",
       "tier": "2/11",
@@ -75,35 +75,24 @@
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 4.53,
-      "pnl_pct": 1.23,
+      "pnl": 4.06,
+      "pnl_pct": 1.1,
       "margin": 61.45,
       "leverage": "6",
       "tier": "2/10",
       "entry": 73743.5,
-      "mark": 74649.4
-    },
-    {
-      "symbol": "TRUMPUSDT",
-      "side": "LONG",
-      "pnl": 6.35,
-      "pnl_pct": 3.11,
-      "margin": 29.22,
-      "leverage": "7",
-      "tier": "2/12",
-      "entry": 2.93,
-      "mark": 3.021
+      "mark": 74555.9
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": 4.02,
-      "pnl_pct": 3.08,
+      "pnl": 3.76,
+      "pnl_pct": 2.87,
       "margin": 16.34,
       "leverage": "8",
       "tier": "2/12",
       "entry": 0.2471,
-      "mark": 0.2547
+      "mark": 0.2542
     }
   ],
   "signals": {
@@ -263,7 +252,7 @@
     },
     {
       "t": "2026-04-17",
-      "v": 5958.94
+      "v": 5951.21
     }
   ],
   "trade_history": [
@@ -271,8 +260,22 @@
       "ts": "2026-04-17 01:28",
       "symbol": "TRUMPUSDT",
       "side": "Buy",
+      "pnl": 3.16,
+      "reason": "2/12"
+    },
+    {
+      "ts": "2026-04-17 01:28",
+      "symbol": "TRUMPUSDT",
+      "side": "Buy",
+      "pnl": 3.15,
+      "reason": "2/12"
+    },
+    {
+      "ts": "2026-04-17 01:28",
+      "symbol": "TRUMPUSDT",
+      "side": "Buy",
       "pnl": 6.05,
-      "reason": "-"
+      "reason": "2/12"
     },
     {
       "ts": "2026-04-17 01:08",
@@ -392,20 +395,6 @@
       "side": "Sell",
       "pnl": 33.11,
       "reason": "T1 진입 | GF=6 | Lv=8x | Seed=$2395(6.7%)"
-    },
-    {
-      "ts": "2026-04-16 18:00",
-      "symbol": "1000PEPEUSDT",
-      "side": "Sell",
-      "pnl": 60.16,
-      "reason": "T1 진입 | GF=6 | Lv=8x | Seed=$2395(6.7%)"
-    },
-    {
-      "ts": "2026-04-16 17:39",
-      "symbol": "ENAUSDT",
-      "side": "Buy",
-      "pnl": 50.04,
-      "reason": "3/10"
     }
   ],
   "num_days": 48
