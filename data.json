@@ -1,49 +1,49 @@
 {
-  "ts": "2026-04-17T01:27:27.133256+09:00",
+  "ts": "2026-04-17T01:28:28.482644+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 35948.57,
-  "available": 34132.55,
-  "unrealized": 144.08,
-  "daily_pnl": -231.37,
-  "total_pnl": 5948.57,
-  "cum_pct": 19.83,
-  "daily_avg_pct": 0.4131,
-  "annual_pct": 350.28,
+  "equity": 35958.94,
+  "available": 34171.76,
+  "unrealized": 147.67,
+  "daily_pnl": -225.32,
+  "total_pnl": 5958.94,
+  "cum_pct": 19.86,
+  "daily_avg_pct": 0.4138,
+  "annual_pct": 351.43,
   "mdd": -8.02,
   "current_dd": -0.4,
-  "seed_used": 1816.01,
-  "seed_used_pct": 5.05,
+  "seed_used": 1787.18,
+  "seed_used_pct": 4.97,
   "long_count": 7,
   "short_count": 1,
   "positions": [
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 58.27,
-      "pnl_pct": 2.22,
+      "pnl": 60.11,
+      "pnl_pct": 2.29,
       "margin": 375.63,
       "leverage": "7",
       "tier": "3/9",
       "entry": 612.9175,
-      "mark": 626.5
+      "mark": 626.93
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": 34.26,
-      "pnl_pct": 1.76,
+      "pnl": 38.21,
+      "pnl_pct": 1.96,
       "margin": 216.53,
       "leverage": "9",
       "tier": "3/10",
       "entry": 9.3644,
-      "mark": 9.529
+      "mark": 9.548
     },
     {
       "symbol": "WLFIUSDT",
       "side": "SHORT",
-      "pnl": -1.91,
-      "pnl_pct": -0.14,
+      "pnl": -2.25,
+      "pnl_pct": -0.16,
       "margin": 197.96,
       "leverage": "7",
       "tier": "3/9",
@@ -53,57 +53,57 @@
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 15.34,
-      "pnl_pct": 2.29,
+      "pnl": 16.73,
+      "pnl_pct": 2.5,
       "margin": 74.29,
       "leverage": "9",
       "tier": "2/11",
       "entry": 84.63,
-      "mark": 86.572
+      "mark": 86.748
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 18.26,
-      "pnl_pct": 3.24,
+      "pnl": 19.92,
+      "pnl_pct": 3.54,
       "margin": 70.38,
       "leverage": "8",
       "tier": "2/11",
       "entry": 0.095,
-      "mark": 0.0981
+      "mark": 0.0983
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 4.31,
-      "pnl_pct": 1.17,
+      "pnl": 4.53,
+      "pnl_pct": 1.23,
       "margin": 61.45,
       "leverage": "6",
       "tier": "2/10",
       "entry": 73743.5,
-      "mark": 74606.06
+      "mark": 74649.4
     },
     {
       "symbol": "TRUMPUSDT",
       "side": "LONG",
-      "pnl": 11.44,
-      "pnl_pct": 2.8,
-      "margin": 58.39,
+      "pnl": 6.35,
+      "pnl_pct": 3.11,
+      "margin": 29.22,
       "leverage": "7",
       "tier": "2/12",
       "entry": 2.93,
-      "mark": 3.012
+      "mark": 3.021
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": 3.91,
-      "pnl_pct": 2.99,
+      "pnl": 4.02,
+      "pnl_pct": 3.08,
       "margin": 16.34,
       "leverage": "8",
       "tier": "2/12",
       "entry": 0.2471,
-      "mark": 0.2545
+      "mark": 0.2547
     }
   ],
   "signals": {
@@ -157,7 +157,7 @@
     },
     "AAVEUSDT": {
       "dir": "short",
-      "conf": 0.526
+      "conf": 0.525
     },
     "DOTUSDT": {
       "dir": "short",
@@ -181,7 +181,7 @@
     },
     "ENAUSDT": {
       "dir": "short",
-      "conf": 0.607
+      "conf": 0.606
     },
     "STABLEUSDT": {
       "dir": "long",
@@ -229,7 +229,7 @@
     },
     "WLFIUSDT": {
       "dir": "short",
-      "conf": 0.516
+      "conf": 0.515
     },
     "DASHUSDT": {
       "dir": "long",
@@ -263,10 +263,17 @@
     },
     {
       "t": "2026-04-17",
-      "v": 5948.57
+      "v": 5958.94
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-17 01:28",
+      "symbol": "TRUMPUSDT",
+      "side": "Buy",
+      "pnl": 6.05,
+      "reason": "-"
+    },
     {
       "ts": "2026-04-17 01:08",
       "symbol": "ADAUSDT",
@@ -399,13 +406,6 @@
       "side": "Buy",
       "pnl": 50.04,
       "reason": "3/10"
-    },
-    {
-      "ts": "2026-04-16 17:33",
-      "symbol": "AVAXUSDT",
-      "side": "Buy",
-      "pnl": 0.02,
-      "reason": "마진 0.1USDT < 15"
     }
   ],
   "num_days": 48
