@@ -1,20 +1,20 @@
 {
-  "ts": "2026-04-17T05:44:38.592451+09:00",
+  "ts": "2026-04-17T05:45:40.091162+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 36104.21,
-  "available": 34576.51,
-  "unrealized": 68.85,
-  "daily_pnl": -0.36,
-  "total_pnl": 6104.21,
+  "equity": 36104.9,
+  "available": 34577.29,
+  "unrealized": 68.9,
+  "daily_pnl": -0.35,
+  "total_pnl": 6104.9,
   "cum_pct": 20.35,
   "daily_avg_pct": 0.424,
   "annual_pct": 368.48,
   "mdd": -8.02,
   "current_dd": -0.07,
-  "seed_used": 1527.7,
+  "seed_used": 1527.61,
   "seed_used_pct": 4.23,
-  "long_count": 6,
+  "long_count": 5,
   "short_count": 1,
   "positions": [
     {
@@ -31,19 +31,19 @@
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 22.23,
-      "pnl_pct": 3.36,
+      "pnl": 22.01,
+      "pnl_pct": 3.33,
       "margin": 94.56,
       "leverage": "7",
       "tier": "3/9",
       "entry": 612.9175,
-      "mark": 633.5
+      "mark": 633.3
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 0.81,
-      "pnl_pct": 0.07,
+      "pnl": 1.27,
+      "pnl_pct": 0.11,
       "margin": 94.27,
       "leverage": "12",
       "tier": "2/10",
@@ -53,19 +53,19 @@
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 6.48,
-      "pnl_pct": 1.76,
+      "pnl": 6.32,
+      "pnl_pct": 1.71,
       "margin": 61.45,
       "leverage": "6",
       "tier": "2/10",
       "entry": 73743.5,
-      "mark": 75039.69
+      "mark": 75007.9
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": -0.02,
-      "pnl_pct": -0.01,
+      "pnl": 0.18,
+      "pnl_pct": 0.05,
       "margin": 55.52,
       "leverage": "7",
       "tier": "2/12",
@@ -75,24 +75,13 @@
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 16.72,
-      "pnl_pct": 3.97,
+      "pnl": 16.51,
+      "pnl_pct": 3.92,
       "margin": 46.77,
       "leverage": "9",
       "tier": "1/10",
       "entry": 85.91,
-      "mark": 89.323
-    },
-    {
-      "symbol": "LINKUSDT",
-      "side": "LONG",
-      "pnl": 0.01,
-      "pnl_pct": 1.52,
-      "margin": 0.1,
-      "leverage": "9",
-      "tier": "1/11",
-      "entry": 9.363,
-      "mark": 9.505
+      "mark": 89.28
     }
   ],
   "signals": {
@@ -198,7 +187,7 @@
     },
     "TRUMPUSDT": {
       "dir": "short",
-      "conf": 0.51
+      "conf": 0.509
     },
     "WLDUSDT": {
       "dir": "long",
@@ -260,10 +249,17 @@
     },
     {
       "t": "2026-04-17",
-      "v": 6104.21
+      "v": 6104.9
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-17 05:44",
+      "symbol": "LINKUSDT",
+      "side": "Buy",
+      "pnl": 0.01,
+      "reason": "마진 0.1USDT < 15"
+    },
     {
       "ts": "2026-04-17 05:41",
       "symbol": "LINKUSDT",
@@ -396,13 +392,6 @@
       "side": "Buy",
       "pnl": 2.21,
       "reason": "2/12"
-    },
-    {
-      "ts": "2026-04-17 01:40",
-      "symbol": "AVAXUSDT",
-      "side": "Buy",
-      "pnl": 0.01,
-      "reason": "마진 0.1USDT < 15"
     }
   ],
   "num_days": 48
