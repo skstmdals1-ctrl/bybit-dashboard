@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-17T14:09:10.280899+09:00",
+  "ts": "2026-04-17T14:10:11.674640+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 36056.38,
-  "available": 33591.94,
-  "unrealized": -34.22,
+  "equity": 36056.71,
+  "available": 33592.71,
+  "unrealized": -35.09,
   "daily_pnl": 54.44,
-  "total_pnl": 6056.38,
+  "total_pnl": 6056.71,
   "cum_pct": 20.19,
   "daily_avg_pct": 0.4206,
   "annual_pct": 362.73,
   "mdd": -8.02,
   "current_dd": -0.19,
-  "seed_used": 2464.44,
+  "seed_used": 2464.0,
   "seed_used_pct": 6.83,
   "long_count": 7,
   "short_count": 2,
@@ -20,24 +20,35 @@
     {
       "symbol": "TAOUSDT",
       "side": "LONG",
-      "pnl": -50.64,
-      "pnl_pct": -1.75,
+      "pnl": -51.44,
+      "pnl_pct": -1.78,
       "margin": 412.79,
       "leverage": "7",
       "tier": "6/11",
       "entry": 249.9806,
-      "mark": 245.6
+      "mark": 245.53
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": -19.18,
-      "pnl_pct": -0.72,
+      "pnl": -20.03,
+      "pnl_pct": -0.75,
       "margin": 332.18,
       "leverage": "8",
       "tier": "3/9",
       "entry": 9.417,
-      "mark": 9.349
+      "mark": 9.346
+    },
+    {
+      "symbol": "1000BONKUSDT",
+      "side": "LONG",
+      "pnl": -24.57,
+      "pnl_pct": -1.11,
+      "margin": 316.35,
+      "leverage": "7",
+      "tier": "4/11",
+      "entry": 0.0064,
+      "mark": 0.0063
     },
     {
       "symbol": "ZECUSDT",
@@ -49,17 +60,6 @@
       "tier": "4/9",
       "entry": 339.1652,
       "mark": 330.73
-    },
-    {
-      "symbol": "1000BONKUSDT",
-      "side": "LONG",
-      "pnl": -24.78,
-      "pnl_pct": -1.66,
-      "margin": 212.94,
-      "leverage": "7",
-      "tier": "4/11",
-      "entry": 0.0064,
-      "mark": 0.0063
     },
     {
       "symbol": "ADAUSDT",
@@ -75,8 +75,8 @@
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -5.48,
-      "pnl_pct": -0.35,
+      "pnl": -4.83,
+      "pnl_pct": -0.31,
       "margin": 174.81,
       "leverage": "9",
       "tier": "2/10",
@@ -97,24 +97,24 @@
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
-      "pnl": 11.3,
-      "pnl_pct": 2.36,
+      "pnl": 11.22,
+      "pnl_pct": 2.35,
       "margin": 68.3,
       "leverage": "7",
       "tier": "3/9",
       "entry": 612.9175,
-      "mark": 627.4
+      "mark": 627.3
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 4.25,
-      "pnl_pct": 1.15,
+      "pnl": 4.27,
+      "pnl_pct": 1.16,
       "margin": 61.45,
       "leverage": "6",
       "tier": "2/10",
       "entry": 73743.5,
-      "mark": 74594.5
+      "mark": 74596.8
     }
   ],
   "signals": {
@@ -282,7 +282,7 @@
     },
     {
       "t": "2026-04-17",
-      "v": 6056.38
+      "v": 6056.71
     }
   ],
   "trade_history": [
