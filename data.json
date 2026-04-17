@@ -1,60 +1,60 @@
 {
-  "ts": "2026-04-17T14:08:08.846882+09:00",
+  "ts": "2026-04-17T14:09:10.280899+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 36065.61,
-  "available": 33572.08,
-  "unrealized": -20.89,
-  "daily_pnl": 50.25,
-  "total_pnl": 6065.61,
-  "cum_pct": 20.22,
-  "daily_avg_pct": 0.4212,
-  "annual_pct": 363.74,
+  "equity": 36056.38,
+  "available": 33591.94,
+  "unrealized": -34.22,
+  "daily_pnl": 54.44,
+  "total_pnl": 6056.38,
+  "cum_pct": 20.19,
+  "daily_avg_pct": 0.4206,
+  "annual_pct": 362.73,
   "mdd": -8.02,
   "current_dd": -0.19,
-  "seed_used": 2493.53,
-  "seed_used_pct": 6.91,
+  "seed_used": 2464.44,
+  "seed_used_pct": 6.83,
   "long_count": 7,
   "short_count": 2,
   "positions": [
     {
       "symbol": "TAOUSDT",
       "side": "LONG",
-      "pnl": -45.43,
-      "pnl_pct": -1.57,
+      "pnl": -50.64,
+      "pnl_pct": -1.75,
       "margin": 412.79,
       "leverage": "7",
       "tier": "6/11",
       "entry": 249.9806,
-      "mark": 246.05
+      "mark": 245.6
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": -16.93,
-      "pnl_pct": -0.64,
+      "pnl": -19.18,
+      "pnl_pct": -0.72,
       "margin": 332.18,
       "leverage": "8",
       "tier": "3/9",
       "entry": 9.417,
-      "mark": 9.357
+      "mark": 9.349
     },
     {
       "symbol": "ZECUSDT",
       "side": "SHORT",
-      "pnl": 55.21,
-      "pnl_pct": 2.35,
+      "pnl": 58.54,
+      "pnl_pct": 2.49,
       "margin": 294.23,
       "leverage": "8",
       "tier": "4/9",
       "entry": 339.1652,
-      "mark": 331.21
+      "mark": 330.73
     },
     {
       "symbol": "1000BONKUSDT",
       "side": "LONG",
-      "pnl": -22.35,
-      "pnl_pct": -1.5,
+      "pnl": -24.78,
+      "pnl_pct": -1.66,
       "margin": 212.94,
       "leverage": "7",
       "tier": "4/11",
@@ -64,35 +64,24 @@
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
-      "pnl": -14.23,
-      "pnl_pct": -0.88,
+      "pnl": -15.49,
+      "pnl_pct": -0.96,
       "margin": 202.31,
       "leverage": "8",
       "tier": "2/9",
       "entry": 0.255,
-      "mark": 0.2528
+      "mark": 0.2526
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -4.99,
-      "pnl_pct": -0.32,
+      "pnl": -5.48,
+      "pnl_pct": -0.35,
       "margin": 174.81,
       "leverage": "9",
       "tier": "2/10",
       "entry": 0.0972,
       "mark": 0.0969
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "LONG",
-      "pnl": 16.18,
-      "pnl_pct": 2.44,
-      "margin": 94.56,
-      "leverage": "7",
-      "tier": "3/9",
-      "entry": 612.9175,
-      "mark": 627.9
     },
     {
       "symbol": "WLFIUSDT",
@@ -106,15 +95,26 @@
       "mark": 0.0805
     },
     {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "pnl": 11.3,
+      "pnl_pct": 2.36,
+      "margin": 68.3,
+      "leverage": "7",
+      "tier": "3/9",
+      "entry": 612.9175,
+      "mark": 627.4
+    },
+    {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 4.39,
-      "pnl_pct": 1.19,
+      "pnl": 4.25,
+      "pnl_pct": 1.15,
       "margin": 61.45,
       "leverage": "6",
       "tier": "2/10",
       "entry": 73743.5,
-      "mark": 74621.2
+      "mark": 74594.5
     }
   ],
   "signals": {
@@ -220,7 +220,7 @@
     },
     "TRUMPUSDT": {
       "dir": "short",
-      "conf": 0.592
+      "conf": 0.593
     },
     "WLDUSDT": {
       "dir": "long",
@@ -282,10 +282,17 @@
     },
     {
       "t": "2026-04-17",
-      "v": 6065.61
+      "v": 6056.38
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-17 14:09",
+      "symbol": "BNBUSDT",
+      "side": "Buy",
+      "pnl": 4.19,
+      "reason": "-"
+    },
     {
       "ts": "2026-04-17 13:09",
       "symbol": "WLFIUSDT",
@@ -418,13 +425,6 @@
       "side": "Buy",
       "pnl": 5.71,
       "reason": "3/11"
-    },
-    {
-      "ts": "2026-04-17 05:34",
-      "symbol": "DOGEUSDT",
-      "side": "Buy",
-      "pnl": 20.62,
-      "reason": "1/11"
     }
   ],
   "num_days": 48
