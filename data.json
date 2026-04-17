@@ -1,43 +1,54 @@
 {
-  "ts": "2026-04-18T02:36:13.356177+09:00",
+  "ts": "2026-04-18T02:38:28.258485+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 36492.68,
-  "available": 35932.83,
-  "unrealized": 11.04,
+  "equity": 36492.97,
+  "available": 35854.18,
+  "unrealized": 9.69,
   "daily_pnl": 219.18,
-  "total_pnl": 6492.68,
+  "total_pnl": 6492.97,
   "cum_pct": 21.64,
   "daily_avg_pct": 0.4416,
   "annual_pct": 399.43,
   "mdd": -8.02,
-  "current_dd": -0.25,
-  "seed_used": 559.85,
-  "seed_used_pct": 1.53,
-  "long_count": 1,
+  "current_dd": -0.23,
+  "seed_used": 638.78,
+  "seed_used_pct": 1.75,
+  "long_count": 2,
   "short_count": 1,
   "positions": [
     {
       "symbol": "WLFIUSDT",
       "side": "SHORT",
-      "pnl": -6.49,
-      "pnl_pct": -0.42,
+      "pnl": -8.73,
+      "pnl_pct": -0.57,
       "margin": 218.8,
       "leverage": "7",
       "tier": "4/10",
       "entry": 0.0819,
-      "mark": 0.0823
+      "mark": 0.0824
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": 17.53,
-      "pnl_pct": 1.76,
+      "pnl": 17.9,
+      "pnl_pct": 1.8,
       "margin": 124.67,
       "leverage": "8",
       "tier": "3/12",
       "entry": 0.004,
       "mark": 0.0041
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "LONG",
+      "pnl": 0.52,
+      "pnl_pct": 0.08,
+      "margin": 78.13,
+      "leverage": "8",
+      "tier": "1/10",
+      "entry": 9.705,
+      "mark": 9.713
     }
   ],
   "signals": {
@@ -51,7 +62,7 @@
     },
     "LINKUSDT": {
       "dir": "long",
-      "conf": 0.514
+      "conf": 0.517
     },
     "ADAUSDT": {
       "dir": "long",
@@ -63,7 +74,7 @@
     },
     "1000PEPEUSDT": {
       "dir": "long",
-      "conf": 0.548
+      "conf": 0.551
     },
     "SOLUSDT": {
       "dir": "short",
@@ -99,7 +110,7 @@
     },
     "AVAXUSDT": {
       "dir": "short",
-      "conf": 0.599
+      "conf": 0.6
     },
     "BNBUSDT": {
       "dir": "short",
@@ -131,7 +142,7 @@
     },
     "ZECUSDT": {
       "dir": "short",
-      "conf": 0.637
+      "conf": 0.633
     },
     "ARBUSDT": {
       "dir": "short",
@@ -163,7 +174,7 @@
     },
     "WLFIUSDT": {
       "dir": "short",
-      "conf": 0.566
+      "conf": 0.576
     },
     "DASHUSDT": {
       "dir": "long",
@@ -209,7 +220,7 @@
     },
     {
       "t": "2026-04-18",
-      "v": 6492.68
+      "v": 6492.97
     }
   ],
   "trade_history": [
