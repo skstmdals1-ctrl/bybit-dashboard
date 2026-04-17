@@ -1,98 +1,98 @@
 {
-  "ts": "2026-04-17T22:07:59.985193+09:00",
+  "ts": "2026-04-17T22:09:01.300270+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 36410.73,
-  "available": 34019.55,
-  "unrealized": 258.35,
-  "daily_pnl": 111.51,
-  "total_pnl": 6410.73,
-  "cum_pct": 21.37,
-  "daily_avg_pct": 0.4452,
-  "annual_pct": 406.0,
+  "equity": 36437.89,
+  "available": 34206.05,
+  "unrealized": 251.75,
+  "daily_pnl": 144.6,
+  "total_pnl": 6437.89,
+  "cum_pct": 21.46,
+  "daily_avg_pct": 0.4471,
+  "annual_pct": 409.51,
   "mdd": -8.02,
   "current_dd": 0.0,
-  "seed_used": 2391.18,
-  "seed_used_pct": 6.57,
+  "seed_used": 2231.84,
+  "seed_used_pct": 6.13,
   "long_count": 6,
   "short_count": 1,
   "positions": [
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": 62.94,
-      "pnl_pct": 2.37,
+      "pnl": 68.3,
+      "pnl_pct": 2.57,
       "margin": 332.18,
       "leverage": "8",
       "tier": "4/9",
       "entry": 9.417,
-      "mark": 9.64
+      "mark": 9.659
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "pnl": 49.46,
+      "pnl_pct": 2.2,
+      "margin": 224.65,
+      "leverage": "10",
+      "tier": "3/10",
+      "entry": 9.5595,
+      "mark": 9.77
+    },
+    {
+      "symbol": "WLFIUSDT",
+      "side": "SHORT",
+      "pnl": -11.73,
+      "pnl_pct": -0.77,
+      "margin": 218.8,
+      "leverage": "7",
+      "tier": "3/10",
+      "entry": 0.0819,
+      "mark": 0.0826
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "LONG",
+      "pnl": 41.62,
+      "pnl_pct": 2.57,
+      "margin": 202.31,
+      "leverage": "8",
+      "tier": "3/9",
+      "entry": 0.255,
+      "mark": 0.2616
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "pnl": 57.78,
+      "pnl_pct": 3.67,
+      "margin": 174.81,
+      "leverage": "9",
+      "tier": "3/10",
+      "entry": 0.0972,
+      "mark": 0.1008
     },
     {
       "symbol": "1000BONKUSDT",
       "side": "LONG",
-      "pnl": 58.23,
-      "pnl_pct": 2.63,
-      "margin": 316.35,
+      "pnl": 32.27,
+      "pnl_pct": 2.91,
+      "margin": 158.18,
       "leverage": "7",
       "tier": "5/11",
       "entry": 0.0064,
       "mark": 0.0065
     },
     {
-      "symbol": "AVAXUSDT",
-      "side": "LONG",
-      "pnl": 44.76,
-      "pnl_pct": 1.99,
-      "margin": 224.65,
-      "leverage": "10",
-      "tier": "3/10",
-      "entry": 9.5595,
-      "mark": 9.75
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "LONG",
-      "pnl": 37.81,
-      "pnl_pct": 2.34,
-      "margin": 202.31,
-      "leverage": "8",
-      "tier": "3/9",
-      "entry": 0.255,
-      "mark": 0.261
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "pnl": 49.21,
-      "pnl_pct": 3.13,
-      "margin": 174.81,
-      "leverage": "9",
-      "tier": "3/10",
-      "entry": 0.0972,
-      "mark": 0.1003
-    },
-    {
-      "symbol": "WLFIUSDT",
-      "side": "SHORT",
-      "pnl": -7.46,
-      "pnl_pct": -0.75,
-      "margin": 141.24,
-      "leverage": "7",
-      "tier": "3/10",
-      "entry": 0.0817,
-      "mark": 0.0823
-    },
-    {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 12.77,
-      "pnl_pct": 3.46,
+      "pnl": 13.95,
+      "pnl_pct": 3.78,
       "margin": 61.45,
       "leverage": "6",
       "tier": "2/10",
       "entry": 73743.5,
-      "mark": 76297.2
+      "mark": 76533.42
     }
   ],
   "signals": {
@@ -260,10 +260,17 @@
     },
     {
       "t": "2026-04-17",
-      "v": 6410.73
+      "v": 6437.89
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-17 22:08",
+      "symbol": "1000BONKUSDT",
+      "side": "Buy",
+      "pnl": 33.09,
+      "reason": "-"
+    },
     {
       "ts": "2026-04-17 21:20",
       "symbol": "TAOUSDT",
@@ -396,13 +403,6 @@
       "side": "Buy",
       "pnl": 0.01,
       "reason": "마진 0.1USDT < 15"
-    },
-    {
-      "ts": "2026-04-17 05:41",
-      "symbol": "LINKUSDT",
-      "side": "Buy",
-      "pnl": 10.66,
-      "reason": "T1 진입 | GF=5 | Lv=12x | Seed=$2400(6.6%)"
     }
   ],
   "num_days": 48
