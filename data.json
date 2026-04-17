@@ -1,38 +1,38 @@
 {
-  "ts": "2026-04-17T20:38:54.397892+09:00",
+  "ts": "2026-04-17T20:39:55.789731+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 36273.66,
-  "available": 33620.12,
-  "unrealized": 141.1,
-  "daily_pnl": 93.12,
-  "total_pnl": 6273.66,
-  "cum_pct": 20.91,
-  "daily_avg_pct": 0.4356,
-  "annual_pct": 388.66,
+  "equity": 36275.82,
+  "available": 33727.18,
+  "unrealized": 132.99,
+  "daily_pnl": 103.84,
+  "total_pnl": 6275.82,
+  "cum_pct": 20.92,
+  "daily_avg_pct": 0.4358,
+  "annual_pct": 389.01,
   "mdd": -8.02,
   "current_dd": -0.01,
-  "seed_used": 2653.54,
-  "seed_used_pct": 7.32,
+  "seed_used": 2548.64,
+  "seed_used_pct": 7.03,
   "long_count": 7,
   "short_count": 1,
   "positions": [
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": 32.74,
-      "pnl_pct": 1.23,
+      "pnl": 31.9,
+      "pnl_pct": 1.2,
       "margin": 332.18,
       "leverage": "8",
       "tier": "4/9",
       "entry": 9.417,
-      "mark": 9.533
+      "mark": 9.53
     },
     {
       "symbol": "1000BONKUSDT",
       "side": "LONG",
-      "pnl": 23.31,
-      "pnl_pct": 1.05,
+      "pnl": 22.57,
+      "pnl_pct": 1.02,
       "margin": 316.35,
       "leverage": "7",
       "tier": "5/11",
@@ -42,24 +42,13 @@
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": 19.38,
-      "pnl_pct": 0.86,
+      "pnl": 22.2,
+      "pnl_pct": 0.99,
       "margin": 224.65,
       "leverage": "10",
       "tier": "3/10",
       "entry": 9.5595,
-      "mark": 9.642
-    },
-    {
-      "symbol": "TAOUSDT",
-      "side": "LONG",
-      "pnl": 20.69,
-      "pnl_pct": 1.43,
-      "margin": 206.41,
-      "leverage": "7",
-      "tier": "6/11",
-      "entry": 249.9806,
-      "mark": 253.56
+      "mark": 9.654
     },
     {
       "symbol": "ADAUSDT",
@@ -95,6 +84,17 @@
       "mark": 0.0819
     },
     {
+      "symbol": "TAOUSDT",
+      "side": "LONG",
+      "pnl": 10.14,
+      "pnl_pct": 1.4,
+      "margin": 103.21,
+      "leverage": "7",
+      "tier": "6/11",
+      "entry": 249.9806,
+      "mark": 253.49
+    },
+    {
       "symbol": "BTCUSDT",
       "side": "LONG",
       "pnl": 8.52,
@@ -103,7 +103,7 @@
       "leverage": "6",
       "tier": "2/10",
       "entry": 73743.5,
-      "mark": 75447.4
+      "mark": 75447.23
     }
   ],
   "signals": {
@@ -271,10 +271,17 @@
     },
     {
       "t": "2026-04-17",
-      "v": 6273.66
+      "v": 6275.82
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-17 20:39",
+      "symbol": "TAOUSDT",
+      "side": "Buy",
+      "pnl": 10.72,
+      "reason": "-"
+    },
     {
       "ts": "2026-04-17 20:18",
       "symbol": "TAOUSDT",
@@ -406,13 +413,6 @@
       "symbol": "ADAUSDT",
       "side": "Buy",
       "pnl": 14.82,
-      "reason": "T1 진입 | GF=5 | Lv=12x | Seed=$2400(6.6%)"
-    },
-    {
-      "ts": "2026-04-17 05:40",
-      "symbol": "AVAXUSDT",
-      "side": "Buy",
-      "pnl": 0.02,
       "reason": "T1 진입 | GF=5 | Lv=12x | Seed=$2400(6.6%)"
     }
   ],
