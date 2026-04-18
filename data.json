@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-19T08:11:31.147649+09:00",
+  "ts": "2026-04-19T08:12:32.744989+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 36346.36,
-  "available": 32805.09,
-  "unrealized": -205.74,
+  "equity": 36347.45,
+  "available": 32806.03,
+  "unrealized": -204.75,
   "daily_pnl": 13.29,
-  "total_pnl": 6346.36,
-  "cum_pct": 21.15,
-  "daily_avg_pct": 0.423,
-  "annual_pct": 366.78,
+  "total_pnl": 6347.45,
+  "cum_pct": 21.16,
+  "daily_avg_pct": 0.4232,
+  "annual_pct": 367.12,
   "mdd": -8.02,
   "current_dd": -0.62,
-  "seed_used": 3541.26,
+  "seed_used": 3541.43,
   "seed_used_pct": 9.74,
   "long_count": 6,
   "short_count": 5,
@@ -31,46 +31,46 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -0.7,
-      "pnl_pct": -0.02,
+      "pnl": -1.92,
+      "pnl_pct": -0.07,
       "margin": 407.11,
       "leverage": "7",
       "tier": "4/10",
       "entry": 44.1688,
-      "mark": 44.158
+      "mark": 44.139
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": -13.63,
-      "pnl_pct": -0.42,
+      "pnl": -12.14,
+      "pnl_pct": -0.38,
       "margin": 402.67,
       "leverage": "8",
       "tier": "4/9",
       "entry": 86.5965,
-      "mark": 86.23
+      "mark": 86.27
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": -9.72,
-      "pnl_pct": -0.46,
+      "pnl": -9.07,
+      "pnl_pct": -0.43,
       "margin": 355.23,
       "leverage": "6",
       "tier": "4/9",
       "entry": 76120.1714,
-      "mark": 75772.88
+      "mark": 75796.2
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": -79.27,
-      "pnl_pct": -3.35,
+      "pnl": -79.03,
+      "pnl_pct": -3.34,
       "margin": 295.6,
       "leverage": "8",
       "tier": "3/10",
       "entry": 9.6443,
-      "mark": 9.321
+      "mark": 9.322
     },
     {
       "symbol": "DOTUSDT",
@@ -86,41 +86,41 @@
     {
       "symbol": "TAOUSDT",
       "side": "SHORT",
-      "pnl": 13.7,
-      "pnl_pct": 1.54,
+      "pnl": 13.55,
+      "pnl_pct": 1.52,
       "margin": 127.02,
       "leverage": "7",
       "tier": "3/10",
       "entry": 250.6711,
-      "mark": 246.81
+      "mark": 246.85
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": 4.04,
-      "pnl_pct": 0.53,
+      "pnl": 3.96,
+      "pnl_pct": 0.51,
       "margin": 109.85,
       "leverage": "7",
       "tier": "2/9",
       "entry": 9.332,
-      "mark": 9.381
+      "mark": 9.38
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 3.13,
-      "pnl_pct": 0.6,
+      "pnl": 2.92,
+      "pnl_pct": 0.56,
       "margin": 74.98,
       "leverage": "7",
       "tier": "2/9",
       "entry": 0.2516,
-      "mark": 0.2501
+      "mark": 0.2502
     },
     {
       "symbol": "WLFIUSDT",
       "side": "SHORT",
-      "pnl": 12.12,
-      "pnl_pct": 3.16,
+      "pnl": 12.26,
+      "pnl_pct": 3.2,
       "margin": 54.71,
       "leverage": "7",
       "tier": "4/10",
@@ -130,19 +130,19 @@
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 15.66,
-      "pnl_pct": 4.63,
+      "pnl": 15.78,
+      "pnl_pct": 4.66,
       "margin": 33.85,
       "leverage": "10",
       "tier": "1/11",
       "entry": 0.2789,
-      "mark": 0.266
+      "mark": 0.2659
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.583
+      "conf": 0.595
     },
     "ETHUSDT": {
       "dir": "short",
@@ -162,11 +162,11 @@
     },
     "1000PEPEUSDT": {
       "dir": "long",
-      "conf": 0.637
+      "conf": 0.636
     },
     "SOLUSDT": {
-      "dir": "long",
-      "conf": 0.551
+      "dir": "short",
+      "conf": 0.502
     },
     "SUIUSDT": {
       "dir": "short",
@@ -178,7 +178,7 @@
     },
     "TAOUSDT": {
       "dir": "short",
-      "conf": 0.501
+      "conf": 0.5
     },
     "DOGEUSDT": {
       "dir": "short",
@@ -316,7 +316,7 @@
     },
     {
       "t": "2026-04-19",
-      "v": 6346.36
+      "v": 6347.45
     }
   ],
   "trade_history": [
