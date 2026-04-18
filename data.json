@@ -1,43 +1,43 @@
 {
-  "ts": "2026-04-18T19:12:21.047923+09:00",
+  "ts": "2026-04-18T19:13:22.448298+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 36391.09,
-  "available": 33492.46,
-  "unrealized": -124.44,
-  "daily_pnl": 262.24,
-  "total_pnl": 6391.09,
-  "cum_pct": 21.3,
-  "daily_avg_pct": 0.4347,
-  "annual_pct": 387.06,
+  "equity": 36393.37,
+  "available": 33608.63,
+  "unrealized": -127.58,
+  "daily_pnl": 267.99,
+  "total_pnl": 6393.37,
+  "cum_pct": 21.31,
+  "daily_avg_pct": 0.4349,
+  "annual_pct": 387.41,
   "mdd": -8.02,
   "current_dd": -0.5,
-  "seed_used": 2898.63,
-  "seed_used_pct": 7.97,
+  "seed_used": 2784.74,
+  "seed_used_pct": 7.65,
   "long_count": 5,
   "short_count": 5,
   "positions": [
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -108.98,
-      "pnl_pct": -3.26,
+      "pnl": -106.96,
+      "pnl_pct": -3.2,
       "margin": 417.89,
       "leverage": "8",
       "tier": "4/10",
       "entry": 0.0996,
-      "mark": 0.0964
+      "mark": 0.0965
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
-      "pnl": -13.46,
-      "pnl_pct": -0.58,
+      "pnl": -13.21,
+      "pnl_pct": -0.57,
       "margin": 332.2,
       "leverage": "7",
       "tier": "4/10",
       "entry": 9.4799,
-      "mark": 9.425
+      "mark": 9.426
     },
     {
       "symbol": "LINKUSDT",
@@ -53,63 +53,63 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": 2.09,
-      "pnl_pct": 0.11,
+      "pnl": 4.74,
+      "pnl_pct": 0.25,
       "margin": 270.37,
       "leverage": "7",
       "tier": "4/10",
       "entry": 44.365,
-      "mark": 44.414
+      "mark": 44.476
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": -3.55,
-      "pnl_pct": -0.29,
+      "pnl": -3.32,
+      "pnl_pct": -0.27,
       "margin": 203.72,
       "leverage": "6",
       "tier": "3/9",
       "entry": 76395.25,
-      "mark": 76173.19
+      "mark": 76187.87
     },
     {
       "symbol": "WLFIUSDT",
       "side": "SHORT",
-      "pnl": 18.72,
-      "pnl_pct": 2.44,
+      "pnl": 17.88,
+      "pnl_pct": 2.33,
       "margin": 109.4,
       "leverage": "7",
       "tier": "4/10",
       "entry": 0.0819,
-      "mark": 0.0799
+      "mark": 0.08
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 6.6,
-      "pnl_pct": 0.91,
+      "pnl": 6.45,
+      "pnl_pct": 0.89,
       "margin": 91.07,
       "leverage": "8",
       "tier": "2/9",
       "entry": 87.78,
-      "mark": 86.985
+      "mark": 87.003
     },
     {
       "symbol": "TAOUSDT",
       "side": "SHORT",
-      "pnl": 17.59,
-      "pnl_pct": 3.01,
+      "pnl": 17.3,
+      "pnl_pct": 2.96,
       "margin": 83.47,
       "leverage": "7",
       "tier": "3/9",
       "entry": 256.0394,
-      "mark": 248.33
+      "mark": 248.46
     },
     {
       "symbol": "1000PEPEUSDT",
       "side": "SHORT",
-      "pnl": 9.64,
-      "pnl_pct": 1.61,
+      "pnl": 9.01,
+      "pnl_pct": 1.5,
       "margin": 74.87,
       "leverage": "8",
       "tier": "2/9",
@@ -119,13 +119,13 @@
     {
       "symbol": "WLDUSDT",
       "side": "SHORT",
-      "pnl": 6.36,
-      "pnl_pct": 2.76,
-      "margin": 32.93,
+      "pnl": 0.0,
+      "pnl_pct": 2.52,
+      "margin": 0.0,
       "leverage": "7",
-      "tier": "2/10",
+      "tier": "1/10",
       "entry": 0.2862,
-      "mark": 0.2783
+      "mark": 0.279
     }
   ],
   "signals": {
@@ -297,10 +297,17 @@
     },
     {
       "t": "2026-04-18",
-      "v": 6391.09
+      "v": 6393.37
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-18 19:13",
+      "symbol": "WLDUSDT",
+      "side": "Sell",
+      "pnl": 5.75,
+      "reason": "2/10"
+    },
     {
       "ts": "2026-04-18 19:12",
       "symbol": "TAOUSDT",
@@ -433,13 +440,6 @@
       "side": "Buy",
       "pnl": 18.38,
       "reason": "5/11"
-    },
-    {
-      "ts": "2026-04-17 22:35",
-      "symbol": "AVAXUSDT",
-      "side": "Buy",
-      "pnl": 16.61,
-      "reason": "3/10"
     }
   ],
   "num_days": 49
