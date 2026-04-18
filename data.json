@@ -1,27 +1,27 @@
 {
-  "ts": "2026-04-18T20:43:23.471373+09:00",
+  "ts": "2026-04-18T20:44:24.749756+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 36314.78,
-  "available": 33478.18,
-  "unrealized": -201.06,
-  "daily_pnl": 263.66,
-  "total_pnl": 6314.78,
-  "cum_pct": 21.05,
-  "daily_avg_pct": 0.4296,
-  "annual_pct": 378.12,
+  "equity": 36326.06,
+  "available": 33524.73,
+  "unrealized": -200.1,
+  "daily_pnl": 272.51,
+  "total_pnl": 6326.06,
+  "cum_pct": 21.09,
+  "daily_avg_pct": 0.4304,
+  "annual_pct": 379.51,
   "mdd": -8.02,
   "current_dd": -0.69,
-  "seed_used": 2836.6,
-  "seed_used_pct": 7.81,
+  "seed_used": 2801.33,
+  "seed_used_pct": 7.71,
   "long_count": 5,
   "short_count": 4,
   "positions": [
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -137.16,
-      "pnl_pct": -4.1,
+      "pnl": -135.14,
+      "pnl_pct": -4.04,
       "margin": 417.89,
       "leverage": "8",
       "tier": "4/10",
@@ -31,57 +31,46 @@
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": -11.04,
-      "pnl_pct": -0.52,
+      "pnl": -9.3,
+      "pnl_pct": -0.44,
       "margin": 355.23,
       "leverage": "6",
       "tier": "4/9",
       "entry": 76120.1714,
-      "mark": 75725.9
+      "mark": 75788.0
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": -74.61,
-      "pnl_pct": -3.16,
+      "pnl": -72.65,
+      "pnl_pct": -3.07,
       "margin": 295.6,
       "leverage": "8",
       "tier": "3/10",
       "entry": 9.6443,
-      "mark": 9.34
+      "mark": 9.348
     },
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -12.8,
-      "pnl_pct": -0.68,
+      "pnl": -10.66,
+      "pnl_pct": -0.56,
       "margin": 270.37,
       "leverage": "7",
       "tier": "4/10",
       "entry": 44.365,
-      "mark": 44.065
+      "mark": 44.115
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": -12.96,
-      "pnl_pct": -0.69,
+      "pnl": -11.29,
+      "pnl_pct": -0.6,
       "margin": 234.58,
       "leverage": "8",
       "tier": "3/9",
       "entry": 86.8828,
-      "mark": 86.283
-    },
-    {
-      "symbol": "1000PEPEUSDT",
-      "side": "SHORT",
-      "pnl": 16.17,
-      "pnl_pct": 2.7,
-      "margin": 74.87,
-      "leverage": "8",
-      "tier": "2/9",
-      "entry": 0.0039,
-      "mark": 0.0038
+      "mark": 86.36
     },
     {
       "symbol": "WLDUSDT",
@@ -97,24 +86,35 @@
     {
       "symbol": "WLFIUSDT",
       "side": "SHORT",
-      "pnl": 12.21,
-      "pnl_pct": 3.19,
+      "pnl": 11.98,
+      "pnl_pct": 3.13,
       "margin": 54.71,
       "leverage": "7",
       "tier": "4/10",
       "entry": 0.0819,
-      "mark": 0.0793
+      "mark": 0.0794
     },
     {
       "symbol": "TAOUSDT",
       "side": "SHORT",
-      "pnl": 9.48,
-      "pnl_pct": 3.24,
+      "pnl": 9.6,
+      "pnl_pct": 3.28,
       "margin": 41.77,
       "leverage": "7",
       "tier": "3/9",
       "entry": 256.0394,
-      "mark": 247.74
+      "mark": 247.63
+    },
+    {
+      "symbol": "1000PEPEUSDT",
+      "side": "SHORT",
+      "pnl": 8.19,
+      "pnl_pct": 2.73,
+      "margin": 37.44,
+      "leverage": "8",
+      "tier": "2/9",
+      "entry": 0.0039,
+      "mark": 0.0038
     }
   ],
   "signals": {
@@ -160,7 +160,7 @@
     },
     "DOGEUSDT": {
       "dir": "long",
-      "conf": 0.514
+      "conf": 0.513
     },
     "HBARUSDT": {
       "dir": "short",
@@ -286,10 +286,17 @@
     },
     {
       "t": "2026-04-18",
-      "v": 6314.78
+      "v": 6326.06
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-18 20:43",
+      "symbol": "1000PEPEUSDT",
+      "side": "Sell",
+      "pnl": 8.84,
+      "reason": "-"
+    },
     {
       "ts": "2026-04-18 20:40",
       "symbol": "WLFIUSDT",
@@ -422,13 +429,6 @@
       "side": "Buy",
       "pnl": 2.17,
       "reason": "2/12"
-    },
-    {
-      "ts": "2026-04-18 04:32",
-      "symbol": "1000PEPEUSDT",
-      "side": "Buy",
-      "pnl": 6.36,
-      "reason": "3/12"
     }
   ],
   "num_days": 49
