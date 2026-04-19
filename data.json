@@ -1,38 +1,38 @@
 {
-  "ts": "2026-04-19T23:28:57.238402+09:00",
+  "ts": "2026-04-19T23:29:59.393192+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 36231.23,
-  "available": 32172.14,
-  "unrealized": -286.05,
-  "daily_pnl": -18.47,
-  "total_pnl": 6231.23,
+  "equity": 36231.77,
+  "available": 32696.84,
+  "unrealized": -291.21,
+  "daily_pnl": -13.38,
+  "total_pnl": 6231.77,
   "cum_pct": 20.77,
   "daily_avg_pct": 0.4154,
   "annual_pct": 354.06,
   "mdd": -8.02,
   "current_dd": -0.92,
-  "seed_used": 4059.09,
-  "seed_used_pct": 11.2,
-  "long_count": 4,
-  "short_count": 5,
+  "seed_used": 3534.93,
+  "seed_used_pct": 9.76,
+  "long_count": 5,
+  "short_count": 4,
   "positions": [
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
-      "pnl": 6.21,
-      "pnl_pct": 0.19,
+      "pnl": 5.7,
+      "pnl_pct": 0.17,
       "margin": 555.83,
       "leverage": "6",
       "tier": "5/9",
       "entry": 75794.6182,
-      "mark": 75935.75
+      "mark": 75924.24
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -141.85,
-      "pnl_pct": -4.24,
+      "pnl": -143.2,
+      "pnl_pct": -4.28,
       "margin": 417.89,
       "leverage": "8",
       "tier": "4/10",
@@ -53,46 +53,35 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -41.86,
-      "pnl_pct": -1.47,
+      "pnl": -42.06,
+      "pnl_pct": -1.48,
       "margin": 407.11,
       "leverage": "7",
       "tier": "4/10",
       "entry": 44.1688,
-      "mark": 43.52
-    },
-    {
-      "symbol": "ENAUSDT",
-      "side": "SHORT",
-      "pnl": 3.47,
-      "pnl_pct": 0.15,
-      "margin": 341.26,
-      "leverage": "7",
-      "tier": "7/10",
-      "entry": 0.1206,
-      "mark": 0.1204
+      "mark": 43.517
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": -80.99,
-      "pnl_pct": -3.42,
+      "pnl": -81.73,
+      "pnl_pct": -3.46,
       "margin": 295.6,
       "leverage": "8",
       "tier": "3/10",
       "entry": 9.6443,
-      "mark": 9.314
+      "mark": 9.311
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
-      "pnl": -8.15,
-      "pnl_pct": -0.5,
+      "pnl": -7.63,
+      "pnl_pct": -0.47,
       "margin": 232.43,
       "leverage": "7",
       "tier": "3/9",
       "entry": 623.377,
-      "mark": 626.5
+      "mark": 626.3
     },
     {
       "symbol": "DOTUSDT",
@@ -115,6 +104,17 @@
       "tier": "2/9",
       "entry": 0.2516,
       "mark": 0.2497
+    },
+    {
+      "symbol": "ENAUSDT",
+      "side": "LONG",
+      "pnl": -0.33,
+      "pnl_pct": -0.08,
+      "margin": 57.16,
+      "leverage": "7",
+      "tier": "1/11",
+      "entry": 0.1203,
+      "mark": 0.1202
     }
   ],
   "signals": {
@@ -128,7 +128,7 @@
     },
     "LINKUSDT": {
       "dir": "short",
-      "conf": 0.536
+      "conf": 0.533
     },
     "ADAUSDT": {
       "dir": "long",
@@ -140,7 +140,7 @@
     },
     "1000PEPEUSDT": {
       "dir": "short",
-      "conf": 0.592
+      "conf": 0.585
     },
     "SOLUSDT": {
       "dir": "short",
@@ -192,7 +192,7 @@
     },
     "ENAUSDT": {
       "dir": "long",
-      "conf": 0.655
+      "conf": 0.581
     },
     "STABLEUSDT": {
       "dir": "long",
@@ -294,10 +294,17 @@
     },
     {
       "t": "2026-04-19",
-      "v": 6231.23
+      "v": 6231.77
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-19 23:29",
+      "symbol": "ENAUSDT",
+      "side": "Sell",
+      "pnl": 5.08,
+      "reason": "6/10"
+    },
     {
       "ts": "2026-04-19 23:08",
       "symbol": "ENAUSDT",
@@ -430,13 +437,6 @@
       "side": "Buy",
       "pnl": -0.0,
       "reason": "마진 0.1USDT < 15"
-    },
-    {
-      "ts": "2026-04-19 09:38",
-      "symbol": "AVAXUSDT",
-      "side": "Buy",
-      "pnl": -7.47,
-      "reason": "3/9"
     }
   ],
   "num_days": 50
