@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-22T07:21:13.226551+09:00",
+  "ts": "2026-04-22T07:22:14.878689+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 36042.93,
-  "available": 30454.53,
-  "unrealized": -666.27,
+  "equity": 36037.03,
+  "available": 30451.62,
+  "unrealized": -675.06,
   "daily_pnl": 62.31,
-  "total_pnl": 6042.93,
-  "cum_pct": 20.14,
-  "daily_avg_pct": 0.38,
-  "annual_pct": 299.23,
+  "total_pnl": 6037.03,
+  "cum_pct": 20.12,
+  "daily_avg_pct": 0.3796,
+  "annual_pct": 298.65,
   "mdd": -8.02,
   "current_dd": -1.48,
-  "seed_used": 5588.4,
+  "seed_used": 5585.42,
   "seed_used_pct": 15.5,
   "long_count": 6,
   "short_count": 4,
@@ -20,41 +20,41 @@
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -392.64,
-      "pnl_pct": -5.55,
+      "pnl": -399.92,
+      "pnl_pct": -5.65,
       "margin": 1010.98,
       "leverage": "7",
       "tier": "7/10",
       "entry": 41.7811,
-      "mark": 39.463
+      "mark": 39.42
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": 28.8,
-      "pnl_pct": 0.7,
+      "pnl": 32.09,
+      "pnl_pct": 0.78,
       "margin": 586.22,
       "leverage": "7",
       "tier": "4/9",
       "entry": 0.249,
-      "mark": 0.2473
+      "mark": 0.2471
     },
     {
       "symbol": "ENAUSDT",
       "side": "LONG",
-      "pnl": -100.54,
-      "pnl_pct": -2.53,
+      "pnl": -104.07,
+      "pnl_pct": -2.61,
       "margin": 568.77,
       "leverage": "7",
       "tier": "7/11",
       "entry": 0.1129,
-      "mark": 0.11
+      "mark": 0.1099
     },
     {
       "symbol": "TRXUSDT",
       "side": "LONG",
-      "pnl": 67.89,
-      "pnl_pct": 1.55,
+      "pnl": 67.62,
+      "pnl_pct": 1.54,
       "margin": 548.03,
       "leverage": "8",
       "tier": "4/9",
@@ -64,19 +64,19 @@
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": -82.49,
-      "pnl_pct": -2.33,
+      "pnl": -84.72,
+      "pnl_pct": -2.4,
       "margin": 441.78,
       "leverage": "8",
       "tier": "5/10",
       "entry": 9.5366,
-      "mark": 9.314
+      "mark": 9.308
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -178.42,
-      "pnl_pct": -5.34,
+      "pnl": -180.77,
+      "pnl_pct": -5.41,
       "margin": 417.89,
       "leverage": "8",
       "tier": "4/10",
@@ -86,46 +86,46 @@
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
-      "pnl": -10.73,
-      "pnl_pct": -0.38,
+      "pnl": -9.03,
+      "pnl_pct": -0.32,
       "margin": 399.62,
       "leverage": "7",
       "tier": "3/9",
       "entry": 625.8,
-      "mark": 628.2
+      "mark": 627.82
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": -8.66,
-      "pnl_pct": -0.36,
+      "pnl": -6.94,
+      "pnl_pct": -0.29,
       "margin": 345.98,
       "leverage": "7",
       "tier": "3/9",
       "entry": 1.4132,
-      "mark": 1.4183
+      "mark": 1.4173
     },
     {
       "symbol": "SUIUSDT",
       "side": "SHORT",
-      "pnl": 14.38,
-      "pnl_pct": 0.68,
+      "pnl": 15.58,
+      "pnl_pct": 0.73,
       "margin": 304.25,
       "leverage": "7",
       "tier": "3/9",
       "entry": 0.9424,
-      "mark": 0.936
+      "mark": 0.9355
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": -3.65,
-      "pnl_pct": -0.24,
+      "pnl": -4.64,
+      "pnl_pct": -0.31,
       "margin": 215.65,
       "leverage": "7",
       "tier": "3/10",
       "entry": 85.2862,
-      "mark": 85.08
+      "mark": 85.024
     }
   ],
   "signals": {
@@ -146,8 +146,8 @@
       "conf": 0.546
     },
     "HYPEUSDT": {
-      "dir": "short",
-      "conf": 0.539
+      "dir": "long",
+      "conf": 0.524
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -243,7 +243,7 @@
     },
     "XMRUSDT": {
       "dir": "short",
-      "conf": 0.567
+      "conf": 0.566
     },
     "TONUSDT": {
       "dir": "long",
@@ -321,7 +321,7 @@
     },
     {
       "t": "2026-04-22",
-      "v": 6042.93
+      "v": 6037.03
     }
   ],
   "trade_history": [
