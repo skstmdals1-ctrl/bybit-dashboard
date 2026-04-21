@@ -1,32 +1,32 @@
 {
-  "ts": "2026-04-22T05:10:52.480227+09:00",
+  "ts": "2026-04-22T05:11:54.086096+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 36074.15,
-  "available": 30814.86,
-  "unrealized": -636.79,
-  "daily_pnl": 66.33,
-  "total_pnl": 6074.15,
-  "cum_pct": 20.25,
-  "daily_avg_pct": 0.3821,
-  "annual_pct": 302.29,
+  "equity": 36080.77,
+  "available": 31031.8,
+  "unrealized": -624.14,
+  "daily_pnl": 62.31,
+  "total_pnl": 6080.77,
+  "cum_pct": 20.27,
+  "daily_avg_pct": 0.3825,
+  "annual_pct": 302.88,
   "mdd": -8.02,
   "current_dd": -1.57,
-  "seed_used": 5259.29,
-  "seed_used_pct": 14.58,
+  "seed_used": 5048.97,
+  "seed_used_pct": 13.99,
   "long_count": 5,
-  "short_count": 5,
+  "short_count": 4,
   "positions": [
     {
       "symbol": "HYPEUSDT",
       "side": "LONG",
-      "pnl": -401.61,
-      "pnl_pct": -5.68,
+      "pnl": -401.11,
+      "pnl_pct": -5.67,
       "margin": 1010.98,
       "leverage": "7",
       "tier": "7/10",
       "entry": 41.7811,
-      "mark": 39.41
+      "mark": 39.413
     },
     {
       "symbol": "ADAUSDT",
@@ -42,19 +42,19 @@
     {
       "symbol": "ENAUSDT",
       "side": "LONG",
-      "pnl": -54.33,
-      "pnl_pct": -1.36,
+      "pnl": -46.93,
+      "pnl_pct": -1.18,
       "margin": 568.77,
       "leverage": "7",
       "tier": "6/11",
       "entry": 0.1129,
-      "mark": 0.1113
+      "mark": 0.1115
     },
     {
       "symbol": "TRXUSDT",
       "side": "LONG",
-      "pnl": 56.41,
-      "pnl_pct": 1.29,
+      "pnl": 56.14,
+      "pnl_pct": 1.28,
       "margin": 548.03,
       "leverage": "8",
       "tier": "4/9",
@@ -64,19 +64,19 @@
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
-      "pnl": -64.34,
-      "pnl_pct": -1.82,
+      "pnl": -66.19,
+      "pnl_pct": -1.87,
       "margin": 441.78,
       "leverage": "8",
       "tier": "5/10",
       "entry": 9.5366,
-      "mark": 9.363
+      "mark": 9.358
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": -168.36,
-      "pnl_pct": -5.04,
+      "pnl": -170.03,
+      "pnl_pct": -5.09,
       "margin": 417.89,
       "leverage": "8",
       "tier": "4/10",
@@ -86,46 +86,35 @@
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
-      "pnl": -19.22,
-      "pnl_pct": -0.69,
+      "pnl": -16.32,
+      "pnl_pct": -0.58,
       "margin": 399.62,
       "leverage": "7",
       "tier": "3/9",
       "entry": 625.8,
-      "mark": 630.1
+      "mark": 629.45
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "pnl": -18.77,
-      "pnl_pct": -0.77,
+      "pnl": -18.25,
+      "pnl_pct": -0.75,
       "margin": 345.98,
       "leverage": "7",
       "tier": "3/9",
       "entry": 1.4132,
-      "mark": 1.4242
+      "mark": 1.4239
     },
     {
       "symbol": "SUIUSDT",
       "side": "SHORT",
-      "pnl": 6.56,
-      "pnl_pct": 0.31,
+      "pnl": 8.21,
+      "pnl_pct": 0.39,
       "margin": 304.25,
       "leverage": "7",
       "tier": "3/9",
       "entry": 0.9424,
-      "mark": 0.9395
-    },
-    {
-      "symbol": "1000PEPEUSDT",
-      "side": "SHORT",
-      "pnl": -3.43,
-      "pnl_pct": -0.47,
-      "margin": 91.88,
-      "leverage": "8",
-      "tier": "2/10",
-      "entry": 0.0038,
-      "mark": 0.0038
+      "mark": 0.9387
     }
   ],
   "signals": {
@@ -147,7 +136,7 @@
     },
     "HYPEUSDT": {
       "dir": "long",
-      "conf": 0.575
+      "conf": 0.568
     },
     "1000PEPEUSDT": {
       "dir": "long",
@@ -321,10 +310,17 @@
     },
     {
       "t": "2026-04-22",
-      "v": 6074.15
+      "v": 6080.77
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-04-22 05:11",
+      "symbol": "1000PEPEUSDT",
+      "side": "Sell",
+      "pnl": -4.02,
+      "reason": "1/9"
+    },
     {
       "ts": "2026-04-22 05:10",
       "symbol": "SOLUSDT",
@@ -457,13 +453,6 @@
       "side": "Sell",
       "pnl": -6.59,
       "reason": "2/12"
-    },
-    {
-      "ts": "2026-04-21 11:50",
-      "symbol": "MUSDT",
-      "side": "Sell",
-      "pnl": 46.82,
-      "reason": "2/11"
     }
   ],
   "num_days": 53
