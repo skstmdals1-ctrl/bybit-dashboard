@@ -1,18 +1,18 @@
 {
-  "ts": "2026-04-28T06:01:33.302785+09:00",
+  "ts": "2026-04-28T06:02:34.915446+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 27082.98,
-  "available": 21538.94,
-  "unrealized": -27.33,
+  "equity": 27078.57,
+  "available": 21534.68,
+  "unrealized": -31.28,
   "daily_pnl": -40.16,
-  "total_pnl": 5082.98,
-  "cum_pct": 23.1,
-  "daily_avg_pct": 0.3529,
-  "annual_pct": 261.76,
+  "total_pnl": 5078.57,
+  "cum_pct": 23.08,
+  "daily_avg_pct": 0.3526,
+  "annual_pct": 261.37,
   "mdd": -8.02,
   "current_dd": -0.58,
-  "seed_used": 5544.04,
+  "seed_used": 5543.89,
   "seed_used_pct": 20.47,
   "long_count": 6,
   "short_count": 6,
@@ -20,20 +20,20 @@
     {
       "symbol": "BCHUSDT",
       "side": "LONG",
-      "pnl": -170.24,
-      "pnl_pct": -1.51,
-      "margin": 1109.15,
+      "pnl": -171.23,
+      "pnl_pct": -1.52,
+      "margin": 1109.05,
       "leverage": "10",
       "tier": "7/9",
       "entry": 455.0183,
-      "mark": 448.14
+      "mark": 448.1
     },
     {
       "symbol": "TRXUSDT",
       "side": "LONG",
-      "pnl": -5.7,
+      "pnl": -5.21,
       "pnl_pct": -0.07,
-      "margin": 996.97,
+      "margin": 997.03,
       "leverage": "8",
       "tier": "5/9",
       "entry": 0.3259,
@@ -42,68 +42,68 @@
     {
       "symbol": "DOTUSDT",
       "side": "LONG",
-      "pnl": -4.3,
-      "pnl_pct": -0.21,
-      "margin": 340.06,
+      "pnl": -6.14,
+      "pnl_pct": -0.3,
+      "margin": 339.75,
       "leverage": "6",
       "tier": "4/9",
       "entry": 1.2205,
-      "mark": 1.2179
+      "mark": 1.2168
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 136.22,
-      "pnl_pct": 3.55,
-      "margin": 308.51,
+      "pnl": 135.78,
+      "pnl_pct": 3.54,
+      "margin": 308.55,
       "leverage": "12",
       "tier": "3/9",
       "entry": 87.2358,
-      "mark": 84.14
+      "mark": 84.15
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": 16.36,
-      "pnl_pct": 1.04,
-      "margin": 194.85,
+      "pnl": 16.19,
+      "pnl_pct": 1.03,
+      "margin": 194.87,
       "leverage": "8",
       "tier": "3/9",
       "entry": 9.2602,
-      "mark": 9.164
+      "mark": 9.165
     },
     {
       "symbol": "AAVEUSDT",
       "side": "SHORT",
-      "pnl": 3.3,
-      "pnl_pct": 0.43,
-      "margin": 128.35,
+      "pnl": 2.02,
+      "pnl_pct": 0.26,
+      "margin": 128.56,
       "leverage": "6",
       "tier": "3/11",
       "entry": 96.5521,
-      "mark": 96.14
+      "mark": 96.3
     },
     {
       "symbol": "SUIUSDT",
       "side": "SHORT",
-      "pnl": 18.08,
-      "pnl_pct": 1.41,
+      "pnl": 18.02,
+      "pnl_pct": 1.4,
       "margin": 105.4,
       "leverage": "12",
       "tier": "2/9",
       "entry": 0.9364,
-      "mark": 0.9232
+      "mark": 0.9233
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": -23.53,
-      "pnl_pct": -3.42,
-      "margin": 82.98,
+      "pnl": -23.62,
+      "pnl_pct": -3.44,
+      "margin": 82.97,
       "leverage": "8",
       "tier": "1/9",
       "entry": 1.4404,
-      "mark": 1.3911
+      "mark": 1.3909
     },
     {
       "symbol": "DOGEUSDT",
@@ -119,13 +119,13 @@
     {
       "symbol": "TAOUSDT",
       "side": "SHORT",
-      "pnl": 2.56,
-      "pnl_pct": 0.45,
-      "margin": 80.25,
+      "pnl": 2.73,
+      "pnl_pct": 0.48,
+      "margin": 80.23,
       "leverage": "7",
       "tier": "2/9",
       "entry": 246.42,
-      "mark": 245.3
+      "mark": 245.23
     },
     {
       "symbol": "ADAUSDT",
@@ -141,13 +141,13 @@
     {
       "symbol": "ZECUSDT",
       "side": "LONG",
-      "pnl": -7.31,
-      "pnl_pct": -1.45,
-      "margin": 71.16,
+      "pnl": -7.0,
+      "pnl_pct": -1.39,
+      "margin": 71.2,
       "leverage": "7",
       "tier": "1/9",
       "entry": 355.94,
-      "mark": 350.79
+      "mark": 351.01
     }
   ],
   "signals": {
@@ -371,7 +371,7 @@
     },
     {
       "t": "2026-04-28",
-      "v": 5082.98
+      "v": 5078.57
     }
   ],
   "trade_history": [
