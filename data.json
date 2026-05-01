@@ -1,18 +1,18 @@
 {
-  "ts": "2026-05-02T06:53:26.091680+09:00",
+  "ts": "2026-05-02T06:54:27.693120+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 27797.82,
-  "available": 24154.22,
-  "unrealized": 15.56,
+  "equity": 27802.18,
+  "available": 24158.01,
+  "unrealized": 19.61,
   "daily_pnl": 21.15,
-  "total_pnl": 5797.82,
-  "cum_pct": 26.35,
-  "daily_avg_pct": 0.3719,
-  "annual_pct": 287.64,
+  "total_pnl": 5802.18,
+  "cum_pct": 26.37,
+  "daily_avg_pct": 0.3722,
+  "annual_pct": 288.07,
   "mdd": -8.02,
   "current_dd": -0.42,
-  "seed_used": 3643.6,
+  "seed_used": 3644.16,
   "seed_used_pct": 13.11,
   "long_count": 6,
   "short_count": 6,
@@ -20,13 +20,13 @@
     {
       "symbol": "XMRUSDT",
       "side": "LONG",
-      "pnl": 11.76,
-      "pnl_pct": 0.33,
-      "margin": 398.69,
+      "pnl": 17.36,
+      "pnl_pct": 0.49,
+      "margin": 399.31,
       "leverage": "9",
       "tier": "4/9",
       "entry": 377.259,
-      "mark": 378.5
+      "mark": 379.09
     },
     {
       "symbol": "SUIUSDT",
@@ -42,9 +42,9 @@
     {
       "symbol": "1000PEPEUSDT",
       "side": "LONG",
-      "pnl": -5.18,
-      "pnl_pct": -0.25,
-      "margin": 290.75,
+      "pnl": -5.59,
+      "pnl_pct": -0.27,
+      "margin": 290.7,
       "leverage": "7",
       "tier": "5/12",
       "entry": 0.004,
@@ -64,96 +64,96 @@
     {
       "symbol": "LINKUSDT",
       "side": "SHORT",
-      "pnl": 13.29,
-      "pnl_pct": 0.74,
-      "margin": 221.53,
+      "pnl": 13.48,
+      "pnl_pct": 0.76,
+      "margin": 221.5,
       "leverage": "8",
       "tier": "2/9",
       "entry": 9.1753,
-      "mark": 9.107
+      "mark": 9.106
     },
     {
       "symbol": "TRXUSDT",
       "side": "LONG",
-      "pnl": 1.08,
+      "pnl": 1.04,
       "pnl_pct": 0.08,
       "margin": 136.01,
       "leverage": "10",
       "tier": "2/9",
       "entry": 0.3267,
-      "mark": 0.327
+      "mark": 0.3269
     },
     {
       "symbol": "WLFIUSDT",
       "side": "SHORT",
-      "pnl": 6.72,
-      "pnl_pct": 0.73,
-      "margin": 131.49,
+      "pnl": 6.05,
+      "pnl_pct": 0.65,
+      "margin": 131.59,
       "leverage": "7",
       "tier": "3/10",
       "entry": 0.0553,
-      "mark": 0.0549
+      "mark": 0.055
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": -4.83,
-      "pnl_pct": -0.36,
-      "margin": 122.51,
+      "pnl": -4.4,
+      "pnl_pct": -0.33,
+      "margin": 122.47,
       "leverage": "11",
       "tier": "2/9",
       "entry": 83.4,
-      "mark": 83.7
+      "mark": 83.673
     },
     {
       "symbol": "BCHUSDT",
       "side": "SHORT",
-      "pnl": 2.61,
-      "pnl_pct": 0.33,
-      "margin": 97.96,
+      "pnl": 2.44,
+      "pnl_pct": 0.31,
+      "margin": 97.98,
       "leverage": "8",
       "tier": "2/9",
       "entry": 451.9,
-      "mark": 450.4
+      "mark": 450.5
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
-      "pnl": 6.23,
-      "pnl_pct": 0.72,
-      "margin": 97.1,
+      "pnl": 5.51,
+      "pnl_pct": 0.63,
+      "margin": 97.02,
       "leverage": "9",
       "tier": "2/9",
       "entry": 0.1087,
-      "mark": 0.1095
+      "mark": 0.1094
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
-      "pnl": -12.49,
-      "pnl_pct": -3.63,
-      "margin": 41.43,
+      "pnl": -12.58,
+      "pnl_pct": -3.66,
+      "margin": 41.42,
       "leverage": "8",
       "tier": "1/9",
       "entry": 1.4404,
-      "mark": 1.3881
+      "mark": 1.3877
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": 0.93,
-      "pnl_pct": 0.22,
+      "pnl": 0.86,
+      "pnl_pct": 0.2,
       "margin": 28.45,
       "leverage": "15",
       "tier": "1/12",
       "entry": 1.2843,
-      "mark": 1.2871
+      "mark": 1.2869
     }
   ],
   "signals": {
     "BTCUSDT": {
       "dir": "short",
-      "conf": 0.508
+      "conf": 0.507
     },
     "ETHUSDT": {
       "dir": "short",
@@ -387,7 +387,7 @@
     },
     {
       "t": "2026-05-02",
-      "v": 5797.82
+      "v": 5802.18
     }
   ],
   "trade_history": [
