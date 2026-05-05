@@ -1,32 +1,32 @@
 {
-  "ts": "2026-05-05T16:48:19.160162+09:00",
+  "ts": "2026-05-05T16:49:21.083965+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 24667.82,
-  "available": 20981.36,
-  "unrealized": -44.52,
-  "daily_pnl": -2012.75,
-  "total_pnl": 3667.82,
-  "cum_pct": 17.47,
-  "daily_avg_pct": 0.2443,
-  "annual_pct": 143.66,
+  "equity": 24670.55,
+  "available": 20984.8,
+  "unrealized": -41.38,
+  "daily_pnl": -2012.76,
+  "total_pnl": 3670.55,
+  "cum_pct": 17.48,
+  "daily_avg_pct": 0.2444,
+  "annual_pct": 143.75,
   "mdd": -8.37,
   "current_dd": -8.37,
-  "seed_used": 3686.46,
+  "seed_used": 3685.75,
   "seed_used_pct": 14.94,
   "long_count": 7,
-  "short_count": 5,
+  "short_count": 4,
   "positions": [
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
-      "pnl": -76.85,
-      "pnl_pct": -1.51,
-      "margin": 646.55,
+      "pnl": -72.83,
+      "pnl_pct": -1.43,
+      "margin": 646.05,
       "leverage": "8",
       "tier": "4/9",
       "entry": 0.2537,
-      "mark": 0.2575
+      "mark": 0.2573
     },
     {
       "symbol": "BCHUSDT",
@@ -42,42 +42,42 @@
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": -26.17,
-      "pnl_pct": -1.15,
-      "margin": 286.61,
+      "pnl": -26.54,
+      "pnl_pct": -1.17,
+      "margin": 286.66,
       "leverage": "8",
       "tier": "3/10",
       "entry": 1.2425,
-      "mark": 1.2568
+      "mark": 1.257
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
-      "pnl": 8.47,
+      "pnl": 8.48,
       "pnl_pct": 0.55,
       "margin": 221.98,
       "leverage": "7",
       "tier": "3/9",
       "entry": 84.4474,
-      "mark": 84.91
+      "mark": 84.911
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": -13.68,
-      "pnl_pct": -2.11,
-      "margin": 82.82,
+      "pnl": -14.18,
+      "pnl_pct": -2.19,
+      "margin": 82.88,
       "leverage": "8",
       "tier": "1/9",
       "entry": 9.152,
-      "mark": 9.345
+      "mark": 9.352
     },
     {
       "symbol": "ARBUSDT",
       "side": "LONG",
-      "pnl": 12.81,
-      "pnl_pct": 3.74,
-      "margin": 59.22,
+      "pnl": 12.78,
+      "pnl_pct": 3.73,
+      "margin": 59.21,
       "leverage": "6",
       "tier": "2/12",
       "entry": 0.1141,
@@ -86,9 +86,9 @@
     {
       "symbol": "PENGUUSDT",
       "side": "LONG",
-      "pnl": 35.79,
-      "pnl_pct": 8.49,
-      "margin": 57.18,
+      "pnl": 35.37,
+      "pnl_pct": 8.39,
+      "margin": 57.12,
       "leverage": "8",
       "tier": "2/12",
       "entry": 0.0099,
@@ -119,35 +119,24 @@
     {
       "symbol": "DASHUSDT",
       "side": "SHORT",
-      "pnl": 17.56,
-      "pnl_pct": 7.11,
-      "margin": 38.25,
+      "pnl": 18.07,
+      "pnl_pct": 7.31,
+      "margin": 38.17,
       "leverage": "6",
       "tier": "4/12",
       "entry": 48.7337,
-      "mark": 45.27
+      "mark": 45.17
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": -2.59,
-      "pnl_pct": -0.61,
-      "margin": 28.22,
+      "pnl": -2.69,
+      "pnl_pct": -0.63,
+      "margin": 28.21,
       "leverage": "15",
       "tier": "1/12",
       "entry": 1.2843,
-      "mark": 1.2765
-    },
-    {
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "pnl": -0.02,
-      "pnl_pct": -1.61,
-      "margin": 0.11,
-      "leverage": "9",
-      "tier": "1/12",
-      "entry": 9.46,
-      "mark": 9.612
+      "mark": 1.2762
     }
   ],
   "signals": {
@@ -403,10 +392,17 @@
     },
     {
       "t": "2026-05-05",
-      "v": 3667.82
+      "v": 3670.55
     }
   ],
   "trade_history": [
+    {
+      "ts": "2026-05-05 16:48",
+      "symbol": "LINKUSDT",
+      "side": "Sell",
+      "pnl": -0.02,
+      "reason": "마진 0.1USDT < 14"
+    },
     {
       "ts": "2026-05-05 16:44",
       "symbol": "LINKUSDT",
@@ -539,13 +535,6 @@
       "side": "Buy",
       "pnl": 0.01,
       "reason": "L4"
-    },
-    {
-      "ts": "2026-05-04 19:55",
-      "symbol": "APTUSDT",
-      "side": "Sell",
-      "pnl": 8.98,
-      "reason": "L2"
     }
   ],
   "num_days": 66
