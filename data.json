@@ -1,20 +1,20 @@
 {
-  "ts": "2026-05-05T17:31:23.556655+09:00",
+  "ts": "2026-05-05T17:32:24.960651+09:00",
   "start_date": "2026-03-01",
   "status": "running",
-  "equity": 24750.01,
-  "available": 21164.45,
-  "unrealized": 32.4,
+  "equity": 24760.11,
+  "available": 21169.67,
+  "unrealized": 41.1,
   "daily_pnl": -2005.9,
-  "total_pnl": 3750.01,
-  "cum_pct": 17.86,
-  "daily_avg_pct": 0.2493,
-  "annual_pct": 148.14,
+  "total_pnl": 3760.11,
+  "cum_pct": 17.91,
+  "daily_avg_pct": 0.2499,
+  "annual_pct": 148.68,
   "mdd": -8.4,
   "current_dd": -8.15,
-  "seed_used": 3585.56,
-  "seed_used_pct": 14.49,
-  "long_count": 6,
+  "seed_used": 3590.44,
+  "seed_used_pct": 14.5,
+  "long_count": 7,
   "short_count": 5,
   "positions": [
     {
@@ -31,79 +31,90 @@
     {
       "symbol": "BCHUSDT",
       "side": "LONG",
-      "pnl": 76.91,
-      "pnl_pct": 1.76,
-      "margin": 444.61,
+      "pnl": 84.94,
+      "pnl_pct": 1.94,
+      "margin": 445.41,
       "leverage": "10",
       "tier": "4/9",
       "entry": 445.8322,
-      "mark": 453.68
+      "mark": 454.5
     },
     {
       "symbol": "DOTUSDT",
       "side": "SHORT",
-      "pnl": -26.54,
-      "pnl_pct": -1.17,
-      "margin": 286.66,
+      "pnl": -26.9,
+      "pnl_pct": -1.19,
+      "margin": 286.7,
       "leverage": "8",
       "tier": "3/10",
       "entry": 1.2425,
-      "mark": 1.257
+      "mark": 1.2572
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "pnl": 0.3,
-      "pnl_pct": 0.05,
-      "margin": 90.84,
+      "pnl": 0.07,
+      "pnl_pct": 0.01,
+      "margin": 90.87,
       "leverage": "7",
       "tier": "2/9",
       "entry": 84.82,
-      "mark": 84.78
+      "mark": 84.81
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "pnl": -14.11,
-      "pnl_pct": -2.17,
-      "margin": 82.87,
+      "pnl": -14.18,
+      "pnl_pct": -2.19,
+      "margin": 82.88,
       "leverage": "8",
       "tier": "1/9",
       "entry": 9.152,
-      "mark": 9.351
+      "mark": 9.352
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "pnl": 0.04,
+      "pnl_pct": 0.01,
+      "margin": 71.37,
+      "leverage": "6",
+      "tier": "1/9",
+      "entry": 2378.73,
+      "mark": 2378.97
     },
     {
       "symbol": "ARBUSDT",
       "side": "LONG",
-      "pnl": 12.42,
-      "pnl_pct": 3.63,
-      "margin": 59.15,
+      "pnl": 12.66,
+      "pnl_pct": 3.7,
+      "margin": 59.19,
       "leverage": "6",
       "tier": "2/12",
       "entry": 0.1141,
-      "mark": 0.1183
+      "mark": 0.1184
     },
     {
       "symbol": "PENGUUSDT",
       "side": "LONG",
-      "pnl": 36.22,
-      "pnl_pct": 8.59,
-      "margin": 57.23,
+      "pnl": 37.37,
+      "pnl_pct": 8.86,
+      "margin": 57.37,
       "leverage": "8",
       "tier": "2/12",
       "entry": 0.0099,
-      "mark": 0.0107
+      "mark": 0.0108
     },
     {
       "symbol": "ONDOUSDT",
       "side": "LONG",
-      "pnl": 0.98,
-      "pnl_pct": 0.28,
-      "margin": 43.73,
+      "pnl": 0.22,
+      "pnl_pct": 0.06,
+      "margin": 43.64,
       "leverage": "8",
       "tier": "1/12",
       "entry": 0.3195,
-      "mark": 0.3204
+      "mark": 0.3197
     },
     {
       "symbol": "XRPUSDT",
@@ -119,24 +130,24 @@
     {
       "symbol": "DASHUSDT",
       "side": "SHORT",
-      "pnl": 15.74,
-      "pnl_pct": 6.37,
-      "margin": 38.56,
+      "pnl": 16.29,
+      "pnl_pct": 6.59,
+      "margin": 38.46,
       "leverage": "6",
       "tier": "4/12",
       "entry": 48.7337,
-      "mark": 45.63
+      "mark": 45.52
     },
     {
       "symbol": "NEARUSDT",
       "side": "LONG",
-      "pnl": -3.15,
-      "pnl_pct": -0.74,
-      "margin": 28.18,
+      "pnl": -3.05,
+      "pnl_pct": -0.72,
+      "margin": 28.19,
       "leverage": "15",
       "tier": "1/12",
       "entry": 1.2843,
-      "mark": 1.2748
+      "mark": 1.2751
     }
   ],
   "signals": {
@@ -392,7 +403,7 @@
     },
     {
       "t": "2026-05-05",
-      "v": 3750.01
+      "v": 3760.11
     }
   ],
   "trade_history": [
